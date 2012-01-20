@@ -1,0 +1,16 @@
+Alex Leighton
+15 December 2008
+
+Project Proposal - ocamlgv
+
+Ocamlgv will be a library of native OCaml code that will be able to display visualizations of a given graph.
+
+Graph data structures lack a clear visual structure due to the nature of their internal representation. Because a list of nodes and a list of edges is all that a graph is, there are an infinite number of ways to visualize a particular graph. The field of graph visualization therefore is one of heuristics and approximation, as most algorithms to determine aesthetically pleasing layouts are NP-complete.
+
+The project will result in a library written entirely in OCaml. This library will contain several ways of inputting a graph, which can be turned into an image containing a visualization of the graph.
+
+There will be roughly equal amounts of research and original design. I do not intend to come up with my own algorithms to visualize graphs, as that is PhD material, so finding working algorithms will require research. Aside from the research necessary to find algorithms, I will have to produce all of the structural glue code. I'll be using an existing library to manipulate images, and an existing library of graph data structure implementations, but I'll have to design the necessary architecture to glue together the given graph with a visualization algorithm and the drawing of the resulting layout.
+
+I will most likely be using the Cairo 2D graphics library [http://www.cairographics.org/], which is written in C and has bindings in OCaml. On the other end of my library I will be using the ocamlgraph library [http://ocamlgraph.lri.fr/] which is a graph data structure implementation library written in OCaml. On the research side of things, I'll be consulting the book "Graph Drawing: Algorithms For The Visualization of Graphs" by Giuseppe Di Battista et al.
+
+As it stands, my project has a minimum amount of effort required to be functional. I'll need to have the glue code completed as well as atleast one layout algorithm. There isn't any recourse if this is too hard. It shouldn't be. If it's too easy, steps that I can take to extend it are: add one, two, or three more layout algorithms, support the full "dot file" specification which would include writing additional different visual effects like dashed lines, colors, and more labels.

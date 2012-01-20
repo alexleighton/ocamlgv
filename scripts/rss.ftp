@@ -1,0 +1,5 @@
+open home.willamette.edu
+user aleighto C1ar1akl
+cd public_html/ocamlgv/
+mput web/rss.xml
+bye

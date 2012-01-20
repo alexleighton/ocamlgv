@@ -1,0 +1,78 @@
+PROGRAM = $(NAME)
+FILES = vector utilities graphtools pack algorithms abstractDrawer cairotools cairoDraw windowtools windowDraw pstools psDraw commandline
+
+# Requires ocamlfind
+USE_OCAMLFIND = true
+
+if $(not $(OCAMLFIND_EXISTS))
+	eprintln(This project requires ocamlfind, but is was not found.)
+	eprintln(You need to install ocamlfind and run "omake --configure".)
+	exit 1
+
+# Libraries
+OCAMLPACKS[] =
+	ocamlgraph
+	cairo
+	graphics
+	unix
+
+BYTE_ENABLED = true
+NATIVE_ENABLED = false
+
+# this is to remove -warn-error that is on by default
+OCAMLFLAGS =
+
+.DEFAULT: build
+
+##################################################
+# Build the executable
+
+build: $(OCamlProgram $(PROGRAM), $(FILES))
+	mkdir -p ../$(DISTDIR)
+#	cp $(PROGRAM).opt ../$(DISTDIR)/$(PROGRAM).opt
+	cp $(PROGRAM).run ../$(DISTDIR)/$(PROGRAM).run
+	cp $(PROGRAM) ../$(DISTDIR)/$(PROGRAM)
+	cp ../$(DISTDIR)/*.run ../$(DISTDIR)/ocamlgv ../presentation/final/
+
+##################################################
+# Make a toplevel with all libraries loaded.
+
+mktop: build
+	ocamlfind ocamlmktop -package ocamlgraph,cairo,graphics *.cmo
+
+##################################################
+# Build a library.
+# Doesn't work. Error:
+# File sig.cmx was not compiled with the `-for-pack Ocamlgv' option
+OCAMLFLAGS = -for-pack Ocamlgv
+
+lib: $(OCamlPackage $(PROGRAM), $(FILES))
+	mkdir -p ../$(DISTDIR)
+	cp $(PROGRAM).cm[oi] ../$(DISTDIR)/
+
+##################################################
+# Create documentation
+
+doc: .DEFAULT
+	mkdir -p ../$(DOCDIR) ../$(DISTDIR)
+	ocamldoc.opt -I "/usr/lib/ocaml/site-lib/cairo" -I "/usr/lib/ocaml/site-lib/ocamlgraph" -html -d ../$(DOCDIR) -t "ocamlgv: Native Graph Visualization" -hide-warnings -sort -short-functors *.ml *.mli
+	tar -c ../$(DOCDIR) | gzip -f --best > ../$(DISTDIR)/doc-$(NAME).tar.gz
+
+DOTFILES = graphtools.ml pack.ml algorithms.ml abstractDrawer.ml cairotools.ml cairoDraw.ml windowtools.ml windowDraw.ml commandline.ml
+
+doc-dot: .DEFAULT
+	@mkdir -p ../$(DOCDIR)
+	ocamldoc.opt -I "/usr/lib/ocaml/site-lib/cairo" -I "/usr/lib/ocaml/site-lib/ocamlgraph" -dot -o $(NAME).dot -t "ocamlgv: Native Graph Visualization" -hide-warnings -sort $(DOTFILES)
+
+doc-latex: .DEFAULT
+	@mkdir -p ../$(DOCDIR)
+	ocamldoc.opt -I "/usr/lib/ocaml/site-lib/cairo" -I "/usr/lib/ocaml/site-lib/ocamlgraph" -latex -o ../$(DOCDIR)/$(NAME).tex -t "ocamlgv: Native Graph Visualization" -hide-warnings -sort -short-functors *.ml *.mli
+
+##################################################
+# Clean up
+
+clean:
+	rm -f *.cm[iox] *.o
+	rm -rf ../$(DOCDIR)
+	rm -f $(NAME) $(NAME).run
+	rm -f OMakefile.omc

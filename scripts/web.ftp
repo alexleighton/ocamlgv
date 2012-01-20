@@ -1,0 +1,23 @@
+open home.willamette.edu
+user aleighto C1ar1akl
+cd public_html/ocamlgv
+mput web/*.php
+mput web/default.css
+mput web/lastupdated.txt
+mput web/*.png
+
+mkdir img/
+cd img/
+mput web/img/*
+
+cd ../
+mkdir download/
+cd download/
+mput web/download/*
+
+cd ../
+mkdir docs/
+cd docs/
+mput web/docs/*
+
+bye

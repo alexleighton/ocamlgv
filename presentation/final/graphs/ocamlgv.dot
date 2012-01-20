@@ -1,0 +1,29 @@
+digraph G {
+  size="10,7.5";
+  ratio="fill";
+  rotate=90;
+  fontsize="12pt";
+  rankdir = TB ;
+"AbstractDrawer 81" [style=filled, color=darkturquoise];
+"Algorithms 964" [style=filled, color=darkturquoise];
+"Algorithms 964" -> "Graphtools 274";
+"CairoDraw 82" [style=filled, color=darkturquoise];
+"CairoDraw 82" -> "Graphtools 274";
+"CairoDraw 82" -> "Cairotools 274";
+"CairoDraw 82" -> "AbstractDrawer 81";
+"Cairotools 274" [style=filled, color=darkturquoise];
+"Commandline 218" [style=filled, color=darkturquoise];
+"Commandline 218" -> "WindowDraw 225";
+"Commandline 218" -> "Pack 161";
+"Commandline 218" -> "Cairotools 274";
+"Commandline 218" -> "CairoDraw 82";
+"Graphtools 274" [style=filled, color=darkturquoise];
+"Pack 161" [style=filled, color=darkturquoise];
+"Pack 161" -> "Algorithms 964";
+"WindowDraw 225" [style=filled, color=darkturquoise];
+"WindowDraw 225" -> "Windowtools 124";
+"WindowDraw 225" -> "Graphtools 274";
+"WindowDraw 225" -> "Algorithms 964";
+"WindowDraw 225" -> "AbstractDrawer 81";
+"Windowtools 124" [style=filled, color=darkturquoise];
+}

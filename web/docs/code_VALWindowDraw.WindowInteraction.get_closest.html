@@ -1,0 +1,36 @@
+<html><head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<link rel="Start" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="AbstractDrawer" rel="Chapter" href="AbstractDrawer.html">
+<link title="Algorithms" rel="Chapter" href="Algorithms.html">
+<link title="CairoDraw" rel="Chapter" href="CairoDraw.html">
+<link title="Cairotools" rel="Chapter" href="Cairotools.html">
+<link title="Commandline" rel="Chapter" href="Commandline.html">
+<link title="Graphtools" rel="Chapter" href="Graphtools.html">
+<link title="Main" rel="Chapter" href="Main.html">
+<link title="Pack" rel="Chapter" href="Pack.html">
+<link title="PsDraw" rel="Chapter" href="PsDraw.html">
+<link title="Pstools" rel="Chapter" href="Pstools.html">
+<link title="Sig" rel="Chapter" href="Sig.html">
+<link title="Utilities" rel="Chapter" href="Utilities.html">
+<link title="Vector" rel="Chapter" href="Vector.html">
+<link title="WindowDraw" rel="Chapter" href="WindowDraw.html">
+<link title="Windowtools" rel="Chapter" href="Windowtools.html"><title>ocamlgv: Native Graph Visualization : WindowDraw.WindowInteraction.get_closest</title>
+</head>
+<body>
+<code class="code"><span class="keyword">let</span>&nbsp;get_closest&nbsp;g&nbsp;x&nbsp;y&nbsp;=<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">match</span>&nbsp;(get_one_vertex&nbsp;g)&nbsp;<span class="keyword">with</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="constructor">Some</span>&nbsp;v&nbsp;<span class="keywordsign">-&gt;</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">let</span>&nbsp;aux&nbsp;v&nbsp;(best,d)&nbsp;=<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">let</span>&nbsp;vect&nbsp;=&nbsp;get_center&nbsp;v&nbsp;<span class="keyword">in</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">let</span>&nbsp;dist&nbsp;=&nbsp;(dist&nbsp;(x,y)&nbsp;(vect.x,vect.y))&nbsp;<span class="keyword">in</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">if</span>&nbsp;d&nbsp;&gt;&nbsp;dist&nbsp;<span class="keyword">then</span>&nbsp;v,dist&nbsp;<span class="keyword">else</span>&nbsp;best,d<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">in</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">let</span>&nbsp;v,d&nbsp;=&nbsp;<span class="constructor">G</span>.fold_vertex&nbsp;aux&nbsp;g&nbsp;(v,infinity)&nbsp;<span class="keyword">in</span>&nbsp;<span class="constructor">Some</span>&nbsp;v<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keywordsign">|</span>&nbsp;<span class="constructor">None</span>&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">None</span></code></body></html>

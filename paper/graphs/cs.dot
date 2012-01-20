@@ -1,0 +1,26 @@
+
+#force: seed-2
+#layered: w-2,3 dx-150 dy-100
+digraph {
+        cs231 [label="CS231 Intro"];
+        cs241 [label="CS241 Data Structures"];
+        cs343 [label="CS343 Algorithms"];
+        cs353 [label="CS353 Compilers"];
+        bag   [label="CS440 through CS459"];
+        cs496 [label="CS496 Senior Seminar"];
+        m142  [label="MATH Calculus II"];
+        m251  [label="MATH Foundations"];
+        mbag  [label="M253 or M349 or M366"];
+
+        cs231 -> cs241;
+        cs241 -> cs343;
+        cs241 -> cs353;
+        cs353 -> bag;
+        cs343 -> bag;
+        bag   -> cs496;
+
+        m142  -> m251;
+        m251  -> mbag;
+        mbag  -> cs496;
+
+}

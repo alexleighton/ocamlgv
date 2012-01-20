@@ -1,0 +1,4 @@
+defaults except
+iter: 200
+coulomb: 1300
+seed: 19

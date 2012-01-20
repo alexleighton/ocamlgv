@@ -1,0 +1,45 @@
+<html><head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<link rel="Start" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="AbstractDrawer" rel="Chapter" href="AbstractDrawer.html">
+<link title="Algorithms" rel="Chapter" href="Algorithms.html">
+<link title="CairoDraw" rel="Chapter" href="CairoDraw.html">
+<link title="Cairotools" rel="Chapter" href="Cairotools.html">
+<link title="Commandline" rel="Chapter" href="Commandline.html">
+<link title="Graphtools" rel="Chapter" href="Graphtools.html">
+<link title="Main" rel="Chapter" href="Main.html">
+<link title="Pack" rel="Chapter" href="Pack.html">
+<link title="PsDraw" rel="Chapter" href="PsDraw.html">
+<link title="Pstools" rel="Chapter" href="Pstools.html">
+<link title="Sig" rel="Chapter" href="Sig.html">
+<link title="Utilities" rel="Chapter" href="Utilities.html">
+<link title="Vector" rel="Chapter" href="Vector.html">
+<link title="WindowDraw" rel="Chapter" href="WindowDraw.html">
+<link title="Windowtools" rel="Chapter" href="Windowtools.html"><title>ocamlgv: Native Graph Visualization : Cairotools.curved_line</title>
+</head>
+<body>
+<code class="code"><span class="keyword">let</span>&nbsp;curved_line&nbsp;context&nbsp;pointlist&nbsp;width&nbsp;=<br>
+&nbsp;&nbsp;<span class="keyword">let</span>&nbsp;aux&nbsp;v&nbsp;v1&nbsp;v2&nbsp;v3&nbsp;=<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="constructor">Cairo</span>.line_to&nbsp;context&nbsp;v.x&nbsp;v.y&nbsp;;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="constructor">Cairo</span>.curve_to&nbsp;context&nbsp;v1.x&nbsp;v1.y&nbsp;v2.x&nbsp;v2.y&nbsp;v3.x&nbsp;v3.y<br>
+&nbsp;&nbsp;<span class="keyword">in</span><br>
+&nbsp;&nbsp;<span class="keyword">let</span>&nbsp;<span class="keyword">rec</span>&nbsp;iter4&nbsp;=&nbsp;<span class="keyword">function</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="keywordsign">|</span>&nbsp;[]&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;()<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="keywordsign">|</span>&nbsp;a::[]&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;()<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="keywordsign">|</span>&nbsp;a::b::[]&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;()<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="keywordsign">|</span>&nbsp;a::b::c::[]&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;()<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="keywordsign">|</span>&nbsp;a::b::c::d::rest&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;aux&nbsp;a&nbsp;b&nbsp;c&nbsp;d;&nbsp;iter4&nbsp;(d::rest)<br>
+&nbsp;&nbsp;<span class="keyword">in</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="constructor">Cairo</span>.set_line_width&nbsp;context&nbsp;width&nbsp;;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">match</span>&nbsp;pointlist&nbsp;<span class="keyword">with</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keywordsign">|</span>&nbsp;[]&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;()<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keywordsign">|</span>&nbsp;v::rest&nbsp;<span class="keywordsign">-&gt;</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="constructor">Cairo</span>.move_to&nbsp;context&nbsp;v.x&nbsp;v.y&nbsp;;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iter4&nbsp;(v::rest)&nbsp;;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="constructor">Cairo</span>.stroke&nbsp;context</code></body></html>

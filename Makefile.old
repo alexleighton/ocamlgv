@@ -1,0 +1,215 @@
+# Author: Alex Leighton
+#######################
+
+NAME = "ocamlgv"
+VERSION = "0.0.5"
+
+# Folders
+SRCDIR = src
+LIBDIR = $(SRCDIR)/lib
+DISTDIR = dist
+DOCDIR = doc
+TESTDIR = test
+WEBDIR = web
+BACKUPDIR = ~/backups
+
+INCLUDES = -I $(SRCDIR) -I $(LIBDIR)
+
+LIB =
+LIB := $(patsubst %, $(LIBDIR)/%.cmo, $(LIB))
+
+CMO = sig types cairotools graphtools draw testcairo drawablegraph main
+CMO := $(LIB) $(patsubst %,$(SRCDIR)/%.cmo, $(CMO))
+
+CMX = $(CMO:.cmo=.cmx)
+
+
+# Programs
+OCAML= ocaml
+OCAMLC = ocamlc
+OCAMLOPT = ocamlopt
+OCAMLDEP = ocamldep
+OCAMLDOC = ocamldoc
+OCAMLFIND = ocamlfind
+OCAMLMKTOP = ocamlmktop
+OCAMLFLAGS = $(INCLUDES)
+OCAMLOPTFLAGS = $(INCLUDES)
+
+LIBRARIES = -package cairo -package ocamlgraph
+PATHS = -I "/usr/lib/ocaml/3.10.2/cairo" -I "/usr/lib/ocaml/3.10.2/ocamlgraph"
+
+# Make the executable
+#####################
+.PHONY: all
+all: clean byte
+
+# Compile only, don't make executeable
+######################################
+.PHONY: compile
+compile: src-clean $(CMO)
+
+.PHONY: byte
+byte: $(CMO)
+	@mkdir -p $(DISTDIR)
+	@$(OCAMLFIND) $(OCAMLC) $(LIBRARIES) -o $(DISTDIR)/main $(OCAMLFLAGS) $(CMO) -linkpkg
+	@ln $(DISTDIR)/main main
+	@echo "Executable created"
+
+.PHONY: opt
+opt: $(CMX)
+	@mkdir -p $(DISTDIR)
+	@$(OCAMLFIND) $(OCAMLOPT) $(LIBRARIES) -o $(DISTDIR)/main $(OCAMLFLAGS) $(CMX) -linkpkg
+	@ln $(DISTDIR)/main main
+	@echo "Executable created"
+
+# Not working...
+#
+#.PHONY: libbyte
+#libbyte:
+#	@mkdir -p $(DISTDIR)
+#
+#.PHONY: libopt
+#libopt:
+#	mkdir -p $(DISTDIR)
+#	$(OCAMLFIND) $(OCAMLOPT) -a $(LIBRARIES) -o $(DISTDIR)/ocamlgv.cmxa $(OCAMLFLAGS) $(CMX) -linkpkg
+#	@echo "Library created"
+
+# Create a toplevel to play interactively.
+.PHONY: interactive
+interactive: $(CMO)
+	$(OCAMLFIND) $(OCAMLMKTOP) -linkpkg -o interactive $(LIBRARIES) $(CMO)
+
+# Distribute source
+###################
+
+EXPORTDIR = $(NAME)-$(VERSION)
+
+FILES = $(SRCDIR)/*.ml* $(TESTDIR)/* \
+		Makefile INSTALL README COPYING LICENSE
+#FILES = $(SRCDIR)/*.ml* $(LIBDIR)/*.cmo $(TESTDIR)/* \
+		Makefile INSTALL README COPYING LICENSE
+
+.PHONY: source
+source:
+	@mkdir -p export/$(EXPORTDIR)
+	@cp --parents $(FILES) export/$(EXPORTDIR)
+	@cd export; tar -c $(EXPORTDIR) | gzip -f --best > src-$(NAME)-$(VERSION).tar.gz
+	@mkdir -p $(DISTDIR)
+	@cp export/src-$(NAME)-$(VERSION).tar.gz \
+            $(DISTDIR)/src-$(NAME)-$(VERSION).tar.gz
+	@rm -rf export/$(EXPORTDIR)/*
+
+# Website Distribution
+######################
+
+web: doc source
+	@rm -f $(WEBDIR)/docs/*
+	@cp $(DOCDIR)/* $(WEBDIR)/docs
+	@cd export; tar -c ../$(DOCDIR) | gzip -f --best > doc-$(NAME).tar.gz
+	@cp -u export/doc-$(NAME).tar.gz $(WEBDIR)/download/
+	@cp -u export/src-$(NAME)-$(VERSION).tar.gz $(WEBDIR)/download/
+	@cp -u export/src-$(NAME)-$(VERSION).tar.gz $(WEBDIR)/download/src-$(NAME).tar.gz
+	@rm -f $(WEBDIR)/lastupdated.txt; touch $(WEBDIR)/lastupdated.txt
+	@echo "Last Updated: `date`<br />" > $(WEBDIR)/lastupdated.txt
+	@echo "Source and documentation packaged, uploading to ftp"
+	@lftp < scripts/web.ftp    #the secret ftp instructions
+
+rss:
+	@./scripts/git-rss.sh -t "ocamlgv Recent Commit Feed" -l "http://www.willamette.edu/~aleighto/ocamlgv" > rss.xml
+	@lftp < scripts/rss.ftp
+
+# Git Source Control Stuff
+##########################
+
+.PHONY: commit
+commit: clean
+	git commit -a
+
+# Documentation
+###############
+
+.PHONY: doc
+doc: $(CMO)
+	@mkdir -p $(DOCDIR)
+	@rm -f doc/*
+	@cd $(SRCDIR); $(OCAMLDOC) $(PATHS) -html -d ../$(DOCDIR) *.ml
+
+.PHONY: doc-html
+doc-html: $(CMO)
+	@mkdir -p $(DOCDIR)
+	@rm -f doc/*
+	@cd $(SRCDIR); $(OCAMLDOC) $(PATHS) -html -d $(DOCDIR) *.ml
+
+.PHONY: doc-dot
+doc-dot: $(CMO)
+	@mkdir -p $(DOCDIR)
+	@rm -f doc/*
+	@cd $(SRCDIR); \
+		$(OCAMLDOC) $(PATHS) -dot -o ../$(DOCDIR)/$(NAME).dot *.ml
+
+.PHONY: doc-latex
+doc-latex: $(CMO)
+	@mkdir -p $(DOCDIR)
+	@rm -f doc/*
+	@cd $(SRCDIR); \
+		$(OCAMLDOC) $(PATHS) -latex -o ../$(DOCDIR)/$(NAME).tex *.ml
+
+# Line count
+#############
+
+.PHONY: wc
+wc:
+	@ocamlwc -p src/*.ml | grep total |\
+	sed 's/^[ \t]*//' | sed 's/total/are code./' |\
+	sed 's/     / total lines, of which /' | sed 's/)/ of lines are documentation)/'
+
+#################################################
+#   Generic rules                               #
+#################################################
+
+.SUFFIXES: .ml .mli .cmo .cmi .cmx
+
+.ml.cmo: 
+	$(OCAMLFIND) $(OCAMLC) $(LIBRARIES) $(OCAMLFLAGS) -c $<
+
+.mli.cmi:
+	$(OCAMLFIND) $(OCAMLC) $(LIBRARIES) $(OCAMLFLAGS) -c $<
+
+.ml.cmx: 
+	$(OCAMLFIND) $(OCAMLOPT) $(LIBRARIES) $(OCAMLOPTFLAGS) -c $<
+
+# Clean up
+##########
+.PHONY: clean
+clean:
+	@rm -f main interactive
+	@rm -rf $(DISTDIR) $(DOCDIR) export
+	@rm -f $(SRCDIR)/*.cm[iox] $(SRCDIR)/*.o
+	@rm -f rss.xml
+	@echo "Project Cleaned"
+
+.PHONY: dist-clean
+dist-clean: clean
+	@rm -f .depend
+
+.PHONY: src-clean
+src-clean:
+	@rm -f $(SRCDIR)/*.cm[iox]
+	@echo "Source Cleaned"
+
+# Backup
+########
+.PHONY: backup
+backup: dist-clean
+	@cd ../; backup.sh ocamlgv $(BACKUPDIR)
+	@echo "Backup has been created"
+#	@lftp < backup.ftp   #the secret ftp instructions
+
+# Dependencies
+##############
+.depend:
+	@$(OCAMLDEP) $(INCLUDES) $(SRCDIR)/*.mli $(SRCDIR)/*.ml > .depend
+	@echo "Determining dependencies"
+
+include .depend
+

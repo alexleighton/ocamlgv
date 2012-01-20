@@ -1,0 +1,127 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<link rel="Start" href="index.html">
+<link rel="previous" href="Utilities.html">
+<link rel="next" href="WindowDraw.html">
+<link rel="Up" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="AbstractDrawer" rel="Chapter" href="AbstractDrawer.html">
+<link title="Algorithms" rel="Chapter" href="Algorithms.html">
+<link title="CairoDraw" rel="Chapter" href="CairoDraw.html">
+<link title="Cairotools" rel="Chapter" href="Cairotools.html">
+<link title="Commandline" rel="Chapter" href="Commandline.html">
+<link title="Graphtools" rel="Chapter" href="Graphtools.html">
+<link title="Main" rel="Chapter" href="Main.html">
+<link title="Pack" rel="Chapter" href="Pack.html">
+<link title="PsDraw" rel="Chapter" href="PsDraw.html">
+<link title="Pstools" rel="Chapter" href="Pstools.html">
+<link title="Sig" rel="Chapter" href="Sig.html">
+<link title="Utilities" rel="Chapter" href="Utilities.html">
+<link title="Vector" rel="Chapter" href="Vector.html">
+<link title="WindowDraw" rel="Chapter" href="WindowDraw.html">
+<link title="Windowtools" rel="Chapter" href="Windowtools.html"><title>ocamlgv: Native Graph Visualization : Vector</title>
+</head>
+<body>
+<div class="navbar"><a href="Utilities.html">Previous</a>
+&nbsp;<a href="index.html">Up</a>
+&nbsp;<a href="WindowDraw.html">Next</a>
+</div>
+<center><h1>Module <a href="type_Vector.html">Vector</a></h1></center>
+<br>
+<pre><span class="keyword">module</span> Vector: <code class="code">sig</code> <a href="Vector.html">..</a> <code class="code">end</code></pre>A 2d vector structure.<br>
+<hr width="100%">
+<br><code><span class="keyword">type</span> <a name="TYPEt"></a><code class="type"></code>t = {</code><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>x&nbsp;: <code class="type">float</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>y&nbsp;: <code class="type">float</code>;</code></td>
+
+</tr></table>
+}
+
+<div class="info">
+The type of a vector is a record with an x and y value.<br>
+</div>
+
+<pre><span class="keyword">val</span> <a name="VALi"></a><a href="code_VALVector.i.html">i</a> : <code class="type"><a href="Vector.html#TYPEt">t</a></code></pre><div class="info">
+Basis vector in the x-direction.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALj"></a><a href="code_VALVector.j.html">j</a> : <code class="type"><a href="Vector.html#TYPEt">t</a></code></pre><div class="info">
+Basis vector in the y-direction.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALnull_vector"></a><a href="code_VALVector.null_vector.html">null_vector</a> : <code class="type"><a href="Vector.html#TYPEt">t</a></code></pre><div class="info">
+Null vector has 0 for both coordinates.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALnull"></a><a href="code_VALVector.null.html">null</a> : <code class="type"><a href="Vector.html#TYPEt">t</a></code></pre><div class="info">
+See <a href="Vector.html#VALnull_vector"><code class="code">Vector.null_vector</code></a>.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALzero"></a><a href="code_VALVector.zero.html">zero</a> : <code class="type"><a href="Vector.html#TYPEt">t</a></code></pre><div class="info">
+See <a href="Vector.html#VALnull_vector"><code class="code">Vector.null_vector</code></a>.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALcreate"></a><a href="code_VALVector.create.html">create</a> : <code class="type">float -> float -> <a href="Vector.html#TYPEt">t</a></code></pre><div class="info">
+Creates a new vector given an x and y.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALvector"></a><a href="code_VALVector.vector.html">vector</a> : <code class="type">float -> float -> <a href="Vector.html#TYPEt">t</a></code></pre><div class="info">
+See <a href="Vector.html#VALcreate"><code class="code">Vector.create</code></a>.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALsetx"></a><a href="code_VALVector.setx.html">setx</a> : <code class="type"><a href="Vector.html#TYPEt">t</a> -> float -> <a href="Vector.html#TYPEt">t</a></code></pre><div class="info">
+Set the x value of the given vector.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALsety"></a><a href="code_VALVector.sety.html">sety</a> : <code class="type"><a href="Vector.html#TYPEt">t</a> -> float -> <a href="Vector.html#TYPEt">t</a></code></pre><div class="info">
+Set the y value of the given vector.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VAL(+|)"></a><a href="code_VALVector.(_plus__pipe_).html">(+|)</a> : <code class="type"><a href="Vector.html#TYPEt">t</a> -> <a href="Vector.html#TYPEt">t</a> -> <a href="Vector.html#TYPEt">t</a></code></pre><div class="info">
+Vector addition.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VAL(-|)"></a><a href="code_VALVector.(_minus__pipe_).html">(-|)</a> : <code class="type"><a href="Vector.html#TYPEt">t</a> -> <a href="Vector.html#TYPEt">t</a> -> <a href="Vector.html#TYPEt">t</a></code></pre><div class="info">
+Vector subtraction.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VAL(*|)"></a><a href="code_VALVector.(_star__pipe_).html">(*|)</a> : <code class="type">float -> <a href="Vector.html#TYPEt">t</a> -> <a href="Vector.html#TYPEt">t</a></code></pre><div class="info">
+Multiplication between a vector and a scalar.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VAL(/|)"></a><a href="code_VALVector.(_slash__pipe_).html">(/|)</a> : <code class="type"><a href="Vector.html#TYPEt">t</a> -> float -> <a href="Vector.html#TYPEt">t</a></code></pre><div class="info">
+Division between a vector and a scalar.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VAL(=|)"></a><a href="code_VALVector.(_equal__pipe_).html">(=|)</a> : <code class="type"><a href="Vector.html#TYPEt">t</a> -> <a href="Vector.html#TYPEt">t</a> -> bool</code></pre><div class="info">
+Vector equality.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VAL(*.|)"></a><a href="code_VALVector.(_star_._pipe_).html">(*.|)</a> : <code class="type"><a href="Vector.html#TYPEt">t</a> -> <a href="Vector.html#TYPEt">t</a> -> float</code></pre><div class="info">
+Vector dot product.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALnorm"></a><a href="code_VALVector.norm.html">norm</a> : <code class="type"><a href="Vector.html#TYPEt">t</a> -> float</code></pre><div class="info">
+Returns the norm of the vector, i.e. the length or magnitude.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALmagnitude"></a><a href="code_VALVector.magnitude.html">magnitude</a> : <code class="type"><a href="Vector.html#TYPEt">t</a> -> float</code></pre><div class="info">
+See <a href="Vector.html#VALnorm"><code class="code">Vector.norm</code></a>.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALlength"></a><a href="code_VALVector.length.html">length</a> : <code class="type"><a href="Vector.html#TYPEt">t</a> -> float</code></pre><div class="info">
+See <a href="Vector.html#VALnorm"><code class="code">Vector.norm</code></a>.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALnormalize"></a><a href="code_VALVector.normalize.html">normalize</a> : <code class="type"><a href="Vector.html#TYPEt">t</a> -> <a href="Vector.html#TYPEt">t</a></code></pre><div class="info">
+Normalizes the given vector so that it's magnitude is 1.0.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALscale"></a><a href="code_VALVector.scale.html">scale</a> : <code class="type"><a href="Vector.html#TYPEt">t</a> -> float -> float -> <a href="Vector.html#TYPEt">t</a></code></pre><div class="info">
+Scales a vector by the given x factor and y factor.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALdist"></a><a href="code_VALVector.dist.html">dist</a> : <code class="type"><a href="Vector.html#TYPEt">t</a> -> <a href="Vector.html#TYPEt">t</a> -> float</code></pre><pre><span class="keyword">val</span> <a name="VALshorten"></a><a href="code_VALVector.shorten.html">shorten</a> : <code class="type"><a href="Vector.html#TYPEt">t</a> -> float -> <a href="Vector.html#TYPEt">t</a></code></pre><pre><span class="keyword">val</span> <a name="VALpi"></a><a href="code_VALVector.pi.html">pi</a> : <code class="type">float</code></pre><div class="info">
+The constant PI.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALdeg_to_rad"></a><a href="code_VALVector.deg_to_rad.html">deg_to_rad</a> : <code class="type">float -> float</code></pre><pre><span class="keyword">val</span> <a name="VALrotate"></a><a href="code_VALVector.rotate.html">rotate</a> : <code class="type"><a href="Vector.html#TYPEt">t</a> -> float -> <a href="Vector.html#TYPEt">t</a></code></pre><pre><span class="keyword">val</span> <a name="VALrotate_d"></a><a href="code_VALVector.rotate_d.html">rotate_d</a> : <code class="type"><a href="Vector.html#TYPEt">t</a> -> float -> <a href="Vector.html#TYPEt">t</a></code></pre><pre><span class="keyword">val</span> <a name="VALtranslate"></a><a href="code_VALVector.translate.html">translate</a> : <code class="type"><a href="Vector.html#TYPEt">t</a> -> float -> float -> <a href="Vector.html#TYPEt">t</a></code></pre><pre><span class="keyword">val</span> <a name="VALstring_of_vector"></a><a href="code_VALVector.string_of_vector.html">string_of_vector</a> : <code class="type"><a href="Vector.html#TYPEt">t</a> -> string</code></pre><div class="info">
+Returns a string representation of a vector.<br>
+</div>
+</body></html>

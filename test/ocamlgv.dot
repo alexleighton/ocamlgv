@@ -1,0 +1,30 @@
+digraph G {
+  size="10,7.5";
+  ratio="fill";
+  rotate=90;
+  fontsize="12pt";
+  rankdir = TB ;
+"Algorithms" [style=filled, color=darkturquoise];
+"Algorithms" -> "Types";
+"Cairotools" [style=filled, color=darkturquoise];
+"Cairotools" -> "Types";
+"Draw" [style=filled, color=darkturquoise];
+"Draw" -> "Types";
+"Draw" -> "Cairotools";
+"Drawablegraph" [style=filled, color=darkturquoise];
+"Drawablegraph" -> "Sig";
+"Graphtools" [style=filled, color=darkturquoise];
+"Graphtools" -> "Sig";
+"Graphtools" -> "Algorithms";
+"Main" [style=filled, color=darkturquoise];
+"Main" -> "Types";
+"Main" -> "Graphtools";
+"Main" -> "Draw";
+"Main" -> "Cairotools";
+"Sig" [style=filled, color=darkturquoise];
+"Testcairo" [style=filled, color=darkturquoise];
+"Testcairo" -> "Types";
+"Testcairo" -> "Draw";
+"Testcairo" -> "Cairotools";
+"Types" [style=filled, color=darkturquoise];
+}

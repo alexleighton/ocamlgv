@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf8"?>
+<rss version="2.0">
+  <channel>
+    <title>ocamlgv Recent Commit Feed</title>
+    <link>http://www.willamette.edu/~aleighto/ocamlgv</link>
+    <description>An RSS feed of recent commits to a git repository.</description>
+    <language>en-us</language>
+    <pubDate>Thu Dec 11 23:30:21 PST 2008</pubDate>
+    <lastBuildDate>Mon May 11 20:30:34 PDT 2009</lastBuildDate>
+    <ttl>10</ttl>
+
+
+<item>
+<title>Gigantic commit before senior project deadline.</title>
+<link>http://www.willamette.edu/~aleighto/ocamlgv</link>
+<description>
+Too many changes to list, yet again. This commit marks the freeze before
+the senior projects presentation.
+&lt;br/&gt;
+Author: Alex Leighton
+</description>
+<pubDate>2009-05-11 20:21:17 -0700</pubDate>
+<guid>http://www.willamette.edu/~aleighto/ocamlgv</guid></item>
+
+<item>
+<title>Added new vector structure.</title>
+<link>http://www.willamette.edu/~aleighto/ocamlgv</link>
+<description>
+&lt;br/&gt;
+Author: Alex Leighton
+</description>
+<pubDate>2009-04-13 21:45:53 -0700</pubDate>
+<guid>http://www.willamette.edu/~aleighto/ocamlgv</guid></item>
+
+<item>
+<title>Bunch of changes.</title>
+<link>http://www.willamette.edu/~aleighto/ocamlgv</link>
+<description>
+Simple bunches...
+&lt;br/&gt;
+Author: Alex Leighton
+</description>
+<pubDate>2009-04-13 21:45:15 -0700</pubDate>
+<guid>http://www.willamette.edu/~aleighto/ocamlgv</guid></item>
+
+<item>
+<title>Big commit to make layering algorithm work.</title>
+<link>http://www.willamette.edu/~aleighto/ocamlgv</link>
+<description>
+And now it does. Still not perfect, but it's much improved.
+&lt;br/&gt;
+Author: Alex Leighton
+</description>
+<pubDate>2009-04-05 22:09:51 -0700</pubDate>
+<guid>http://www.willamette.edu/~aleighto/ocamlgv</guid></item>
+
+<item>
+<title>Miscellaneous changes.</title>
+<link>http://www.willamette.edu/~aleighto/ocamlgv</link>
+<description>
+&lt;br/&gt;
+Author: Alex Leighton
+</description>
+<pubDate>2009-03-31 11:01:22 -0700</pubDate>
+<guid>http://www.willamette.edu/~aleighto/ocamlgv</guid></item>
+
+<item>
+<title>* src/algorithms.ml: minor documentation change.</title>
+<link>http://www.willamette.edu/~aleighto/ocamlgv</link>
+<description>
+&lt;br/&gt;
+Author: Alex Leighton
+</description>
+<pubDate>2009-03-30 14:04:06 -0700</pubDate>
+<guid>http://www.willamette.edu/~aleighto/ocamlgv</guid></item>
+
+<item>
+<title>Radical restructuring of everything.</title>
+<link>http://www.willamette.edu/~aleighto/ocamlgv</link>
+<description>
+Radical new architecture to the whole library. Too many changes to list
+or note.
+&lt;br/&gt;
+Author: Alex Leighton
+</description>
+<pubDate>2009-03-28 16:52:49 -0700</pubDate>
+<guid>http://www.willamette.edu/~aleighto/ocamlgv</guid></item>
+
+<item>
+<title>Added a lot of new drawing functionality.</title>
+<link>http://www.willamette.edu/~aleighto/ocamlgv</link>
+<description>
+Drawing can now be done via a functor.
+&lt;br/&gt;
+Author: Alex Leighton
+</description>
+<pubDate>2009-03-19 20:32:19 -0700</pubDate>
+<guid>http://www.willamette.edu/~aleighto/ocamlgv</guid></item>
+
+<item>
+<title>Added new drawable graph module.</title>
+<link>http://www.willamette.edu/~aleighto/ocamlgv</link>
+<description>
+I'm in the middle of moving to a drawable graph type to ease development
+of the layout algorithms.
+&lt;br/&gt;
+Author: Alex Leighton
+</description>
+<pubDate>2009-03-18 22:32:14 -0700</pubDate>
+<guid>http://www.willamette.edu/~aleighto/ocamlgv</guid></item>
+
+<item>
+<title>Miscellaneous addition to OMakefile.</title>
+<link>http://www.willamette.edu/~aleighto/ocamlgv</link>
+<description>
+&lt;br/&gt;
+Author: Alex Leighton
+</description>
+<pubDate>2009-03-18 21:38:28 -0700</pubDate>
+<guid>http://www.willamette.edu/~aleighto/ocamlgv</guid></item>
+    </channel>
+</rss>

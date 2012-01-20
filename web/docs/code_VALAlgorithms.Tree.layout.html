@@ -1,0 +1,30 @@
+<html><head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<link rel="Start" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="AbstractDrawer" rel="Chapter" href="AbstractDrawer.html">
+<link title="Algorithms" rel="Chapter" href="Algorithms.html">
+<link title="CairoDraw" rel="Chapter" href="CairoDraw.html">
+<link title="Cairotools" rel="Chapter" href="Cairotools.html">
+<link title="Commandline" rel="Chapter" href="Commandline.html">
+<link title="Graphtools" rel="Chapter" href="Graphtools.html">
+<link title="Main" rel="Chapter" href="Main.html">
+<link title="Pack" rel="Chapter" href="Pack.html">
+<link title="PsDraw" rel="Chapter" href="PsDraw.html">
+<link title="Pstools" rel="Chapter" href="Pstools.html">
+<link title="Sig" rel="Chapter" href="Sig.html">
+<link title="Utilities" rel="Chapter" href="Utilities.html">
+<link title="Vector" rel="Chapter" href="Vector.html">
+<link title="WindowDraw" rel="Chapter" href="WindowDraw.html">
+<link title="Windowtools" rel="Chapter" href="Windowtools.html"><title>ocamlgv: Native Graph Visualization : Algorithms.Tree.layout</title>
+</head>
+<body>
+<code class="code"><span class="keyword">let</span>&nbsp;layout&nbsp;g&nbsp;root&nbsp;root_y&nbsp;dx&nbsp;dy&nbsp;=<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">let</span>&nbsp;root&nbsp;=&nbsp;<span class="keyword">match</span>&nbsp;root&nbsp;<span class="keyword">with</span>&nbsp;<span class="constructor">None</span>&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;get_vertex&nbsp;g&nbsp;<span class="keywordsign">|</span>&nbsp;<span class="constructor">Some</span>&nbsp;v&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;v&nbsp;<span class="keyword">in</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">let</span>&nbsp;tree,w,h&nbsp;=&nbsp;layout_tree&nbsp;(treeify&nbsp;g&nbsp;root)&nbsp;root_y&nbsp;dx&nbsp;dy&nbsp;<span class="keyword">in</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;detreeify&nbsp;tree&nbsp;w&nbsp;h</code></body></html>

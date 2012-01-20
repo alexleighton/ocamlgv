@@ -1,0 +1,4 @@
+default except
+iter: 200
+seed: 1
+damping: .1

@@ -1,0 +1,4 @@
+open home.willamette.edu
+user aleighto C1ar1akl
+mput ../ocamlgv-backup.tar.gz
+bye

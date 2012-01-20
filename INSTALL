@@ -1,0 +1,21 @@
+=====================================================
+    How to create an executable                     |
+=====================================================
+
+You need Objective Caml >= 3.10.2 to compile this library.
+Compile with:
+    make
+
+=====================================================
+    How to create the documentation                 |
+=====================================================
+
+You need ocamldoc to create the documentation.
+HTML version:
+    make doc
+
+LaTeX version:
+	make doc-latex
+
+Dot file of dependencies:
+	make doc-dot

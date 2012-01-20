@@ -1,0 +1,4 @@
+defaults except
+w: 2
+dx: 150
+dy: 100

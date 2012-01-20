@@ -1,0 +1,16 @@
+graph {
+
+      a [root];
+      a [label="Roger & Simeona"]
+      b [label="Robert"]
+      c [label="Melody & Rudy"]
+      d [label="Ruby"]
+      e [label="Rocky"]
+      f [label="Charles"]
+      a -- b;
+      a -- c;
+      a -- d;
+      c -- e;
+      c -- f;
+
+}

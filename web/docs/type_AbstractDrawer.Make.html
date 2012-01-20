@@ -1,0 +1,53 @@
+<html><head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<link rel="Start" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="AbstractDrawer" rel="Chapter" href="AbstractDrawer.html">
+<link title="Algorithms" rel="Chapter" href="Algorithms.html">
+<link title="CairoDraw" rel="Chapter" href="CairoDraw.html">
+<link title="Cairotools" rel="Chapter" href="Cairotools.html">
+<link title="Commandline" rel="Chapter" href="Commandline.html">
+<link title="Graphtools" rel="Chapter" href="Graphtools.html">
+<link title="Main" rel="Chapter" href="Main.html">
+<link title="Pack" rel="Chapter" href="Pack.html">
+<link title="PsDraw" rel="Chapter" href="PsDraw.html">
+<link title="Pstools" rel="Chapter" href="Pstools.html">
+<link title="Sig" rel="Chapter" href="Sig.html">
+<link title="Utilities" rel="Chapter" href="Utilities.html">
+<link title="Vector" rel="Chapter" href="Vector.html">
+<link title="WindowDraw" rel="Chapter" href="WindowDraw.html">
+<link title="Windowtools" rel="Chapter" href="Windowtools.html"><title>ocamlgv: Native Graph Visualization : AbstractDrawer.Make</title>
+</head>
+<body>
+<code class="code"><span class="keyword">functor</span>&nbsp;(<span class="constructor">G</span>&nbsp;:&nbsp;<span class="constructor">Sig</span>.<span class="constructor">G</span>)&nbsp;<span class="keywordsign">-&gt;</span><br>
+&nbsp;&nbsp;<span class="keyword">functor</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;(<span class="constructor">D</span>&nbsp;:&nbsp;<span class="keyword">sig</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">type</span>&nbsp;graph&nbsp;=&nbsp;<span class="constructor">G</span>.t<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">type</span>&nbsp;edge&nbsp;=&nbsp;<span class="constructor">G</span>.<span class="constructor">E</span>.t<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">type</span>&nbsp;vertex&nbsp;=&nbsp;<span class="constructor">G</span>.<span class="constructor">V</span>.t<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">type</span>&nbsp;vimage&nbsp;=&nbsp;int&nbsp;*&nbsp;int&nbsp;*&nbsp;graph<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">type</span>&nbsp;canvas<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;init&nbsp;:&nbsp;vimage&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;canvas<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;es_fold_undirected&nbsp;:&nbsp;edge&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;canvas&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;canvas<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;es_fold_directed&nbsp;:&nbsp;edge&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;canvas&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;canvas<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;vs_fold&nbsp;:&nbsp;vertex&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;canvas&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;canvas<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">end</span>)&nbsp;<span class="keywordsign">-&gt;</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">sig</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">type</span>&nbsp;graph&nbsp;=&nbsp;<span class="constructor">G</span>.t<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">type</span>&nbsp;edge&nbsp;=&nbsp;<span class="constructor">G</span>.<span class="constructor">E</span>.t<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">type</span>&nbsp;vertex&nbsp;=&nbsp;<span class="constructor">G</span>.<span class="constructor">V</span>.t<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">type</span>&nbsp;vimage&nbsp;=&nbsp;int&nbsp;*&nbsp;int&nbsp;*&nbsp;graph<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">type</span>&nbsp;canvas&nbsp;=&nbsp;<span class="constructor">D</span>.canvas<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;init&nbsp;:&nbsp;vimage&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;canvas<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;es_fold_undirected&nbsp;:&nbsp;edge&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;canvas&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;canvas<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;es_fold_directed&nbsp;:&nbsp;edge&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;canvas&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;canvas<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;vs_fold&nbsp;:&nbsp;vertex&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;canvas&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;canvas<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;draw_vertices&nbsp;:&nbsp;<span class="constructor">G</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;canvas&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;canvas<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;draw_edges&nbsp;:&nbsp;<span class="constructor">G</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;canvas&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;canvas<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;draw_image&nbsp;:&nbsp;int&nbsp;*&nbsp;int&nbsp;*&nbsp;graph&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;canvas<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">end</span></code></body></html>

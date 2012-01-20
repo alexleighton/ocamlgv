@@ -1,0 +1,52 @@
+NAME = ocamlgv
+VERSION = 0.1.0
+
+DISTDIR = dist
+SRCDIR  = src
+TESTDIR = test
+WEBDIR  = web
+DOCDIR  = doc
+
+.PHONY: build mktop cpbuild test lib clean source doc doc-dot doc-latex wc web rss
+
+.SUBDIRS: $(SRCDIR)
+
+##################################################
+# Create source archive
+
+SOURCE_FILES = $(SRCDIR)/*.ml* $(SRCDIR)/OMakefile
+TEST_FILES = test/*
+BASE_FILES = OMakefile OMakeroot INSTALL README COPYING LICENSE
+EXPORTDIR = $(NAME)-$(VERSION)
+source:
+	mkdir -p $(EXPORTDIR)/$(SRCDIR) $(EXPORTDIR)/test $(DISTDIR)
+	cp $(BASE_FILES) $(EXPORTDIR)
+	cp $(SOURCE_FILES) $(EXPORTDIR)/$(SRCDIR)
+	cp $(TEST_FILES) $(EXPORTDIR)/test
+	tar -c $(EXPORTDIR) | gzip -f --best > $(DISTDIR)/src-$(NAME)-$(VERSION).tar.gz
+	rm -rf $(EXPORTDIR)
+
+##################################################
+# Clean up
+
+clean:
+	rm -rf $(DISTDIR)
+	rm -f OMakeroot.omc OMakefile.omc
+
+wc:
+	./scripts/wc.sh $(SRCDIR)/
+
+##################################################
+# Distribute website
+
+web: source doc
+	rm -f $(WEBDIR)/docs/*
+	cp $(DOCDIR)/* $(WEBDIR)/docs
+	cp $(DISTDIR)/doc-$(NAME).tar.gz $(WEBDIR)/download/
+	cp $(DISTDIR)/src-$(NAME)-$(VERSION).tar.gz $(WEBDIR)/download/
+	cp $(DISTDIR)/src-$(NAME)-$(VERSION).tar.gz $(WEBDIR)/download/src-$(NAME).tar.gz
+	lftp < scripts/web.ftp    #the secret ftp instructions
+
+rss:
+	./scripts/git-rss.sh -t "ocamlgv Recent Commit Feed" -l "http://www.willamette.edu/~aleighto/ocamlgv" -o $(WEBDIR)/rss.xml
+	lftp < scripts/rss.ftp

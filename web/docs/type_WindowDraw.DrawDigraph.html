@@ -1,0 +1,137 @@
+<html><head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<link rel="Start" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="AbstractDrawer" rel="Chapter" href="AbstractDrawer.html">
+<link title="Algorithms" rel="Chapter" href="Algorithms.html">
+<link title="CairoDraw" rel="Chapter" href="CairoDraw.html">
+<link title="Cairotools" rel="Chapter" href="Cairotools.html">
+<link title="Commandline" rel="Chapter" href="Commandline.html">
+<link title="Graphtools" rel="Chapter" href="Graphtools.html">
+<link title="Main" rel="Chapter" href="Main.html">
+<link title="Pack" rel="Chapter" href="Pack.html">
+<link title="PsDraw" rel="Chapter" href="PsDraw.html">
+<link title="Pstools" rel="Chapter" href="Pstools.html">
+<link title="Sig" rel="Chapter" href="Sig.html">
+<link title="Utilities" rel="Chapter" href="Utilities.html">
+<link title="Vector" rel="Chapter" href="Vector.html">
+<link title="WindowDraw" rel="Chapter" href="WindowDraw.html">
+<link title="Windowtools" rel="Chapter" href="Windowtools.html"><title>ocamlgv: Native Graph Visualization : WindowDraw.DrawDigraph</title>
+</head>
+<body>
+<code class="code"><span class="keyword">sig</span><br>
+&nbsp;&nbsp;<span class="keyword">module</span>&nbsp;<span class="constructor">WindowDrawer</span>&nbsp;:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">functor</span>&nbsp;(<span class="constructor">G</span>&nbsp;:&nbsp;<span class="constructor">Sig</span>.<span class="constructor">VirtualImageGraph</span>)&nbsp;<span class="keywordsign">-&gt;</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">sig</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;unpack_v&nbsp;:&nbsp;<span class="constructor">G</span>.<span class="constructor">V</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">G</span>.<span class="constructor">V</span>.label<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;get_id&nbsp;:&nbsp;<span class="constructor">G</span>.<span class="constructor">V</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;get_center&nbsp;:&nbsp;<span class="constructor">G</span>.<span class="constructor">V</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">Vector</span>.t<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;get_label&nbsp;:&nbsp;<span class="constructor">G</span>.<span class="constructor">V</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">Sig</span>.label<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;is_dummy&nbsp;:&nbsp;<span class="constructor">G</span>.<span class="constructor">V</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;bool<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;make_dummy&nbsp;:&nbsp;<span class="constructor">G</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;float&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;float&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">Sig</span>.label&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">G</span>.<span class="constructor">V</span>.t<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;make_vertex&nbsp;:&nbsp;<span class="constructor">G</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;float&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;float&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">Sig</span>.label&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">G</span>.<span class="constructor">V</span>.t<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;unpack_e&nbsp;:&nbsp;<span class="constructor">G</span>.<span class="constructor">E</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">G</span>.<span class="constructor">E</span>.label<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;get_pointlist&nbsp;:&nbsp;<span class="constructor">G</span>.<span class="constructor">E</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">Vector</span>.t&nbsp;list<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;is_curvy&nbsp;:&nbsp;<span class="constructor">G</span>.<span class="constructor">E</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;bool<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;get_edgelabel&nbsp;:&nbsp;<span class="constructor">G</span>.<span class="constructor">E</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">Sig</span>.label<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;get_src&nbsp;:&nbsp;<span class="constructor">G</span>.<span class="constructor">E</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">G</span>.<span class="constructor">E</span>.vertex<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;get_dest&nbsp;:&nbsp;<span class="constructor">G</span>.<span class="constructor">E</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">G</span>.<span class="constructor">E</span>.vertex<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;string_of_vertex&nbsp;:&nbsp;<span class="constructor">G</span>.<span class="constructor">V</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;string<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;string_of_edge&nbsp;:&nbsp;<span class="constructor">G</span>.<span class="constructor">E</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;string<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;string_of_graph&nbsp;:&nbsp;<span class="constructor">G</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;string<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">type</span>&nbsp;canvas&nbsp;=&nbsp;int&nbsp;*&nbsp;int<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">type</span>&nbsp;graph&nbsp;=&nbsp;<span class="constructor">G</span>.t<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">type</span>&nbsp;edge&nbsp;=&nbsp;<span class="constructor">G</span>.<span class="constructor">E</span>.t<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">type</span>&nbsp;vertex&nbsp;=&nbsp;<span class="constructor">G</span>.<span class="constructor">V</span>.t<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">type</span>&nbsp;vimage&nbsp;=&nbsp;int&nbsp;*&nbsp;int&nbsp;*&nbsp;graph<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;init&nbsp;:&nbsp;int&nbsp;*&nbsp;int&nbsp;*&nbsp;<span class="keywordsign">'</span>a&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int&nbsp;*&nbsp;int<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;es_fold_undirected&nbsp;:&nbsp;<span class="constructor">G</span>.<span class="constructor">E</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="keywordsign">'</span>a&nbsp;*&nbsp;int&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="keywordsign">'</span>a&nbsp;*&nbsp;int<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;es_fold_directed&nbsp;:&nbsp;<span class="constructor">G</span>.<span class="constructor">E</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="keywordsign">'</span>a&nbsp;*&nbsp;int&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="keywordsign">'</span>a&nbsp;*&nbsp;int<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;vs_fold&nbsp;:&nbsp;<span class="constructor">G</span>.<span class="constructor">V</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="keywordsign">'</span>a&nbsp;*&nbsp;int&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="keywordsign">'</span>a&nbsp;*&nbsp;int<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">end</span><br>
+&nbsp;&nbsp;<span class="keyword">module</span>&nbsp;<span class="constructor">DrawGraph</span>&nbsp;:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">sig</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">type</span>&nbsp;graph&nbsp;=&nbsp;<span class="constructor">Graphtools</span>.<span class="constructor">VirtualImageDigraph</span>.t<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">type</span>&nbsp;edge&nbsp;=&nbsp;<span class="constructor">Graphtools</span>.<span class="constructor">VirtualImageDigraph</span>.<span class="constructor">E</span>.t<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">type</span>&nbsp;vertex&nbsp;=&nbsp;<span class="constructor">Graphtools</span>.<span class="constructor">VirtualImageDigraph</span>.<span class="constructor">V</span>.t<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">type</span>&nbsp;vimage&nbsp;=&nbsp;int&nbsp;*&nbsp;int&nbsp;*&nbsp;graph<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">type</span>&nbsp;canvas&nbsp;=&nbsp;<span class="constructor">WindowDrawer</span>(<span class="constructor">Graphtools</span>.<span class="constructor">VirtualImageDigraph</span>).canvas<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;init&nbsp;:&nbsp;vimage&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;canvas<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;es_fold_undirected&nbsp;:&nbsp;edge&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;canvas&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;canvas<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;es_fold_directed&nbsp;:&nbsp;edge&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;canvas&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;canvas<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;vs_fold&nbsp;:&nbsp;vertex&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;canvas&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;canvas<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;draw_vertices&nbsp;:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="constructor">Graphtools</span>.<span class="constructor">VirtualImageDigraph</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;canvas&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;canvas<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;draw_edges&nbsp;:&nbsp;<span class="constructor">Graphtools</span>.<span class="constructor">VirtualImageDigraph</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;canvas&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;canvas<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;draw_image&nbsp;:&nbsp;int&nbsp;*&nbsp;int&nbsp;*&nbsp;graph&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;canvas<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">end</span><br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;unpack_v&nbsp;:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="constructor">Graphtools</span>.<span class="constructor">VirtualImageDigraph</span>.<span class="constructor">V</span>.t&nbsp;<span class="keywordsign">-&gt;</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="constructor">Graphtools</span>.<span class="constructor">VirtualImageDigraph</span>.<span class="constructor">V</span>.label<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;get_id&nbsp;:&nbsp;<span class="constructor">Graphtools</span>.<span class="constructor">VirtualImageDigraph</span>.<span class="constructor">V</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;get_center&nbsp;:&nbsp;<span class="constructor">Graphtools</span>.<span class="constructor">VirtualImageDigraph</span>.<span class="constructor">V</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">Vector</span>.t<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;get_label&nbsp;:&nbsp;<span class="constructor">Graphtools</span>.<span class="constructor">VirtualImageDigraph</span>.<span class="constructor">V</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">Sig</span>.label<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;is_dummy&nbsp;:&nbsp;<span class="constructor">Graphtools</span>.<span class="constructor">VirtualImageDigraph</span>.<span class="constructor">V</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;bool<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;make_dummy&nbsp;:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="constructor">Graphtools</span>.<span class="constructor">VirtualImageDigraph</span>.t&nbsp;<span class="keywordsign">-&gt;</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;float&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;float&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">Sig</span>.label&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">Graphtools</span>.<span class="constructor">VirtualImageDigraph</span>.<span class="constructor">V</span>.t<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;make_vertex&nbsp;:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="constructor">Graphtools</span>.<span class="constructor">VirtualImageDigraph</span>.t&nbsp;<span class="keywordsign">-&gt;</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;float&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;float&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">Sig</span>.label&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">Graphtools</span>.<span class="constructor">VirtualImageDigraph</span>.<span class="constructor">V</span>.t<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;unpack_e&nbsp;:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="constructor">Graphtools</span>.<span class="constructor">VirtualImageDigraph</span>.<span class="constructor">E</span>.t&nbsp;<span class="keywordsign">-&gt;</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="constructor">Graphtools</span>.<span class="constructor">VirtualImageDigraph</span>.<span class="constructor">E</span>.label<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;get_pointlist&nbsp;:&nbsp;<span class="constructor">Graphtools</span>.<span class="constructor">VirtualImageDigraph</span>.<span class="constructor">E</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">Vector</span>.t&nbsp;list<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;is_curvy&nbsp;:&nbsp;<span class="constructor">Graphtools</span>.<span class="constructor">VirtualImageDigraph</span>.<span class="constructor">E</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;bool<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;get_edgelabel&nbsp;:&nbsp;<span class="constructor">Graphtools</span>.<span class="constructor">VirtualImageDigraph</span>.<span class="constructor">E</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">Sig</span>.label<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;get_src&nbsp;:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="constructor">Graphtools</span>.<span class="constructor">VirtualImageDigraph</span>.<span class="constructor">E</span>.t&nbsp;<span class="keywordsign">-&gt;</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="constructor">Graphtools</span>.<span class="constructor">VirtualImageDigraph</span>.<span class="constructor">E</span>.vertex<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;get_dest&nbsp;:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="constructor">Graphtools</span>.<span class="constructor">VirtualImageDigraph</span>.<span class="constructor">E</span>.t&nbsp;<span class="keywordsign">-&gt;</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="constructor">Graphtools</span>.<span class="constructor">VirtualImageDigraph</span>.<span class="constructor">E</span>.vertex<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;string_of_vertex&nbsp;:&nbsp;<span class="constructor">Graphtools</span>.<span class="constructor">VirtualImageDigraph</span>.<span class="constructor">V</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;string<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;string_of_edge&nbsp;:&nbsp;<span class="constructor">Graphtools</span>.<span class="constructor">VirtualImageDigraph</span>.<span class="constructor">E</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;string<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;string_of_graph&nbsp;:&nbsp;<span class="constructor">Graphtools</span>.<span class="constructor">VirtualImageDigraph</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;string<br>
+&nbsp;&nbsp;<span class="keyword">exception</span>&nbsp;<span class="constructor">Found</span>&nbsp;<span class="keyword">of</span>&nbsp;<span class="constructor">Graphtools</span>.<span class="constructor">VirtualImageDigraph</span>.<span class="constructor">V</span>.t<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;dist&nbsp;:&nbsp;float&nbsp;*&nbsp;float&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;float&nbsp;*&nbsp;float&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;float<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;get_one_vertex&nbsp;:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="constructor">Graphtools</span>.<span class="constructor">VirtualImageDigraph</span>.t&nbsp;<span class="keywordsign">-&gt;</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="constructor">Graphtools</span>.<span class="constructor">VirtualImageDigraph</span>.<span class="constructor">V</span>.t&nbsp;option<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;get_closest&nbsp;:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="constructor">Graphtools</span>.<span class="constructor">VirtualImageDigraph</span>.t&nbsp;<span class="keywordsign">-&gt;</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;float&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;float&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">Graphtools</span>.<span class="constructor">VirtualImageDigraph</span>.vertex&nbsp;option<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;is_in&nbsp;:&nbsp;<span class="constructor">Graphtools</span>.<span class="constructor">VirtualImageDigraph</span>.<span class="constructor">V</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;float&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;float&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;bool<br>
+&nbsp;&nbsp;<span class="keyword">type</span>&nbsp;state&nbsp;=<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="constructor">WindowInteraction</span>(<span class="constructor">Graphtools</span>.<span class="constructor">VirtualImageDigraph</span>).state&nbsp;=&nbsp;{<br>
+&nbsp;&nbsp;&nbsp;&nbsp;selected&nbsp;:&nbsp;<span class="constructor">Graphtools</span>.<span class="constructor">VirtualImageDigraph</span>.<span class="constructor">V</span>.t&nbsp;option;<br>
+&nbsp;&nbsp;}<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;new_state&nbsp;:&nbsp;state<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;get_selected&nbsp;:&nbsp;state&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">Graphtools</span>.<span class="constructor">VirtualImageDigraph</span>.<span class="constructor">V</span>.t&nbsp;option<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;set_selected&nbsp;:&nbsp;<span class="keywordsign">'</span>a&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">Graphtools</span>.<span class="constructor">VirtualImageDigraph</span>.<span class="constructor">V</span>.t&nbsp;option&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;state<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;was_key_pressed&nbsp;:&nbsp;<span class="constructor">Graphics</span>.status&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;bool<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;was_mouse_pressed&nbsp;:&nbsp;<span class="constructor">Graphics</span>.status&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;bool<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;handle_key_press&nbsp;:&nbsp;unit&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="keywordsign">'</span>a<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;change_last&nbsp;:&nbsp;<span class="keywordsign">'</span>a&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="keywordsign">'</span>a&nbsp;list&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="keywordsign">'</span>a&nbsp;list<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;replace_vertex&nbsp;:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="constructor">Graphtools</span>.<span class="constructor">VirtualImageDigraph</span>.t&nbsp;<span class="keywordsign">-&gt;</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="constructor">Graphtools</span>.<span class="constructor">VirtualImageDigraph</span>.vertex&nbsp;<span class="keywordsign">-&gt;</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="constructor">Graphtools</span>.<span class="constructor">VirtualImageDigraph</span>.<span class="constructor">E</span>.vertex&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;unit<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;handle_mouse_pressed&nbsp;:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="constructor">Graphtools</span>.<span class="constructor">VirtualImageDigraph</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">Graphics</span>.status&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;state&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;state<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;handle_events&nbsp;:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="constructor">Graphtools</span>.<span class="constructor">VirtualImageDigraph</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">Graphics</span>.status&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;state&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;state<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;events&nbsp;:&nbsp;<span class="constructor">Graphics</span>.event&nbsp;list<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;interactive&nbsp;:&nbsp;int&nbsp;*&nbsp;int&nbsp;*&nbsp;<span class="constructor">DrawGraph</span>.graph&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">DrawGraph</span>.graph<br>
+&nbsp;&nbsp;<span class="keyword">exception</span>&nbsp;<span class="constructor">Close</span><br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;default_handler&nbsp;:&nbsp;<span class="constructor">Graphics</span>.status&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;unit<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;default_events&nbsp;:&nbsp;<span class="constructor">Graphics</span>.event&nbsp;list<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;display&nbsp;:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;?handler:(<span class="constructor">Graphics</span>.status&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;unit)&nbsp;<span class="keywordsign">-&gt;</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;?events:<span class="constructor">Graphics</span>.event&nbsp;list&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int&nbsp;*&nbsp;int&nbsp;*&nbsp;<span class="constructor">DrawGraph</span>.graph&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;unit<br>
+<span class="keyword">end</span></code></body></html>

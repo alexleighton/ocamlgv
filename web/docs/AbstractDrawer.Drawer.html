@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<link rel="Start" href="index.html">
+<link rel="Up" href="AbstractDrawer.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="AbstractDrawer" rel="Chapter" href="AbstractDrawer.html">
+<link title="Algorithms" rel="Chapter" href="Algorithms.html">
+<link title="CairoDraw" rel="Chapter" href="CairoDraw.html">
+<link title="Cairotools" rel="Chapter" href="Cairotools.html">
+<link title="Commandline" rel="Chapter" href="Commandline.html">
+<link title="Graphtools" rel="Chapter" href="Graphtools.html">
+<link title="Main" rel="Chapter" href="Main.html">
+<link title="Pack" rel="Chapter" href="Pack.html">
+<link title="PsDraw" rel="Chapter" href="PsDraw.html">
+<link title="Pstools" rel="Chapter" href="Pstools.html">
+<link title="Sig" rel="Chapter" href="Sig.html">
+<link title="Utilities" rel="Chapter" href="Utilities.html">
+<link title="Vector" rel="Chapter" href="Vector.html">
+<link title="WindowDraw" rel="Chapter" href="WindowDraw.html">
+<link title="Windowtools" rel="Chapter" href="Windowtools.html"><title>ocamlgv: Native Graph Visualization : AbstractDrawer.Drawer</title>
+</head>
+<body>
+<div class="navbar">&nbsp;<a href="AbstractDrawer.html">Up</a>
+&nbsp;</div>
+<center><h1>Module type <a href="type_AbstractDrawer.Drawer.html">AbstractDrawer.Drawer</a></h1></center>
+<br>
+<pre><span class="keyword">module type</span> Drawer = <code class="code">sig</code> <a href="AbstractDrawer.Drawer.html">..</a> <code class="code">end</code></pre>A structure for drawing individual edges and vertices. In order to use
+    the AbstractDrawer.Make functor, the following types and functions must
+    be provided.<br>
+<hr width="100%">
+<pre><span class="keyword">type</span> <a name="TYPEgraph"></a><code class="type"></code>graph </pre>
+
+<pre><span class="keyword">type</span> <a name="TYPEedge"></a><code class="type"></code>edge </pre>
+
+<pre><span class="keyword">type</span> <a name="TYPEvertex"></a><code class="type"></code>vertex </pre>
+
+<pre><span class="keyword">type</span> <a name="TYPEvimage"></a><code class="type"></code>vimage = <code class="type">int * int * <a href="AbstractDrawer.Drawer.html#TYPEgraph">graph</a></code> </pre>
+<div class="info">
+A virtual image is a width and a height and a graph.<br>
+</div>
+
+<pre><span class="keyword">type</span> <a name="TYPEcanvas"></a><code class="type"></code>canvas </pre>
+<div class="info">
+The canvas to draw on.<br>
+</div>
+
+<pre><span class="keyword">val</span> <a name="VALinit"></a>init : <code class="type"><a href="AbstractDrawer.Drawer.html#TYPEvimage">vimage</a> -> <a href="AbstractDrawer.Drawer.html#TYPEcanvas">canvas</a></code></pre><div class="info">
+Initialize the canvas given the virtual image.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALes_fold_undirected"></a>es_fold_undirected : <code class="type"><a href="AbstractDrawer.Drawer.html#TYPEedge">edge</a> -><br>       <a href="AbstractDrawer.Drawer.html#TYPEcanvas">canvas</a> -> <a href="AbstractDrawer.Drawer.html#TYPEcanvas">canvas</a></code></pre><div class="info">
+Draw an undirected edge given the edge and the canvas.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALes_fold_directed"></a>es_fold_directed : <code class="type"><a href="AbstractDrawer.Drawer.html#TYPEedge">edge</a> -><br>       <a href="AbstractDrawer.Drawer.html#TYPEcanvas">canvas</a> -> <a href="AbstractDrawer.Drawer.html#TYPEcanvas">canvas</a></code></pre><div class="info">
+Draw a directed edge given the edge and the canvas.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALvs_fold"></a>vs_fold : <code class="type"><a href="AbstractDrawer.Drawer.html#TYPEvertex">vertex</a> -><br>       <a href="AbstractDrawer.Drawer.html#TYPEcanvas">canvas</a> -> <a href="AbstractDrawer.Drawer.html#TYPEcanvas">canvas</a></code></pre><div class="info">
+Draw a vertex given the vertex and the canvas.<br>
+</div>
+</body></html>

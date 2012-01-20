@@ -1,0 +1,43 @@
++-----------------------+
+|Draw                   |
+|-----                  |
+|paint_image            |
+|paint_edges            |
+|paint_nodes            |
++-----------------------+
+
++-----------------------------------------------+
+|Algorithms        	        	        |
+|-----------       	        	        |
+|(* sig needed to do the algorithms *)	        |
+|module type G = sig .. end     	        |
+|                               	        |
+|(* makes Graph module with algorithm in it *)  |
+|module Make: functor (G) -> ...	        |
++-----------------------------------------------+
+
++-----------------------------------------------+
+|Sig         	 		                |
+|----            		                |
+|module type DrawableGraph = sig .. end         |
+|--------------------------------------         |
+|type color | type point                        |
+|type node  | type edge                         |
+|--------------------------------------         |
+|type virtual_image                             |
++-----------------------------------------------+
+
++------------------------------+
+|Cairotools 		       |
+|-----------		       |
+|(* drawing stuff *)	       |
+|                              |
++------------------------------+
+
++------------------------------------------+
+|Graphtools           	        	   |
+|-----------          	        	   |
+|(* parsing stuff *)  	        	   |
+|module Make: functor (G) -> DrawableGraph |
+|                     	        	   |
++------------------------------------------+

@@ -1,0 +1,52 @@
+**************************************************************************
+*                                                                        *
+*  Ocamlgv: a native graph visualization library for OCaml               *
+*  Copyright (C) 2008  Alex Leighton                                     *
+*                                                                        *
+*  Ocamlgv is free software: you can redistribute it and/or modify       *
+*  it under the terms of the GNU General Public License as published by  *
+*  the Free Software Foundation, either version 3 of the License, or     *
+*  (at your option) any later version.                                   *
+*                                                                        *
+*  This program is distributed in the hope that it will be useful,       *
+*  but WITHOUT ANY WARRANTY; without even the implied warranty of        *
+*  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         *
+*  GNU General Public License for more details.                          *
+*                                                                        *
+**************************************************************************
+
+Ocamlgv is a graph visualization library for OCaml.
+
+The author of this library can be contacted by sending an email to
+
+        aleighto[a->t]willamette.edu
+
+
+As of last writing, ocamlgv is at version 0.0.1. Here's the roadmap:
+
+  [X]  1. Complete basic make/distribution system.
+         [X]  a. Complete Makefile
+         [X]  b. Complete related INSTALL/README/LICENSE files.
+
+  [X]  2. Complete windowing/image convenience module.
+         [X]  a. Decide on internal data representation of a drawing.
+         [X]  b. Create display function with type:
+                     val display : image -> ()
+                 that correctly displayes the internal image on a window.
+
+  [ ]  3. Complete Ocamlgraph input/output convenience module.
+         [X]  a. Function for correctly reading in *.dot files.
+         [ ]  b. Function for correctly writing to *.dot files.
+         [X]  c. Miscellaneous convenience graph functions.
+
+  [X]  4. Complete [1 or 2 or 3] graph drawing algorithms that link up 
+          from graph to display window.
+
+  [X]  5. Complete proper build system for ocamlgv.
+         [X]  a. Build the whole project with one command.
+         [X]  b. Build all documentation with one command.
+
+  [ ]  6. Complete proper build system to install ocamlgv as a library.
+         [ ]  a. Create proper build to pack all modules into 1 *.cma or
+                 *.cmxa file.
+         [ ]  b. Create proper build to install files using findlib.

@@ -1,0 +1,33 @@
+digraph {
+  coulomb="10000.0";
+  damping="0.15";
+  dt="0.4";
+  max_iterations="94";
+  spring="10.0";
+  spring_length="50.0";
+
+      a [root];
+      a [label="*"];
+      b [label="+"];
+      c [label="2"];
+      d [label="3"];
+      e [label="5"];
+
+      f [label="*"];
+      g [label="-"];
+      h [label="5"];
+      i [label="6"];
+      j [label="/"];
+      k [label="2"];
+
+      a -> b;
+      a -> f;
+      b -> c;
+      b -> d;
+      f -> j;
+      f -> g;
+      g -> h;
+      g -> i;
+      j -> e;
+      j -> k;
+}

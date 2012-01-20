@@ -1,0 +1,75 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<link rel="Start" href="index.html">
+<link rel="next" href="WindowDraw.DrawGraph.html">
+<link rel="Up" href="WindowDraw.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="AbstractDrawer" rel="Chapter" href="AbstractDrawer.html">
+<link title="Algorithms" rel="Chapter" href="Algorithms.html">
+<link title="CairoDraw" rel="Chapter" href="CairoDraw.html">
+<link title="Cairotools" rel="Chapter" href="Cairotools.html">
+<link title="Commandline" rel="Chapter" href="Commandline.html">
+<link title="Graphtools" rel="Chapter" href="Graphtools.html">
+<link title="Main" rel="Chapter" href="Main.html">
+<link title="Pack" rel="Chapter" href="Pack.html">
+<link title="PsDraw" rel="Chapter" href="PsDraw.html">
+<link title="Pstools" rel="Chapter" href="Pstools.html">
+<link title="Sig" rel="Chapter" href="Sig.html">
+<link title="Utilities" rel="Chapter" href="Utilities.html">
+<link title="Vector" rel="Chapter" href="Vector.html">
+<link title="WindowDraw" rel="Chapter" href="WindowDraw.html">
+<link title="Windowtools" rel="Chapter" href="Windowtools.html"><title>ocamlgv: Native Graph Visualization : WindowDraw.WindowInteraction</title>
+</head>
+<body>
+<div class="navbar">&nbsp;<a href="WindowDraw.html">Up</a>
+&nbsp;<a href="WindowDraw.DrawGraph.html">Next</a>
+</div>
+<center><h1>Functor <a href="type_WindowDraw.WindowInteraction.html">WindowDraw.WindowInteraction</a></h1></center>
+<br>
+<pre><span class="keyword">module</span> WindowInteraction <code class="code">(</code><code class="code">G</code><code class="code"> : </code><code class="type"><a href="Sig.ImperativeVirtualImageGraph.html">Sig.ImperativeVirtualImageGraph</a></code><code class="code">) </code>: <code class="code">sig</code> <a href="WindowDraw.WindowInteraction.html">..</a> <code class="code">end</code></pre>Functor used to create an interactive graph visualization.<br>
+<table border="0" cellpadding="3" width="100%">
+<tr>
+<td align="left" valign="top" width="1%%"><b>Parameters: </b></td>
+<td>
+<table class="paramstable">
+<tr>
+<td align="center" valign="top" width="15%">
+<code>G</code></td>
+<td align="center" valign="top">:</td>
+<td><code class="type"><a href="Sig.ImperativeVirtualImageGraph.html">Sig.ImperativeVirtualImageGraph</a></code>
+</table>
+</td>
+</tr>
+</table>
+<hr width="100%">
+<pre><span class="keyword">module</span> <a href="WindowDraw.WindowInteraction.WindowDrawer.html">WindowDrawer</a> <code class="code">(</code><code class="code">G</code><code class="code"> : </code><code class="type"><a href="Sig.VirtualImageGraph.html">Sig.VirtualImageGraph</a></code><code class="code">) </code>: <code class="code">sig</code> <a href="WindowDraw.WindowInteraction.WindowDrawer.html">..</a> <code class="code">end</code></pre><div class="info">
+Window drawer.
+</div>
+<pre><span class="keyword">module</span> <a href="WindowDraw.WindowInteraction.DrawGraph.html">DrawGraph</a>: <code class="type"><a href="AbstractDrawer.Make.html">AbstractDrawer.Make</a></code><code class="code">(</code><code class="type">G</code><code class="code">)</code><code class="code">(</code><code class="type"><a href="WindowDraw.WindowInteraction.WindowDrawer.html">WindowDrawer</a></code><code class="code">(</code><code class="type">G</code><code class="code">)</code><code class="code">)</code></pre><pre><span class="keyword">include</span> struct ... end</pre>
+<pre><span class="keyword">exception</span> <a name="EXCEPTIONFound"></a>Found <span class="keyword">of</span> <code class="type">G.V.t</code></pre>
+<pre><span class="keyword">val</span> <a name="VALdist"></a><a href="code_VALWindowDraw.WindowInteraction.dist.html">dist</a> : <code class="type">float * float -> float * float -> float</code></pre><pre><span class="keyword">val</span> <a name="VALget_one_vertex"></a><a href="code_VALWindowDraw.WindowInteraction.get_one_vertex.html">get_one_vertex</a> : <code class="type">G.t -> G.V.t option</code></pre><pre><span class="keyword">val</span> <a name="VALget_closest"></a><a href="code_VALWindowDraw.WindowInteraction.get_closest.html">get_closest</a> : <code class="type">G.t -> float -> float -> G.vertex option</code></pre><pre><span class="keyword">val</span> <a name="VALis_in"></a><a href="code_VALWindowDraw.WindowInteraction.is_in.html">is_in</a> : <code class="type">G.V.t -> float -> float -> bool</code></pre><div class="info">
+Returns true if the point x,y is in the bounding box of v.<br>
+</div>
+<div class="param_info"><code class="code">v</code> : The vertex to check if the point is within.</div>
+<div class="param_info"><code class="code">x</code> : The x coordinate.</div>
+<div class="param_info"><code class="code">y</code> : The y coordinate.</div>
+<br><code><span class="keyword">type</span> <a name="TYPEstate"></a><code class="type"></code>state = {</code><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>selected&nbsp;: <code class="type">G.V.t option</code>;</code></td>
+
+</tr></table>
+}
+
+
+<pre><span class="keyword">val</span> <a name="VALnew_state"></a><a href="code_VALWindowDraw.WindowInteraction.new_state.html">new_state</a> : <code class="type"><a href="WindowDraw.WindowInteraction.html#TYPEstate">state</a></code></pre><pre><span class="keyword">val</span> <a name="VALget_selected"></a><a href="code_VALWindowDraw.WindowInteraction.get_selected.html">get_selected</a> : <code class="type"><a href="WindowDraw.WindowInteraction.html#TYPEstate">state</a> -> G.V.t option</code></pre><pre><span class="keyword">val</span> <a name="VALset_selected"></a><a href="code_VALWindowDraw.WindowInteraction.set_selected.html">set_selected</a> : <code class="type">'a -> G.V.t option -> <a href="WindowDraw.WindowInteraction.html#TYPEstate">state</a></code></pre><pre><span class="keyword">val</span> <a name="VALwas_key_pressed"></a><a href="code_VALWindowDraw.WindowInteraction.was_key_pressed.html">was_key_pressed</a> : <code class="type">Graphics.status -> bool</code></pre><pre><span class="keyword">val</span> <a name="VALwas_mouse_pressed"></a><a href="code_VALWindowDraw.WindowInteraction.was_mouse_pressed.html">was_mouse_pressed</a> : <code class="type">Graphics.status -> bool</code></pre><pre><span class="keyword">val</span> <a name="VALhandle_key_press"></a><a href="code_VALWindowDraw.WindowInteraction.handle_key_press.html">handle_key_press</a> : <code class="type">unit -> 'a</code></pre><pre><span class="keyword">val</span> <a name="VALchange_last"></a><a href="code_VALWindowDraw.WindowInteraction.change_last.html">change_last</a> : <code class="type">'a -> 'a list -> 'a list</code></pre><pre><span class="keyword">val</span> <a name="VALreplace_vertex"></a><a href="code_VALWindowDraw.WindowInteraction.replace_vertex.html">replace_vertex</a> : <code class="type">G.t -> G.vertex -> G.E.vertex -> unit</code></pre><pre><span class="keyword">val</span> <a name="VALhandle_mouse_pressed"></a><a href="code_VALWindowDraw.WindowInteraction.handle_mouse_pressed.html">handle_mouse_pressed</a> : <code class="type">G.t -><br>       Graphics.status -><br>       <a href="WindowDraw.WindowInteraction.html#TYPEstate">state</a> -> <a href="WindowDraw.WindowInteraction.html#TYPEstate">state</a></code></pre><pre><span class="keyword">val</span> <a name="VALhandle_events"></a><a href="code_VALWindowDraw.WindowInteraction.handle_events.html">handle_events</a> : <code class="type">G.t -><br>       Graphics.status -><br>       <a href="WindowDraw.WindowInteraction.html#TYPEstate">state</a> -> <a href="WindowDraw.WindowInteraction.html#TYPEstate">state</a></code></pre><pre><span class="keyword">val</span> <a name="VALevents"></a><a href="code_VALWindowDraw.WindowInteraction.events.html">events</a> : <code class="type">Graphics.event list</code></pre><pre><span class="keyword">val</span> <a name="VALinteractive"></a><a href="code_VALWindowDraw.WindowInteraction.interactive.html">interactive</a> : <code class="type">int * int * DrawGraph.graph -><br>       DrawGraph.graph</code></pre><pre><span class="keyword">exception</span> <a name="EXCEPTIONClose"></a>Close</pre>
+<pre><span class="keyword">val</span> <a name="VALdefault_handler"></a><a href="code_VALWindowDraw.WindowInteraction.default_handler.html">default_handler</a> : <code class="type">Graphics.status -> unit</code></pre><pre><span class="keyword">val</span> <a name="VALdefault_events"></a><a href="code_VALWindowDraw.WindowInteraction.default_events.html">default_events</a> : <code class="type">Graphics.event list</code></pre><pre><span class="keyword">val</span> <a name="VALdisplay"></a><a href="code_VALWindowDraw.WindowInteraction.display.html">display</a> : <code class="type">?handler:(Graphics.status -> unit) -><br>       ?events:Graphics.event list -><br>       int * int * DrawGraph.graph -> unit</code></pre></body></html>

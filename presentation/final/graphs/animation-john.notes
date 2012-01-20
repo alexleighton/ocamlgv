@@ -1,0 +1,3 @@
+defaults except
+iter: 100
+seed: 3

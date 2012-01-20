@@ -1,0 +1,1572 @@
+{\rtf1\ansi\ansicpg1252\deff0
+{\fonttbl
+{\f0\fnil\fcharset0\fprq0\fttruetype Times New Roman;}
+{\f1\fnil\fcharset0\fprq0\fttruetype DejaVu Sans Mono;}
+{\f2\fnil\fcharset0\fprq0\fttruetype Nimbus Sans L;}
+{\f3\fnil\fcharset0\fprq0\fttruetype Dingbats;}
+{\f4\fnil\fcharset0\fprq0\fttruetype Symbol;}
+{\f5\fnil\fcharset0\fprq0\fttruetype Courier New;}}
+{\colortbl
+\red0\green0\blue0;
+\red255\green255\blue255;}
+{\stylesheet
+{\s1\fi-429\li720\sbasedon29\snext29Contents 1;}
+{\s2\fi-429\li1440\sbasedon29\snext29Contents 2;}
+{\s3\fi-429\li2160\sbasedon29\snext29Contents 3;}
+{\s8\fi-429\li720\sbasedon29Lower Roman List;}
+{\s5\tx431\sbasedon25\snext29Numbered Heading 1;}
+{\s6\tx431\sbasedon26\snext29Numbered Heading 2;}
+{\s7\fi-429\li720Square List;}
+{\*\cs11\sbasedon29Endnote Text;}
+{\s4\fi-429\li2880\sbasedon29\snext29Contents 4;}
+{\s9\fi-429\li720Diamond List;}
+{\s10\fi-429\li720Numbered List;}
+{\*\cs12\fs20\superEndnote Reference;}
+{\s13\fi-429\li720Triangle List;}
+{\s14\tx431\sbasedon27\snext29Numbered Heading 3;}
+{\s15\fi-429\li720Dashed List;}
+{\s16\fi-429\li720\sbasedon10Upper Roman List;}
+{\s17\sb440\sa60\f2\fs24\b\sbasedon29\snext29Heading 4;}
+{\s18\fi-429\li720Heart List;}
+{\s35\fi-429\li720Box List;}
+{\*\cs20\fs20Reference;}
+{\s21\fi-429\li720\sbasedon10Upper Case List;}
+{\s22\fi-429\li720Bullet List;}
+{\s23\fi-429\li720Hand List;}
+{\*\cs24\fs20\sbasedon29Footnote Text;}
+{\s25\sb440\sa60\f2\fs34\b\sbasedon29\snext29Heading 1;}
+{\s26\sb440\sa60\f2\fs28\b\sbasedon29\snext29Heading 2;}
+{\s19\qc\sb240\sa118\f2\fs32\b\sbasedon29\snext29Contents Header;}
+{\s28\fi-429\li720Tick List;}
+{\s27\sb440\sa60\f2\fs24\b\sbasedon29\snext29Heading 3;}
+{\s30\fi-429\li720\sbasedon10Lower Case List;}
+{\s31\li1440\ri1440\sa118\sbasedon29Block Text;}
+{\s37\f5\sbasedon29Plain Text;}
+{\s33\tx1584\sbasedon5\snext29Section Heading;}
+{\s34\fi-429\li720Implies List;}
+{\s29\f0\fs24Normal;}
+{\s36\fi-429\li720Star List;}
+{\*\cs32\fs20\superFootnote Reference;}
+{\s38\tx1584\sbasedon5\snext29Chapter Heading;}}
+{\*\listtable
+{\list\listtemplateid1296\listsimple{\listlevel\levelnfc0\levelstartat1\levelspace0\levelfollow0\fi-429\li1440{\leveltext\'02\'00.;}{\levelnumbers\'01;}}\listid1000}
+{\list\listtemplateid1297\listsimple{\listlevel\levelnfc0\levelstartat1\levelspace0\levelfollow0\fi-429\li1440{\leveltext\'02\'00.;}{\levelnumbers\'01;}}\listid1026}
+{\list\listtemplateid1298\listsimple{\listlevel\levelnfc0\levelstartat1\levelspace0\levelfollow0\fi-429\li1440{\leveltext\'02\'00.;}{\levelnumbers\'01;}}\listid1031}}
+{\*\listoverridetable
+{\listoverride\listoverridecount0\listid1000\levelnfc0\levelstartat1\levelspace0\levelfollow0\fi-429\li1440{\leveltext\'02\'00.;}{\levelnumbers\'01;}\ls1}
+{\listoverride\listoverridecount0\listid1026\levelnfc0\levelstartat1\levelspace0\levelfollow0\fi-429\li1440{\leveltext\'02\'00.;}{\levelnumbers\'01;}\ls2}
+{\listoverride\listoverridecount0\listid1031\levelnfc0\levelstartat1\levelspace0\levelfollow0\fi-429\li1440{\leveltext\'02\'00.;}{\levelnumbers\'01;}\ls3}}
+
+\kerning0\cf0\ftnbj\fet2\ftnstart1\ftnnar\aftnnar\ftnstart1\aftnstart1\aenddoc\revprop3{\info\uc1}\deftab720\viewkind1\paperw12240\paperh15840\margl1440\margr1440\widowctrl
+{\footer\pard\plain
+\pard\plain\ltrpar\qc\sl240\slmult1\itap0{\field{\*\fldinst {\f0\fs24\lang1033{\*\listtag0} PAGE }}{\fldrslt {\noproof  ?}}}}
+\sectd\sbknone\colsx360\margbsxn1640\pgncont\ltrsect
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs32\lang1033{\*\listtag0}\abinodiroverride\ltrch Ocamlgv:}{\s29\f0\fs32\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs32\lang1033{\*\listtag0}\abinodiroverride\ltrch A Graph Visualization Library in OCaml}{\s29\f0\fs32\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs32\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Alex Leighton <aleighto@willamette.edu>}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\abinodiroverride\ltrch Abstract}{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Graph visualization is a relatively new research area of computer science into the many different ways of drawing the graph data structure. Ocamlgv is a graph visualization library written in the OCaml programming language with two levels of functionality. The core provides a solid framework for laying out graphs using one of 3 different algorithms, and an abstract means of drawing them. Back-ends in the OCaml graphics module, the Cairo vector graphics library, and postscript, and a command-line front-end make up the outer layer. This paper describes the structure of the library and the implementations of the 3 algorithms used.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\abinodiroverride\ltrch 1 Introduction}{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Visualizations are a useful tool for communicating abstract and concrete ideas in an easy to understand way. When done properly, they can even highlight properties of the thing being visualized that were not readily noticeable, adding to our knowledge of the underlying object of study. Because humans are such visual learners, making a good visualization can even give a student a way of thinking about the thing that greatly accelerates the learning process.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Graphs are an abstract concept used in both mathematics and computer science. Representing the abstract concept of objects and relationships between objects, they are very complex structures which are a current research area in computer science and mathematics. Graphs are used in many problems including path-finding and finding a shortest path, maximal flow in a moving system, representation of control flow in a programming language, and representations of family trees.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch In the computer, a graph is represented as nothing more than a list of vertices and a list of vertex pairs that represent the edges between vertices. This does not lend itself to easy understanding of the structure of the graph, because while computers can handle lists of things, humans are ill-equipped to seeing the underlying structure. Likewise, even the process of taking a graph and drawing it is tedious for humans. Thus, part of my motivation for doing this project was to have an understanding of the algorithms devised to get a computer to do the work of drawing a graph.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch The other part of my motivation lies in the language used. OCaml is a multi-paradigm, though mostly functional, programming language with an interesting though underused ability to abstract it's module structure away from the implementation known as functors. Currently there is no graph drawing library written in OCaml (just C bindings to the graphviz library), so I decided to write one in OCaml, using the Ocamlgraph graph library that uses functors. }{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch This paper describes the structure of the ocamlgv library and the implementations of the algorithms used. Section 2 discusses the structure of the Ocamlgraph library used in ocamlgv and the effects its use of functors had on the structure of ocamlgv. Section 3 details the structural decisions of ocamlgv and what a typical use of ocamlgv might look like. Section 4 introduces the implementations of the three algorithms along with a discussion on why those algorithms were chosen. Section 5 provides several examples of the ease of use of the abstract drawing capabilities to create drawing back-ends that work with the library. Section 6 details the toolchain assembled to bring this project to fruition. Section 7 looks at possible directions this library could go in the future.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\abinodiroverride\ltrch 2 Ocamlgraph and Functors}{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\abinodiroverride\ltrch 2.1 Functors}{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch OCaml has a unique feature that makes enforcing the DRY (Don't Repeat Yourself) principle and the principle of encapsulation easy. As an analog to the values and functions of OCaml, the language provides structures (unnamed collections of functions and values), modules (named structures), and functors which can be named or unnamed (like functions). Functors take named or unnamed structures as arguments and produce structures. However, functors are evaluated at compile-time rather than run-time to produce structures containing values and functions that are used at run-time.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Functors require the programmer to give a signature (analogous to the type signature of functions and values) of the structures that the functor takes as arguments. Signatures are a listing of the type signatures that must be in the given structure for it to conform to the signature. In this way though, the DRY principle and the encapsulation principle are made easy. When writing code that does not depend on an implementation, one can write a functor that takes the implementation in the form of a structure and produces the algorithms that work on any implementation.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch One example of the use of a functor is that of a stack machine. The actual implementation of the stack doesn't matter so long as it provides the functions that the algorithm to be designed needs in a stack. An example stack signature might look like this:}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\li1440\s29\sl240\slmult1\itap0{\s29\f1\fs20\lang1033{\*\listtag0}\abinodiroverride\ltrch module type STACK = sig}{\s29\f1\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\li1440\s29\sl240\slmult1\itap0{\s29\f1\fs20\lang1033{\*\listtag0}\abinodiroverride\ltrch   type 'a stack}{\s29\f1\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\li1440\s29\sl240\slmult1\itap0{\s29\f1\fs20\lang1033{\*\listtag0}\abinodiroverride\ltrch   exception Empty}{\s29\f1\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\li1440\s29\sl240\slmult1\itap0{\s29\f1\fs20\lang1033{\*\listtag0}\abinodiroverride\ltrch   val create : unit -> 'a stack}{\s29\f1\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\li1440\s29\sl240\slmult1\itap0{\s29\f1\fs20\lang1033{\*\listtag0}\abinodiroverride\ltrch   val push : 'a -> 'a stack -> unit}{\s29\f1\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\li1440\s29\sl240\slmult1\itap0{\s29\f1\fs20\lang1033{\*\listtag0}\abinodiroverride\ltrch   val pop : 'a stack -> 'a}{\s29\f1\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\li1440\s29\sl240\slmult1\itap0{\s29\f1\fs20\lang1033{\*\listtag0}\abinodiroverride\ltrch   val is_empty : 'a stack -> bool}{\s29\f1\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\li1440\s29\sl240\slmult1\itap0{\s29\f1\fs20\lang1033{\*\listtag0}\abinodiroverride\ltrch end}{\s29\f1\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s29\sl240\slmult1\itap0{\s29\f1\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch This signature is a contract that allows the algorithm writer to not worry about the structures given to the functor, because they must have the stated values and functions or the program will not compile. While it is a contract, it also hides the implementation details of the given structure so that one functor will work for any implementation of the structure. This is the essence of the DRY principle, that one should not need to repeat lines of code that differ in minuscule ways dependent on implementations, when those minuscule differences can be abstracted away.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch The utility of functors becomes evident when thinking about making algorithms for graphs. How does one represent the graph? There are many ways of representing graphs, some of which have better computational complexity than others. The writer of an algorithm that uses graphs would really like to not be forced to think about the implementation of the underlying graph, in fact it would be best if the implementation didn't matter so that many different graphs would work with one algorithm.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\abinodiroverride\ltrch 2.2 Ocamlgraph}{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Ocamlgraph provides a library of "functorial" graphs. The library has a number of algorithms in functor form that can take any of the graph implementations provided by the library. All of the implementations created by the library adhere to a central graph signature found in the Sig module. However, Ocamlgraph is even more deeply "functorial" than having algorithm functors. The implementations themselves are functors. To get a certain implementation, the programmer provides two structures, the first a vertex structure containing the type of a vertex and some useful functions like comparison and hashing functions, and the second an edge structure containing the type of an edge and useful functions on edge types. }{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch When making an imperative directed graph with concrete vertices and labeled edges, the programmer needs only to create a V structure for vertices and an E structure for edges and type }{\s29\f1\fs20\lang1033{\*\listtag0}module Digraph = Imperative.Digraph.ConcreteLabeled(V)(E)}{\s29\f0\fs24\lang1033{\*\listtag0} and Digraph is now a structure containing an imperative implementation of a directed graph that adheres to the generic graph signature of the library.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch An interesting consequence of writing the implementations of the graphs in this abstract way is that if one wants their algorithm to work for graphs from the Ocamlgraph library, they have to either pick one implementation and thereby force the user of their algorithm to use that implementation, or they must write their algorithm in functor form and have their algorithm be viable for all of the graph implementations. The former choice is unpleasant because it forces the algorithm writer to expose the implementation of the graph in their library, rather than allowing the user of the algorithm library to use a graph from Ocamlgraph.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\abinodiroverride\ltrch 3 The Core Layer}{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch The structural design decisions of the Ocamlgraph library informed the structure of ocamlgv in a deep way. Both the layout algorithms and the drawing of graphs are "functorial" in nature.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Algorithms in ocamlgv are functors that take two structures, the graph structure and a labeling structure and produce a structure with a single layout function. The graph structure can be of any implementation, so long as it upholds the contract of }{\s29\f1\fs20\lang1033{\*\listtag0}Sig.G}{\s29\f0\fs24\lang1033{\*\listtag0} [Appendix C], which is a copy of the one in Ocamlgraph (so as to expose the signature in the API documentation). The labeling signature states that the given structure must contain two functions, each of which take a vertex or edge of the given graph structure and return a string. This labeling structure serves the purpose of providing functions that take whatever type of vertex or edge the user of the library wants to use and returning strings, which are easily drawn.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch The layout function provided by each algorithm takes the graph to operate on, as well as a number of other pertinent arguments, and produces a triple containing the width, height, and a graph with point and string labeled vertices and edges. This triple is referred to as a virtual image produced by the layout algorithm. Conceptually, the layout process is a mapping of vertex and edge in the source graph to the corresponding vertex or edge in the virtual image, embedding the vertices and edges in a two-dimensional plane.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Ocamlgv separates the process of embedding a graph in a two-dimensional plane with the process of "physically" drawing the graph. This orthogonalization of the two concerns is key to allowing the user to use the library in ways unintended by the creator. Functors are responsible for the ease of use of the ocamlgv library.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\abinodiroverride\ltrch 3.1 Abstract Drawer}{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Ocamlgv provides a functor called }{\s29\f1\fs20\lang1033{\*\listtag0}AbstractDrawer.Make}{\s29\f0\fs24\lang1033{\*\listtag0} that takes the structure of the graph to draw and a structure indicating how to draw the given graph type. The drawing structure should contain an initialization function that takes a virtual image and produces a specified canvas type, and functions for drawing a vertex or an edge on a given canvas. AbstractDrawer then produces a structure containing a draw_image function that takes a virtual image and produces a canvas. In this way, ocamlgv has provided a way to layout a given graph and a way to draw the layout.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch One might question why a full graph is needed to represent a virtual image, and indeed ocamlgv initially began with the algorithms outputting a more limited type that used lists of points and "forgot" the relationship between edges and vertices. This turned out to impede the implementations of the algorithms, as a lot of intermediate work was getting done on an internally created graph and then translated to the weaker virtual image type as a final step. Furthermore it was reasoned that handing the user of the library a laid-out graph would be more beneficial as it would allow further processing given that all of the information from the input graph would still be intact.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch So the library was refactored to both output a virtual image graph from each algorithm and to implement a better way of drawing the virtual image graph. In this way the AbstractDrawer was born of a need to make the library better. Functors played a part in the decision as well. Since it had already been decided that the Algorithms module would work on any graph implementation created by Ocamlgraph, the AbstractDrawer had to be made into a functor that would take the structure of the virtual image graph and since it was already a functor why not generalize it to work on any drawing back-end.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch It was at this point that the use of OCaml really began to pay off. OCaml is strongly statically typed and this means that a lot of minor errors where something is not defined or something is being given the wrong type are caught by the type checker at compile-time. This greatly helped out the refactoring process by pointing to every instance where a function was trying to use an old function that no longer existed or a module was attempting to be created with a structure that no longer had the name it used to have. Were ocamlgv written in a dynamic language, there could have potentially been code paths that laid dormant until some time in the future when old working code was tested and found to be faulty due to a renaming bug. The whole refactoring process was made much easier and lasted only half a day due to the use of OCaml's strict type system.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\abinodiroverride\ltrch 3.2 Structure}{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch The core layer consists of the following modules: AbstractDrawer, Algorithms, Graphtools, Pack, Sig, and Vector. Algorithms contains the layout algorithms and AbstractDrawer contains the ability to draw a virtual image as has been detailed previously. Graphtools contains the implementation of the virtual image graph produced by the Algorithms layout functions as well as some utility functors for working with the virtual image graph type. Vector contains a two-dimensional vector type which serves to represent the locations of vertices and edges in the virtual image graph. Sig contains the graph signature that is the input to the Algorithms functors, as well as the signature of the virtual image graph. Lastly, Pack contains a graph implementation that uses string labeled vertices and edges that also contains some functions for reading a graph from a dot file and has already had the three algorithm functors applied to it.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Working with the core layer consists of constructing a structure that takes the input graph's vertex and edge types and converting them to strings, feeding this structure and the graph's structure to an algorithm functor, handing the resulting virtual image graph to a drawing module fed through the AbstractDrawer, to produce a drawer. The generality of ocamlgv is two-ended in that there are two locations in the library where an arbitrary though limited structure can be used, namely the input graphs to the Algorithms functors and the drawing back-ends to the AbstractDrawer [Figure 3.1].}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch It is this structure that gives hope for the future of the library. Because the components of the library are working with each other through module signatures (interfaces), changing the details of a single module will not affect backwards compatibility of the whole library. This structure will allow the library to grow in the future, should its development continue, by making it easy to work on either adding more algorithms or adding more back-ends without worrying about breaking anything.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\*\shppict{\pict\pngblip\picw882\pich349\picwgoal17640\picscalex75\pichgoal6979\picscaley73
+\bliptag10076{\*\blipuid 0000000000000000000000000000275c}
+89504e470d0a1a0a0000000d49484452000003720000015d0802000000c9d0c8
+7c0000200049444154789ceddd7b5414e7c13ff059d87271617758282cc86511
+5f51a2c949493915821192aaf1129380b934d6047c6bb58d79638c629bfe3c56
+4df29ad0d38be5d49818dff3428ce9128b1a7dbd451289e6242001c58a891891
+80c14b50b388c0b2f3fb639ae964672fb3bb33b373f97efe82d99d67eecf7ee7
+79e6a2a3288a00000005d2e974a8c301403e5025010028834ea7e3f335d4ea00
+102a8895000072e729505214e5e52331e70800c00dc44a0000f962a7469ed575
+00a300000802b11200408e824c87089700203dc44a0000d96142619055b450e5
+0000f01116ea19000080ef11300b3225f0bcdd0700201888950000322278fb22
+9225004806b11200402e44eab346b204006920560200c882a8d7412259028004
+102b01006444bc7b6b70d70e00880db1120020f4e84644b1931f5d3e1a2c0140
+248895000000002000c44a00801093a6a99286064b00100f6225000000000800
+b112002094a46caaa4a1c1120044825809000000000240ac0400000000012056
+020000008000102b010000004000ea8995b8fc1c0000002084f4a19e8100b90d
+91dc8178591900c899f4b7810300884779ad953a9dce6da6745b2f7bfa320080
+1ce0593f00a0264a6aad64d7bc6e432477203d0ada0300000000c4a68c58e933
+507ac26e0940b804000000108f023ac1994c49515460a1903d223a9b00000000
+c420f758c9ce944116856409000000201e59c74a0133a54b39489600000000c2
+926fac143c53ba94866409007220fdcde0b8d01c004422d3582952a6742913c9
+120000004028328d9534f14ea6719a0e00f2216583259a2a01403c728c95d2d4
+7a780a310000008080e4182b0100b4469a135d34550280a864172ba5acf5d060
+090072235e8d84ba0e00c426bb580900a04da2de4d28ea7d9000003479c54ae9
+3b68d0600900f22152b244a6040069c82b560200689ce0c91299120024835809
+00202f02264b74c5008094102b010064879d2c038b86dc11113101406cfa50cf
+000000b8c1bef2dbafebced9f1112f1503002921560200c817375cfa3522fb5f
+bafd12575802807864d4098ee7f40200b8455114ffbad1fb97d16c0900e291d7
+996b489225e22c006804ee0a070051c9a8b512000044854b2d01405488950000
+1a82764a00100f62250080b6e0ed62002012c44a0000cd41b204003120560200
+681792250008485eb152fa1368dc060e00da84db77004070f28a950000201924
+4b001096ec62a5940d9668aa04008d4305080002925dac04000029e1f61d0010
+8a1c63a534751c9a2a0100d8902c012048728c950cf1ea38a6649d4e879a1400
+340e1759028020641a2b45ade3b86fc545b804008d43b20480e0e9e4dc0bcccd
+7f2295c9ae46e5bc4200004485ab83002018326dada4097ef6ec29a77a8a9800
+009a82db77002018b28e9584a0c9d27bdb274551e81307d0389224bffaea2b97
+81168ba5bdbd3d24f32320fe4b8164090001937bac2484b802923da2f7ce1d97
+7019c0b40040b67272726ebffd767fc77af9e5972d160b411009090967cf9e15
+61befe65ecd8b13a9d2e2c2ccc6c36171717db6c36010b6796823fd48100e02f
+05c44a2288a6449740c9f38221345b02a8cff1e3c7fbfafababbbb4f9c38c1fd
+d4e170781ab1acac8c24492f257b19d7afef1004b173e7cea1a1a1f6f6f6a79e
+7a6af1e2c59595958195c3e57329d870760d00815146aca471c3a54fdc11039e
+96800b0200d2aba9a979e8a187e6ce9d5b5353c30c244972c3860db9b9b9b367
+cfa687ecd8b1232b2b2b2e2eee85175ea087d0ddc78b162deaebeb9b3a75aad5
+6a3d7cf83077dce5cb97a7a4a4180c86bcbcbcd6d6566ef92fbdf4d2934f3ec9
+4c7afaf4e96fbef9a6cb4c868585e9f5fac4c4c4050b16bcf6da6b6bd7aebd75
+eb169f69bdfefaeb3ffbd9cf0882181919898d8d5dbd7a354110172e5c888b8b
+733a9d04ab139c24c9cacacafcfc7cabd5ba62c50a7aba1f7df4d1b871e3e2e3
+e3cbcaca66cc98b17dfb76244b000804a54c522e9dd2d71500381c8ea4a4a443
+870eedd9b367f4e8d1232323f47093c9545e5ecefef781071ee8efefefeeeece
+cacab2d96c14452525259d3e7d9aa2a8f8f8f82fbef88229d3655c9bcd76fdfa
+7587c3b166cd9a3beeb883fb9df3e7cf9b4ca68181018aa2befefa6b83c170ed
+da35f64c666565eddebd9bf9f7d6ad5be1e1e19f7cf2099f699d3e7d3a353595
+a2a8c6c6c6cccccca953a75214555353337bf66c7a1466294c26d3e2c58b9d4e
+a7dd6e4f4949696c6c1c1818484a4aaaaeaea64bd6ebf56fbffd363d16aa3e00
+f08b925a2bd9782e9e50d3a2ff40b32580421d3c78d0e170dc73cf3df7dd775f
+7f7f7f7d7d3df3d1d2a54bc3c2fe5d135654548c1a352a2525e5e9a79ff67975
+237bdcd2d252a3d1181e1ebe6ad5aab6b636bbddeef29d8c8c8cdb6fbf7df7ee
+dd0441bcf3ce3b3366cc30994c5e0a8f8c8c8c8989e9ebebe333adf1e3c70f0e
+0e7ef9e597478e1c292f2fefe8e8181a1a6a6868282c2ce496bc64c9129d4e67
+3018264f9e7ce2c489a3478f9a4ca6f9f3e7d3254f983081f92685db7700c01f
+4a8d9512638754844b00c5a9aeae7ef0c107f57a7d4444c49c3973aaabab998f
+121212d8df1c3d7a34fd476a6a6a6f6faff762d9e36edcb871d2a449696969d9
+d9d94ea7b3bfbf9ffb9df9f3e76fdbb68d20886ddbb63df1c413de0b1f1c1cb4
+dbed7171713ca775f7dd77373434343434dc73cf3db9b9b94d4d4d9e62a5d96c
+a6ff888a8a1a1a1aba7cf9724a4a0a770db0a1d203003ef4a19e0125a1288afd
+d647a15a4301405476bbbdaeae2e3c3cfcbdf7de2308e2e6cd9b0441fced6f7f
+8b8e8ee67eb9bbbb3b232383fe23292989fd919768d5d2d2b26eddba8f3ffe38
+2b2b6b6464243a3ada6dfd306fdebc152b563437377ffef9e73367cef43edb7b
+f6ec31180cdc5bd73d4dabb0b0f0c30f3f6c6a6acacbcb2b2c2cacabab3b7ffe
+7c6e6eaef7a91004919898d8d3d3c3fcdbddddcdfe94a9f750e901804f68adf4
+0f9a2d011467c78e1d24499e3973a6a5a5a5a5a5e5cc99333131317575756ebf
+fceaabaf0e0c0c5cbc78b1aaaaaab4b494fd91d96ceeecec743b96dd6e371a8d
+741eddb265cbf0f0b0dbafc5c5c5dd7befbd3ffff9cf4b4a4a222323b95f703a
+9d0e87e3f2e5cb3535358b162d5ab3664d545414cf69151616da6cb63163c644
+46464e993265d3a64d797979111111de560d411004919f9f7ffdfaf5b7de7a8b
+2088dadadad3a74fbb7c81c2ed3b00c00f6265205cc26568670600bcaba9a929
+2f2f4f4e4eb6582c168b25393979e1c285ecfbc1d98a8a8a6ebbedb609132694
+9494cc9b378ffdd1ca952b1f7bec319224f7efdfef32564141417171714e4e4e
+7171716f6fafc160f03433f3e7cfffe73fffe9a9077ceedcb9111111e3c68d7b
+f3cd375f7bedb565cb9671bfe3695a77de7927455153a64c61fe76db03ce1515
+1565b3d9d6ac59131f1fbf67cf9ea2a222bddeb5230bed9400c0073a35828297
+8903805f8e1f3f3e77eedc0b172eb0ef139295db6ebb6dd3a64d6e2329de180e
+00dec9b45e530af48903805faaaaaa162c5820b74c79f4e8d1ebd7af5314b575
+ebd6cb972fe7e5e579f9322a3a00f004b7ec0800b7f200804f57af5e4d4b4b9b
+3061c2abafbe1aea7971d5d4d454525272f3e64dabd5faeebbefbabdee93c0ed
+3b00e00baa0621a14f1c00548ffd02b3d0ce0900c88dbc3a62940eb7f20080ea
+214d02802768ad14059a2d0140dd70fb0e007085acb552dd8d79b89507005c90
+24f9d5575f095eececd9b3b76fdf2e78b13ee1bd8e00c02551acd471781aa826
+e81307508db163c7d2d5547474f48c1933c408880a85ca0d0018a2c74a4f79d1
+6dd7895ac325fd872a970e403b76eedc393c3cfce5975f8687872f5fbe3cd4b3
+137a386d06001722c64a768aa2383c0d24d418bfd4bd74001a111616a6d7eb2d
+16cba38f3edad1d1410f5cbe7c794a4a8ac160c8cbcb6b6d6da5079e3d7b76fa
+f4e9b1b1b10909096bd7ae7529e7bdf7de1b33668ccb3b12cf9d3b376dda34a3
+d1989e9e5e5d5dcd0c2749b2b2b2323f3fdf6ab5ae58b1821e78ecd8b1ecec6c
+b3d95c5656e670380882a028ea99679e898f8f2749322727a7abab4ba495e002
+c91200d8448995dc40c9734475c72ff67a50d9a20168c7d5ab57df7df7dd8282
+02fadfc99327b7b7b7dfb87163d6ac594f3ef92441100e87e3fefbefcfcfcfbf
+7af56a5757d7ac59b3d8a3db6cb6679e7966fffefd13264c60068e8c8ccc9c39
+b3a8a8a8afafefc08103cf3ffffca953a7984f3b3a3a8e1e3d7aead4a96ddbb6
+3535350d0e0e969494fce637bff9e69b6f8a8b8b0f1d3a4410c4071f7c70f0e0
+c18e8e8e6bd7aed5d5d5c5c6c64ab12e0882c05d3b00c022fc9de0423dd24cc5
+8f46c37de2008a3376ec58a685322b2babbebe3e2d2d8dfd85c1c14183c170ed
+dab5e3c78fcf9f3fffc2850b2e678f2449ae5cb9f2cd37df3c78f060666626fb
+a3868686c71f7fbcabab8b1e65e9d2a5292929bff9cd6fe8b18e1c3972fbedb7
+1304515a5a3a73e64cabd5fa8b5ffc8299999c9c9cd5ab578f1933e6e1871fde
+be7dfb4f7ef213ee1bbd25801bc3018010bcb552c02ca8e2be15dcca03a044bb
+77efa628ead6ad5b8b172f9e3e7d3addfbbc71e3c6499326a5a5a56567673b9d
+cefefefe8b172f5aad56b787f69ffef4a7a79e7a8ace947ffad39fe83e99f9f3
+e7f7f4f45cb972253333d36ab55aadd6dada5abbddce8c65369be93fa2a2a286
+86862e5dba949191c17c4aff9d9797575151f1ab5ffd2a3e3e7ed1a245030303
+62ae098f50a101689c90b152f0f64575672f1577f703a8586464645959d9e9d3
+a7cf9d3bd7d2d2b26eddbabababaaeaeae8e8e0ebd5e4f51547272726767a7db
+7177ecd8f1faebafbff5d65b04413cfbecb3f419664d4d8dc562b15aade7bf73
+f1e2c5175f7cd1d30c2426265ebe7c99f9f7d2a54bf41f4b972e3d71e2447b7b
+7b6b6bebd6ad5b055d68dfd45d5d03004f82c54a91faacd55d55a9fb5a520095
+713a9d0e87a3bfbffff5d75f1f356a94c562b1dbed46a3916e2fdcb265cbf0f0
+304110050505111111ebd7af1f1e1e1e1818686e6e664ab05aad070e1c58b972
+655d5d1dbbe48282028aa22a2b2b8786869c4e67737333d3c7cd959f9f7fe5ca
+95a3478f1204f1c9279fb4b4b4100471f2e4c9e6e6668aa28c46637474b4d3e9
+14692578a1eeea1a00f81026568a7a1da4eaab2adcca03a00873e7cefdc10f7e
+4092e4db6fbf5d5b5b6b341a0b0a0a8a8b8b7372728a8b8b7b7b7b0d06034110
+7abd7eefdebdf5f5f5717171e9e9e97bf7ee6517929d9dbd77efde254b961c3c
+789019a8d7ebf7eddb575f5f9f909060369b972d5b363838e86936a2a2a26c36
+dbe2c58b0b0b0bfffce73f4f99328520886bd7ae2d58b0c06432a5a5a5656464
+2c5cb850b4d5e00daead04d038616ed991e0626d2d5c0f8e5b79004005b4505d
+03805b02c44ac96a108d54552abe051e00344223d53500b808d93bc1c1135c6d
+0900ea801a0c406b826dad94f894545367c0e8130750169d4ef827012b173a5e
+003408b152ee503503c813cfa6382d1fb9a8be00b426a858199290a7e5644968
+6cc101e4c953a0a428cacb4762ce917c69b0c606d032c44ac540b80408b9000e
+431cb99aadb4013408b7ec28061e6f091042ec5be8d82f32f0096f3da06976c1
+013405b15249f0fb04101281054a36978357b0395302cd2e38800621562a8f96
+7f9f00a427e07d279a3d7235bbe0005aa30ff50c4080989b0370dd121b7eb494
+45fefbade0f732b38f5cf92fbe80bcdccf24081cfb92d1d47e0bfe0abc5e0b55
+9a418a72a1e51b02f043a23eb2da87c57b3e8e669fbc2354058e635f56b4b61b
+8317b8135c0d34982cf118177590f376143bf969335906bfd472de6734029b00
+bc40ac540f8d844b8d2ca666c967fb4a50d568b3360b3859ca67df0017d834c0
+40ac541b153781a0e6d28e906f6bc9ea196d5668fe565321df1f800f6c262070
+27b8faa8f50944c13fe10514048f3b5037bf0e611cfb4a81c31608c44a5552df
+e32d55dc040b5e84ea274aca16447a2a2a3848fdc573c171ec2b0e92a5c62156
+aa966a4e1cf1bba265ead887c12d9fc912c7be42e1b0d5b2601f9c26f185412e
+fb28ea1a3e147dbd0b7e5780907637c025e352f2b26571ec2b1db6a03629bbb5
+52f79d50cf88ac29b74f1cb512d0d0f8a1569eb62c8e7d15c061ab4dc1c64a29
+2f0c624ee819ec8f941598a4e7b2ba423827fec2ef0a10d80dd4cb4bf8c04657
+3a6c410d52766ba5a77c19c259923365355b6ab65b103cd1ecdd2daae77298e3
+d857131cb65a2340ac9466a7f15ed1a0f1923fd5dcca0300aa81f001a00e42b6
+568a5723f02c199de3fcc9bcd912cd15e016c287eae1d8571f1cb69a224cac14
+b5f52b806bb7d139ce87b2fac40124804c134258ed002a20586ba548c932c8fb
+01d178e9930c6fe591d54fbbc562696f6f17a3109224bffaeaab204bd620515b
+3ed0ac2213d8042a83234b3b84ec04173c590af58c09748e7b87664b464e4ece
+edb7df2e78b12fbffcb2c5622108222121e1ecd9b302963c76ec581dcbad5bb7
+822c50f0390450049ce6010842e03bc1054c96623cb70c9de35ee0569ee3c78f
+f7f5f57577779f387142a8321d0e07411065656524490a55a60b9bcdf6ed77a2
+a2a2449a0a80642468d90af8045290f32e9742e893c3b0b030b3d95c5c5c6cb3
+d9822c1f2084847fc050f0ed5eec1145ea0945e3a5275a6eb6aca9a979e8a187
+e6ce9d5b5353c3fdf4a38f3e1a376e5c7c7c7c5959d98c1933b66fdf4e0fffec
+b3cff2f2f2626262264c9870e0c0017a2049921b366cc8cdcd9d3d7b36f15d27
+f8a2458bfafafaa64e9d6ab55a0f1f3e4c10c4fefdfbc78e1d1b1313b362c50a
+664224496edab4c96ab59224595555f5e9a79f4e9c38d16030545454b89deda8
+a8a898ef381c0e9d4e67b7dbe98f98f92449b2b2b2323f3fdf6ab5b2a775f6ec
+d9e9d3a7c7c6c6262424ac5dbb963b87de972ea8d50de099a8c952bc13c880ed
+dcb9736868a8bdbdfda9a79e5abc78716565a5b0e5034887124d00539166c6bc
+4f57faa9cb5308d7464826ea70389292920e1d3ab467cf9ed1a3478f8c8cd0c3
+9392924e9f3e3d3030909494545d5d4d5194cd66d3ebf56fbffd364551838383
+a3478ffeeb5fffea743a77edda151b1bdbd3d3435194c9642a2f2f772984a2a8
+f8f8f82fbef8821e6832994a4b4b6fdcb871f6ec5992241b1b1b99e1f3e6cdb3
+dbed9f7cf2497474f4430f3d74e5ca9573e7ce99cde693274fbacc765656d6ee
+ddbb997f8787870982f8f6db6fe97fa74f9f4ecfa7c9645abc78b1d3e9b4dbed
+292929f4b4868787c78e1dbb66cd9ac1c1c19b376f363535b9cc21cfa5939ea8
+7b8876f6791962af07f1ea9f679f7d76c992256565652b56ac60069a4ca63fff
+f9cf63c68c2149f2b7bffd2d45514ea773e9d2a566b3d964324d9830e1c2850b
+bff8c52fc2c2c2468f1e9d9191f1fefbefd363fdf77ffff78f7ef4a3e9d3a753
+14f5dc73cf2527278f1a35eac73ffe714b4b0b5df2175f7c316ddab4989898f8
+f8f8dffffef7dc425c8e629bcd161b1b3b3030c0a7fccd9b373ffef8e3144539
+1c8e989898fff7fffe1f45519d9d9d24498e8c8c747474fcf4a73f8d8d8d4d4b
+4bfbdffffd5ff6c2d2c50abe6ebdc04eae11a26f635925dd00e6368433230721
+590f2159f3fff77fff171f1f3f3c3c3c38384892e4a14387e8e174223c74e8d0
+b871e3982f4f9a34898e6befbfff7e46460633bca8a868f3e6cd1445994ca6cf
+3efb8c19ee29563251f2c1071fdcb2650b77f8f8f1e3b76fdf4eff3d7bf6ec6d
+dbb6b9cc76565696d1688c8f8fa79b51bdc4cad6d6567a604949093dad0f3ef8
+203535d5e974b20b64cf21cfa5931e62a55ab9ac0731ea1f4f27902693e98107
+1ee8efefefeeeececacab2d96c870f1f1e3f7e7c5f5f1f455167ce9ca1ff601f
+2014e714cb66b35dbf7edde170ac59b3e68e3beea0789cbc519c5879ebd6adf0
+f0f04f3ef9844ff9a74f9f4e4d4da528aab1b131333373ead4a91445d5d4d4cc
+9e3ddbe170646767bff4d24b0e87e3f4e9d38989896d6d6d6e675b1ad8c93542
+f4b7ecd09311e3cb62e0ce8006fb82d928c9fbc443751b787575f5830f3ea8d7
+eb232222e6cc99535d5dcdfef4f2e5cb292929ccbfa3478fa6ffb874e9525a5a
+1a333c3d3dfdd2a54bf4df0909093e274adfc7431084c160181a1ae20e8f8c8c
+4c4a4a62fe1e1c1ce416f297bffca5a5a5a5a5a585db71c666369be93fa2a2a2
+e8695dbc78d16ab57ad9ac412e9d425192dfb22aab471f8410773db0eb1fa1a6
+72f0e04187c371cf3df7dc77df7dfdfdfdf5f5f5cc47151515a3468d4a494979
+fae9a76d369bc160f8f6db6fdbdada1c0ec7b871e33c5d1ebd74e9d2b0b07ffd
+929696961a8dc6f0f0f055ab56b5b5b5d9edf6a3478fdeba756bf5ead5111111
+d1d1d17c2e1d898c8c8c8989e9ebebe353fef8f1e3070707bffcf2cb23478e94
+97977774740c0d0d3534341416161e3b76cc6eb7af5ab52a3c3c7cfcf8f18f3c
+f2c8ae5dbbdcce36808024daab78865c6966c627eefc68f9e24bf6aa50eb4ab0
+dbed7575757ffffbdf2d168bc562a9ababdbb163c7c0c000f385c4c4c49e9e1e
+e6dfeeee6e6638fbeed1aeaeaec4c4442f131263edc5c7c7a7a6a6a6a6a69acd
+e6f0f0f0b0b030e632ac1b376e7819313939b9b3b3d3cb1cfabb74008213fc77
+c1cb092473ba989a9adadbdb9b9797575151f1ab5ffd2a3e3e7ed1a245ec0a81
+8d7d8ab571e3c6499326a5a5a56567673b9dcefefe7e9f276f5c83838376bb3d
+2e2e8e4ff90441dc7df7dd0d0d0d0d0d0df7dc734f6e6e6e5353131d2b7b7a7a
+ae5cb992999969b55aad566b6d6d2d73d535a1ea3343082d9cac78837cc97059
+09219c1331ecd8b18324c93367ced0cd7e67ce9c898989a9abab63be909f9f7f
+fdfaf5b7de7a8b2088dadadad3a74fd3c30b0a0a868686366dda4410c49e3d7b
+3efdf453fa1e1d4fcc663337c90948a7d34d9c38916e80696a6a6a6c6cf4f2e5
+828282888888f5ebd70f0f0f0f0c0c343737bbcca1bf4ba71a523658a2a9d227
+013787f71348e674b1bbbb9bee2558ba74e9891327dadbdb5b5b5bb76eddea7d
+365a5a5ad6ad5b575757d7d5d5d5d1d1a1d7eb298af279f2c6b567cf1e83c1c0
+bd51dd6df904411416167ef8e1874d4d4d797979858585757575e7cf9fcfcdcd
+b5582c56abf5fc772e5ebcf8e28b2ffab7be00fc8758c90b3ac70955375bd6d4
+d4949797272727d33f36c9c9c90b172e64df0f1e151565b3d9d6ac59131f1fbf
+67cf9ea2a222bd5e4f10446464e4ae5dbbde78e30d83c1f0dc73cffdfdef7f4f
+4e4ef632a1952b573ef6d8632449eedfbf5fa465f9cb5ffe5251519197975755
+55555050e0e59b7abd7eefdebdf5f5f5717171e9e9e97bf7ee7599437f970e02
+a6d9f355bf04bf7ebc9f40befaeaab030303172f5eacaaaa2a2d2d3d79f26473
+7333455146a3313a3adae974125ecf0ced76bbd168ccc8c8200862cb962df485
+ce3e4fde684ea7d3e1705cbe7cb9a6a666d1a2456bd6ace13e2ccc6df9044114
+1616da6cb63163c64446464e993265d3a64d7979791111110505051445555656
+0e0d0d399dcee6e6e68e8e8e205720806f7c2fc20416ac46f1165c11eb332727
+e7c89123a19e0bed92662791602acc24345e9fd0bc2fbb202be7a73ffde9ef7e
+f73bf690dffdee773367cea4bebb133c3333d36432ad5ab58aa2a823478edc76
+db6db1b1b17171710b162cb879f32645516fbcf146424282c964dab76f1f3d56
+5757175d94d3e9fcc52f7ef11ffff11f4545456bd7ae35180c172f5ea428eacc
+9933c5c5c5068321212161ddba75dc42b2b2b20882d0e9742449161515d5d6d6
+32b3c7a77cfa1e707ab9d8f783531475eedcb9993367c6c6c69a4ca62953a69c
+3a758a5bac64b4bc6f6b8a8e42e74b10b867cfda599fec651770a965db2778f4
+e8d18913271a8dc6fff99fffa9a8a8e8eaea8a8c8c0cf54c6994343b89d84fcf
+e596ef529fc8f0281095cfcd2af6160151c9b66e0761e9433d03cac6fd3dd0ce
+9143b12e78d2c252373535959494dcbc79d36ab5befbeebbc894aa475114b37b
+0bbe6fbb4d48d4f72f221463ba8ac66c1100902d545b42d266e3a5b0cd965a48
+a81024297712315ac8f89429526f809cf1dcaca822140a1b4e2370cb8e90986b
+0b98215ab8129fbdc8aa5f58d01a4f3dd401e39953715879871502204f8895a2
+f0942f43384b6273f915f4fe6575af0a50190193a5bf6d9f08975c82077d0010
+901fb1922449f6b39169168ba5bdbd5dd0599294db851290d61a2ff11308aa14
+fc8ecd1ed1df7e40844b17489600b2f5ef58999393c37dfeaa4f2fbffc32fda2
+b9848484b367cf0a396b1c6fbdf5d65d77dd151d1d1d1b1b7befbdf7eedcb953
+d4c90948539de33c7f0255b9eca06201673b974019f0b56508976cb8440f409e
+fe152b8f1f3fded7d7d7dddd7de2c409ee979877c171959595797a53aacf71fd
+face1ffff8c7e5cb97fff6b7bffdfaebafbbbaba9e7df6d977de79278072424b
+3b9de37cfac455b9e0a06edc6ce7137744616720f83215cae5c6790090837fc5
+ca9a9a9a871e7a68eedcb9ec378b9024b961c386dcdc5ce68d6d3b76ecc8caca
+8a8b8b7be18517e8217427f8a2458bfafafaa64e9d6ab55a0f1f3ecc1d77f9f2
+e52929290683212f2fafb5b5955bfe4b2fbdf4e4934f32939e3e7dfa9b6fbec9
+fc6bb7db57af5ebd75ebd6871f7ed8643291243967ce9c6ddbb6b99d4f4fd35a
+bf7efd942953c68d1bc7cc3c6dfffefd63c78e8d898959b1628550abd5278d34
+5ee2f70f54c9af8c2854a0f454a6960f2e244b00d9a128cae1702425251d3a74
+68cf9e3da3478f1e1919a1eb2c93c9545e5ecefef781071ee8efefefeeeececa
+cab2d96c14452525259d3e7d9aa2a8f8f8f82fbef882698d7319d766b35dbf7e
+dde170ac59b3e68e3beee07ee7fcf9f3269369606080a2a8afbffeda60305cbb
+768d29edf0e1c3a3468d624a73c17f5a14450d0c0ce4e6e6d2334f0f2f2d2dbd
+71e3c6d9b36749926c6c6c743b09b1b9dd2e6ae2b2685e9654958b0fc2c24ec2
+5053bd11d822a863d9b5009b4923c208823878f0a0c3e1b8e79e7beebbefbefe
+fefefafa7ae6405dba746958d8bfafbfaca8a818356a544a4acad34f3f6db3d9
+bc0756f6b8a5a5a546a3313c3c7cd5aa556d6d6d76bbdde53b191919b7df7efb
+eeddbb098278e79d7766cc9861329998a2ae5ebd6a369b99d2b2b3b3e977375f
+be7c99ffb4962c594210445454d4c2850bd9335f5151111b1b9b95953575ea54
+b7d7004880d91ecc1095b540b82c1afb23352d2680c4d45d6ff041e1f61d0039
+092308a2babafac1071fd4ebf511111173e6cca9aeae663e4e4848607f7bf4e8
+d1f41fa9a9a9bdbdbd1a2fe9810000200049444154de8b668fbb71e3c6499326
+a5a5a56567673b9dcefefe7eee77e6cf9f4ff76b6fdbb6ed89279e6017151f1f
+ffcd37df389d4efadf86868663c78ef5f6f68e8c8cf09f56626222f3077be6e9
+5b8e088230180c434343de174a6c6e7f24d4515dba2c1a000845e3e112c91240
+3ef476bbbdaeae2e3c3cfcbdf7de2308e2e6cd9b0441fced6f7f8b8e8ee67ebb
+bbbb3b232383fe23292989fd9197e3b9a5a565ddba751f7ffc715656d6c8c848
+7474b4db78316fdebc152b563437377ffef9e73367ce647ff4e31fff382c2c6c
+fffefdf7df7f3f4110898989a3468df2775a9d9d9de9e9e9f41f2e332f37dc5a
+32e04793c80de5ee5a281d5e5207103497834ba7a5979a5078af23803c84edd8
+b18324c93367ceb4b4b4b4b4b49c3973262626a6aeaeceedb75f7df5d5818181
+8b172f565555959696b23f329bcd9d9d9d6ec7b2dbed46a391cea35bb66c191e
+1e76fbb5b8b8b87befbdf7e73fff79494989cb0b97636262d6ae5d5b5656f68f
+7ffce3faf5eb76bbfd830f3e20dc65592fd37ae595576edebcd9d3d3c39d79d9
+525fe7b8a7f957f44201c807b7c608e1cc48c9ed292b00484c5f5353535e5e9e
+9c9ccc0c5ab870614d4dcde38f3fcefd765151d16db7ddf6cd37df2c59b264de
+bc79ec8f56ae5cf9d8638f0d0f0fbff3ce3bd3a74f677f545050505c5c9c9393
+939a9a5a54546430183ccdcdfcf9f34b4a4aaaaaaab81f2d5bb62c313171fdfa
+f53ffbd9cff47afd5d77dd555b5bcb6d74f432ad69d3a64d9c38d1edcccb9fdb
+760842514d111254f7f845510a05edb70ac5ae3134d56c49a0f70320a4e475f8
+1d3f7e7ceedcb9172e5c60df2724089224dbdada525353852d3654b8f94956db
+918b67e0637ab2025b1cc44aa5087277d55a4e0a12fbb890f34a1364b32af194
+5b2370d86a843ed433f03d5555550b162c103c53aa8fa78b2f657bc4f2bcf249
+905c28db950004a27f2868aae592a96ad06609101272097057af5e1d356a546b
+6bebf2e5cb433d2f4aa2a03bc77d3eec2ad43308a066eca34cb6b58420509900
+8410cee75445719de35cc177822b6e913545c08e4e6ce880c9b35b5cd8cd8a9d
+446eb04534422ead952008f5dd390e0082d342cb256e0c070809c44a755250e7
+3800848416c225e12159aa756101424e985869b158dadbdb05294a0c329f3df1
+786abc44950a003415874b4f6fdf61dfbd0400c20a230862ecd8b1f42b769422
+2121e1ecd9b3fcbff0f2cb2f336f68d426e44b00f042ad57ce784a9600201279
+3d604824656565a19e05b9e05e6f84cba8018050efbb1f5d9e6e867c0920aaef
+75829324b969d326abd54a92645555d5a79f7e3a71e24483c1505151c1fecefa
+f5eba74c99326edcb8175e78c1a5b873e7ce4d9b36cd6834a6a7a7575757f32f
+d9ed882449565656e6e7e75badd6152b56d003172d5ad4d7d73775ea54abd57a
+f8f0e1e5cb97a7a4a4180c86bcbcbcd6d656ee17085627f8679f7d9697971713
+133361c28403070e78990a4551cf3cf34c7c7c3c4992393939c2ac6cd940e325
+8080d474e0a8f29e3fdcbe03201d8aa2b2b2b276efde4d5194c9649a376f9edd
+6effe4934fa2a3a31f7ae8a12b57ae9c3b77ce6c369f3c7992ae6e4c26537979
+394551030303b9b9b9369b8da2a8a4a4a4d3a74f3b1c8eececec975e7ac9e170
+9c3e7d3a3131b1adad8d19cb4bc99e4634994c8b172f763a9d76bb3d2525a5b1
+b1912e2d3e3efe8b2fbea0ffb6d96cd7af5f77381c6bd6acb9e38e3bb85f6066
+6f707070f4e8d17ffdeb5f9d4ee7ae5dbb6263637b7a7a3c4de5f0e1c3e3c78f
+efebeba328eacc99336e9fb3a8266e778c10ce89f4e3823404d94672d845f954
+ad4a27f112893a15b56e2305c13ad708d75b7656ae5c49b7fc6564643cfae8a3
+f1f1f1999999f9f9f9274f9e64beb364c9128220a2a2a2162e5c68b3d998e1c7
+8e1db3dbedab56ad0a0f0f1f3f7efc238f3cb26bd72e3e257b1971c992253a9d
+ce60304c9e3cf9c48913dc7aa1b4b4d46834868787af5ab5aaadadcd6eb77baa
+e53ffae823bd5effeb5fff5aa7d3cd9933e7aebbee62ae28e54ec560307cfbed
+b76d6d6d0e8763dcb8719eca540d7a6f600f51472b0580803c1d1494bbd4a282
+23c8a55a50fae20080045cafad646e6d898c8c4c4a4a62fe1e1c1c64be939898
+c8fcd1dbdbcb0cefe9e9b972e54a666626fdefe0e0607979399f92bd8c68369b
+e93fa2a2a2868686b80bb071e3c6cd9b375fbb762d3c3cdce974f6f7f7c7c4c4
+b85dd44b972ea5a5a531ffa6a7a75fba74c9d354f2f2f22a2a2a7ef5ab5f7576
+763efae8a39b376f765ba6ca509ccbdbf1825d0082c7f3c3b90355f3b2444ac9
+ef7ef41e85f1824700c10572cb4e6767677a7a3afd0713100982b0582c56ab35
+8047f9f83b225353b4b4b4ac5bb7eee38f3fcecaca1a1919898e8ea63c5f4393
+9898f8d5575f31ff7675751514147899cad2a54b972e5d7af1e2c5071f7c90ef
+92a805f225002de017d2283a8d71296e71d0b60a1012813cb7f295575eb979f3
+664f4f4f55555569692933bca0a080a2a8cacacaa1a121a7d3d9dcdcdcd1d1c1
+a7407f47349bcd9d9d9d0441d8ed76a3d19891914110c4962d5b8687875dbee0
+3295a1a1a14d9b361104b167cf9e4f3ffd74f6ecd99e2671f2e4c9e6e6668aa2
+8c46637474349fa55025e66a0966880abaf60078629f4d0596a2d823aae0c071
+591c392f51c09b0c00821148ac9c366ddac489137372721e79e49179f3e631c3
+f57afdbe7dfbeaebeb131212cc66f3b265cbd85de75ef83be2ca952b1f7bec31
+9224ed767b7171714e4e4e7171716f6fafc16070f9c2fefdfb99b122232377ed
+daf5c61b6f180c86e79e7beeef7fff7b7272b2a7495cbb766dc182052693292d
+2d8d8ead1ae7365c06f0a322e7df210036015be8d5942c0905864be44b00c9f8
+7d650949926d6d6da9a9a922cd102802f78784e78ee4b3fb2c98fe3545f4cd69
+9c20db48820d2dc6551faabc9224e08b043c1525cd6665a8695bc81cea678dc0
+3bc1211041768ecbb9790340a4fca7b2364b9a825a2e090f155708e707407d10
+2b2128fe768eabf29715d444d43645b5eeffca0a9704aebc04100d1eaf0042e2
+d3c7e4bdd70c9de0ea26ff4e70c9ba62d5baa306dc2d1efcb10fd240fdcc8736
+f7498afb38748060f8db39aecd030f644bca1d52ad3b3f1e1c01a065813cb712
+c0279707887ae958c41389416ec4de21298a5277d8727bf84b7098a326119bba
+f75b3168679f64f60db4568288785e208faa0a407df0c85b000d123e56a2e200
+2e9f4f8fc36e43234992fd2e282f2c164b006fb4022fa4bcf6cba53d4fc5102e
+013425d858a9e3f03410c0fb9ea0e2fd64ecd8b1efbdf75ea8e7022064f0581f
+008d083c567aca8b6ecff5112e81cf0e809d0440c514f71c2200f05720b1925d
+1d501c9e0612a847348ce776d7ced5cd04412c5fbe3c2525c56030e4e5e5b5b6
+b632c377ecd8919595151717f7c20b2fd043ce9d3b376dda34a3d1989e9e5e5d
+5ded528ea74f4992dcb061436e6eae04cb02c05f603f0af8ed005004ff622537
+50f21c11e152b3bc9f84b83dfdd088c99327b7b7b7dfb87163d6ac594f3ef924
+33fcfdf7df3f79f2e4a953a7de79e79ddadada919191993367161515f5f5f51d
+3870e0f9e79f3f75ea14f365ef9f7efef9e78d8d8d922e15003f01fc28e08703
+40fefc889581054a36977a2480124071349b1a7d2a2d2d351a8de1e1e1ab56ad
+6a6b6bb3dbedf4f08a8a8a51a346a5a4a43cfdf4d3369bedd8b16376bb7dd5aa
+55e1e1e1e3c78f7fe4914776eddac514e2fdd3a54b978685e1690fbc68ed59cd
+32e16fcd801f0e0099e3fbdc4a2fcf1df417f5dd33dbf0c042d0b28d1b376ede
+bcf9dab56be1e1e14ea7b3bfbf3f2626862088d1a347d35f484d4dedededede9
+e9b972e54a6666263d707070b0bcbc9c29c4fba7090909122d8cf2d1f5122aa5
+9060df17ef33df631b01c819af582960a664ca41b2042d6b696959b76eddc71f
+7f9c9595353232121d1dcd1c08dddddd191919f41f494949168bc56ab57a7a96
+90f74f01140a8dc7000ae5bb834cf04ce9521a3a35400b8687876f7d676464c4
+6eb71b8d463a3e6ed9b265787898f9e6abafbe3a303070f1e2c5aaaaaad2d2d2
+8282028aa22a2b2b8786869c4e67737373474707f365ef9f02280e9f6b2ef1ab
+01205b3e62a54899d2a54cd411a07a0f3ffc70f477366edc585050505c5c9c93
+93535c5cdcdbdb6b3018986f161515dd76db6d13264c28292999376f9e5eafdf
+b76f5f7d7d7d424282d96c5eb66cd9e0e020f365ef9f82fce1f9be6e51be9ea0
+8ed505204f3efaa025e889406707b005b33f605f923f41b691481b5ae2fdc767
+30d2da9eec76fd7b5f4b2e6d135a5b63d243fdcc9f6697d7dbb595529e0ee222
+4b00082d29efdae113a1d8ff6ab67a64dfcd0300f2e7fb961db1ab33e6f61d00
+002d73e9f9657fe4f2afa652a6971f08b44700c80ddf070c01006884d86185cf
+89341a32693ed715922580ac788c95525e168027c601801c48d979e25775e725
+65aab82113ef7504501cb4560200b812ef2c57900cc4b3bb5ce91193fffc2359
+02c804622500c0bf89fab206311ed9a6cd864c009027c44a0080ef1129598afa
+186006eefb01801042ac0400702578b2942653bac07d3f002031f7b1526b8ff1
+0400702160b20c49a6e44243260088cd7dac0cd5add97e5d768d8a0f0044c54e
+964440758e6c5b04d19009006250702738322800888dfd9617bfc2a5b292191a
+32014010f28a957e55587ec54a6450000818375cfa35a2b2a02113000226af58
+e917396450d4aa00dae1d7fba9555339a0211300f85370acf48b481954f5ed16
+02c27d60a00e5ade8743d2908917b0012888c75829e55d3b720b1c22bdda0119
+94c02f04808a48f62476d41b004aa195d64a91c8a123dedfd90895e06faa0500
+3913f595924896008ae03b568a7d306be75dae72c8a0f2a997112e01544cc086
+4c515fa70900c2f2162b99835902a82c5c68e46250fc4e006801fffb7ebcc3e9
+2880ccf1ea0417efb75f3b4d95a252cac5a06e4f54f03b01a029c1dff783d351
+90187ea7f8f3112b45ed7d90c90bcd34450e1df15e46c79e00a035cc51efe99c
+d32d244b901273133381df295f7cb7568a942c9129e54fbc0c2a6a2100202b7e
+fd187be92e0fa6589021eef655c4d6c48ee75d189f2f79399b0c0c32a5fa50fc
+f82c449ab90595d1b1847a5ec0bd00b60e9f7a035b5c893ced0c0a3a841534ab
+0441582c96f6f67669a6c52b561282264b644acdf2b4f3f00c9d005cdcca5d59
+d5bd16b83440fabb757c7e1f9b5b65e4b941ddfe42095bdb8c1d3b56a7d38585
+8599cde6e2e2629bcd2654c92fbffcb2c56211aa34eff8c64ae2fbc932b0f5c8
+1e11190288ef0265a8e70254489ebf4c4013f6c7187588b2a8efd814707fdeb9
+73e7d0d0507b7bfb534f3db578f1e2caca4a972f381c8e008a2d2b2b23495288
+19f4cd8f58497c3f04f8b51e5d02256a010d72b9c113bb01044f7dbf4f6a1570
+4b8fcf2e0e5423cac2f398d5c9129f790e72fd848585e9f5fac4c4c4050b16bc
+f6da6b6bd7aebd75eb16411024496ed8b021373777f6ecd904412c5fbe3c2525
+c56030e4e5e5b5b6b61204f1faebafffec673f230862646424363676f5ead504
+415cb870212e2ecee974b23bc14992acacaccccfcfb75aad2b56aca0077ef4d1
+47e3c68d8b8f8f2f2b2b9b3163c6f6eddb035f8400c6e1864b9e1b03550048b0
+0f8856a5800084ddd0d81314c4fb66e2b389112541febcefed7e993367cecd9b
+374f9c3841fffbf9e79f373636eedbb78f2088c99327b7b7b7dfb87163d6ac59
+4f3ef92441108585850d0d0d04417cf6d9673ffce10fe9bf1b1a1aeebefbeeb0
+30d7a4d7d1d171f4e8d153a74e6ddbb6ada9a9e9d6ad5ba5a5a5ab57afbe7af5
+eaac59b3de7ffffd60663b905849f3ebd8464500d80700c0132fbfc48892a038
+8224cbc8c8c8989898bebe3efadfa54b973201b1b4b4d46834868787af5ab5aa
+adadcd6eb78f1f3f7e7070f0cb2fbf3c72e4487979794747c7d0d05043434361
+6121b7e4254b96e8743a83c13079f2e413274e1c3d7ad46432cd9f3f9f2e79c2
+8409c1cc76b0ef04c7a10ef281bd5153281eaf01c32e211fde3796dbad89cd07
+0ac5a776f2697070d06eb7c7c5c5d1ff262424301f6ddcb871f3e6cdd7ae5d0b
+0f0f773a9dfdfdfd31313177df7d774343434343c373cf3d77fcf8f1a6a6a686
+8606ba2dd385d96ca6ff888a8a1a1a1aba7cf9724a4a0af3e9e8d1a38399ed60
+632500803c219428023693a6f0cf5bf2dc31a43c95ddb3678fc160b8fdf6db5d
+86b7b4b4ac5bb7eee38f3fcecaca1a1919898e8ea6275a5858f8e1871f363535
+e5e5e5151616d6d5d59d3f7f3e3737d7e7841213137b7a7a987fbbbbbb8399ed
+c03bc10100424b9e3f3cc0e5f6c7185ddbe0893c770c9f2deec1cfb6d3e97438
+1c972f5faea9a959b468d19a356ba2a2a25cbe63b7db8d466346460641105bb6
+6c191e1ea687171616da6cb63163c64446464e993265d3a64d7979791111113e
+279a9f9f7ffdfaf5b7de7a8b2088dadadad3a74f07b30868ad04001592e7cf12
+d0b075b44c900e625911707f9e3b77ae4ea733994c77de79e76bafbd565252c2
+fd4e4141417171714e4e4e6a6a6a515191c160a087df79e79d14454d993285f9
+dbed85955c515151369badbcbcfc99679e79e081078a8a8af4fac0c3215eab0a
+52d0f17edb15ff6f8266717712ddf71f5f15827902cf786e9d608e7dd41bd210
+6a1bf96cf60b68eec4e5a9c5ddfbf7e5b92cdedd76db6d9b366de2194919ccf2
+a2131ca423e0931700d8f0e819f9c3d6110449925f7df595e0c5ce9e3d3b9847
+15facbd3cea0a09d4441b3cac7d1a347af5fbf4e51d4d6ad5b2f5fbe9c979717
+705188952005978625e44b00ed08f90fb078efc40b6c4e743a5d7474f48c1933
+c408880a4271847a8e7851d0acf2d7d4d4949d9d6d3299fef8c73fbefbeebb91
+91910117255dac448cd038ee71887c0900d210e99d783e718bddb973e7f0f0f0
+975f7e191e1ebe7cf97231260a82637a78d5172869fff55ffff5f5d75fdfb871
+e3c48913fe767fbb102b56ba7dc502fff72e80a6607f0035c19e2c4322bd13ef
+dcb973d3a64d331a8de9e9e9d5d5d5cce45c8ae5ce89c56279f4d1473b3a3ae8
+81dce9120471f6ecd9e9d3a7c7c6c6262424ac5dbbd6a59cf7de7b6fcc9831dc
+9b76ddce92dbf7f51d3b762c3b3bdb6c369795958994aa5543c5815270c2c74a
+4ff9c0ed264198d0149f87257606501c9c422b8e50efc4a3286ae6cc99454545
+7d7d7d070e1c78fef9e74f9d3ac54c855d2cd7d5ab57df7df7dd828202fa5fee
+741d0ec7fdf7df9f9f9f7ff5ead5aeaeae59b366b147b7d96ccf3cf3ccfefdfb
+5d5e88323232e269965cded7373838585252f29bdffce69b6fbe292e2e3e74e8
+90006b168070777143c0022856a43981900b786fc4ce003ec96427f1b91b8b5a
+dfaa4f30abc8fbb8595959bb77ef660f31994cfbf6eda3fff8ecb3cfb8a3dcba
+752b3c3cfcdb6fbfa528ea873ffce1b973e7fef0873fac5bb72e2d2d6d7070f0
+97bffce5860d1b8e1c39327af468a7d3498ff2f4d34fbff4d24b4cf96e8bcdca
+ca627686acacac0b172e789aee071f7c909a9aca14ce9ef3175f7c312b2bebdc
+b973dcf23dcd92c9646a6d6da5079694946cd9b2e5fdf7df1f33660c33e28409
+13de7efb6d772bef7bc4db46eaa3d9e515a6b5927d3ace9e804fec2fe39c5e59
+b8ed31c1b4cdf8b5db008416b7c673a95e3dd5b9a8e5fc22d2eaf2fe4ebc4993
+26a5a5a5656767d3efc42308827927de3df7dc939b9b4bbf13afb0b0b0a7a7e7
+ca952b99999956abd56ab5d6d6d6daed76a62876b16c74c0bd75ebd6e2c58ba7
+4f9f4ef73e73a77bf1e245abd5ea76f1fff4a73f3df5d453999999f4dff45aa2
+5fe8ec65965cded777e9d225fa79da34f6df00c110e071e8ecea35b01228d683
+ac743a3c4a534602aed33d6d446e81d8dca020ec1dd8af5dd7a596f377742d13
+7c7509f54ebca1a121abd5dadede1ec03c444646969595ad58b1e2dcb973376f
+dee44e373939b9b3b3d3edb83b76ec78e289273233339f78e289679f7df6d967
+9f653eb2582c3c67293131f1f2e5cbccbf972e5d0a602900b8826dad0c3e5332
+d827f4411605fc05dce8c8a73d9c3b2d6e21822d0980c802eb93617369b9146c
+ce548abd9283bc4a558c77e21514145014555959393434e4743a9b9b9b995b70
+7cce497f7fffebafbf3e6ad4288bc5e276ba050505111111ebd7af1f1e1e1e18
+18686e6e664ab05aad070e1c58b972655d5d9d4be1fc67293f3fffca952b478f
+1e2508e2934f3e696969e1b92601bc0b2a560a98295dca41852bac807babfd0d
+8efca1d71b9405a7d021c15ddb81e5cbb973e74644448c1b37eecd37df7cedb5
+d7962d5bc6fd0ef34ebce2e2e2dede5e9fefc4d3ebf5fbf6edabafaf4f484830
+9bcdcb962d1b1c1ce433273ff8c10f48927cfbedb76b6b6b8d46a3dbe9eaf5fa
+bd7bf7d6d7d7c7c5c5a5a7a7efddbb975d487676f6debd7b972c5972f0e041f6
+70feb344bfaf6ff1e2c58585857ffef39fe9a503085ee03dce82674a094a5631
+c17bab05c773b3a27f107c927e2711a3524245e7c2d366e573f68b7a431ac1ac
+67ad6d23cd2e6f80d7568a5a21327504aeb37421ffece8937ce604802791aa3b
+54743c312bca1334fa02c84750b7ec885715faac47d44a05c1d113f9cf210017
+4ea12516401da8d9df0b00190a24564ad3b44bd714eaab6d83a9fe54b62a0487
+9f16a550dc9e8c53680109b8bc8adb9100544f80070c01978a1b1d01b403a7d0
+0113b60ec443240094c2ef5829e555a872ae6d111c650b6b58ceb4d632a76282
+d7819e0a44a6045010b4567a83ec08a059388526e45707ca6dfd00800bff62a5
+f437cc8b5ddbcaadd20400905860d5a03475201ec304a02c9a68ad44760400bf
+a8ec145ae975a04c6603007c5249ac547aa509001024555683729e3700e0524c
+acc473790000e4dc610d00a09858e91d2a4d39c3d55100fca9b2d11100344231
+b11235a672b15f25e2323c447304a054386a0040cefc88955a7b6f3a08c8edab
+44f0383a002e1c0500a05c61fcbf4a5776789a310486cf8f25f62e90039c4203
+0004c68f580910249fbfd3f8210739c02934004060102b413ade7fa791290100
+00144d31b7ec8072f169f541a6040000503ac44a108bdb34e9f6de1d644a0070
+810793012811622508ccdfd488df0c00e0f2f46032b7df94648e00c037ff62a5
+a86fad750bb7642a45606d90d8b200e089dbce0d2edc5c05201fb8650782a2fb
+0e3384fa8ecf71912941b6a4bf191ca7d06ea126015016bf3bc1a56cb0443d2b
+5b015f1f89eba500c02fdedb2c519300c80aaead043f0875b70d7e0940fe700a
+2d7f586320731abc42239058294d6d8b7a56263cddd01d7081d8a600c087067f
+9201942ea8d64af192256a9390133c4d0a55028064700a1d2a2ef50f1e4c068a
+a3d9fd33c058c97ef483e0eb0e97df859048691240d1700a2d196ea074fb3554
+4a00f214786ba548c912993224902601dcc229b43478a6493e9f02400805d509
+2e78858b4a56624893003ee1145a547e054a0090b9609f5bc95401c177e5a092
+950cf76193843fcf9b84009024f9d5575f857a2e20400256742ee568f688735b
+0bf1a1d93506a008023c0e9d5de10656e7b2474495211e2f8f2ec76a77f1d65b
+6fdd75d75dd1d1d1b1b1b1f7de7befce9d3bc59ee2c183077ff4a31f45444490
+24595c5c7cf6ec597a78424202f377c0042944e3700a2d94805fa04068758d01
+2888306fd961570a7e854b9740892a430cc1bc08479bfef8c73f2e5fbefcb7bf
+fdedd75f7fddd5d5f5ecb3cfbef3ce3b2edf71381c024ef19b6fbe79f0c1077f
+f9cb5ff6f5f59d3f7ffed7bffeb5f7ef0b3b75290b57349c4207c35345c4bf04
+adad31002512f2e58ddc70e9137744100ad26460ec76fbead5abb76eddfaf0c3
+0f9b4c269224e7cc99b36ddb36fa539224376cd8909b9b3b7bf66c8220962f5f
+9e9292623018f2f2f25a5b5b99efac5fbf7eca9429e3c68d7be185179892f7ef
+df3f76ecd8989898152b56b84c946e4afce52f7f69301848922c2929193b762c
+41108b162deaebeb9b3a75aad56a3d7cf8307bea0e8743a7d3d9ed76ba841933
+666cdfbe9d296dfaf4e9b1b1b10909096bd7ae7529c4d3882e8b76eedcb969d3
+a6198dc6f4f4f4eaea6a51d6b502e1143a008254449a5a6300ca25fc3bc1fdaa
+2fb456bd4a006932488d8d8d4ea773faf4e99ebef0f9e79f373636eedbb78f20
+88c99327b7b7b7dfb87163d6ac594f3ef924f39d2fbffcf2c89123274e9cd8bf
+7f7f6d6d2d3d70dfbe7d9f7df6596b6beb1b6fbcd1d4d4c42e73c28409515151
+fff99fff79f8f0e11b376e30c3376fde1c1717f7c1071f9c3f7fbeb8b8d865ea
+6e391c8efbefbf3f3f3fffead5ab5d5d5db366cde216e273d146464666ce9c59
+5454d4d7d777e0c081e79f7fdec75ad3189c42f31464f32400288ef0b19246f1
+23d2d4350869522857af5e359bcd6161ff3a34b2b3b32d168bc562b97cf9323d
+64e9d2a5cca7a5a5a546a3313c3c7cd5aa556d6d6d4c13e092254b0882888a8a
+5ab870a1cd66a307565454c4c6c66665654d9d3af5c48913ec89c6c6c61e3b76
+6c6464a4acac2c3e3efeb1c71e63874b36f6d4dd3a7af4e8ad5bb756af5e1d11
+11111d1d9d9b9bcb7fd999c28f1d3b66b7db57ad5a151e1e3e7efcf8471e7984
+7f21da8153684fdc8669ed2c3e809689152b4102dcb610023578d0e2e3e3bff9
+e61ba7d349ffdbd0d070ecd8b1dedede9191117a48424202f3e58d1b374e9a34
+292d2d2d3b3bdbe974f6f7f7d3c3131313993f7a7b7be9bf2d160bfd87c16018
+1a1a72996e7676f6d6ad5b3b3b3b4f9d3af5cf7ffef377bffb9ddbd9634fddad
+8b172f5aad56fe9db36e0befe9e9b972e54a6666a6d56ab55aad4c832b70e114
+9a0dcd93001a17d4732b2124dc2606d4dd42f9f18f7f1c1616b67ffffefbefbf
+9f2088c4c4c451a346b9fd664b4bcbba75eb3efef8e3acacac919191e8e86866
+2b747676a6a7a7d37f242525f93503e3c68d7bfcf1c70f1e3c48ffeb29208687
+8787858531b7d730ad9bc9c9c99d9d9d2e5f6617e26944368bc562b55adbdbdb
+fd9a73d02cee5e8a1a09409bd05aa918dc8649425d6d937edd00219e989898b5
+6bd7969595fde31fffb87efdbadd6effe0830f08773f9c76bbdd683466646410
+04b165cb96e1e161e6a3575e79e5e6cd9b3d3d3d555555a5a5a53e27faf9e79f
+5756567676760e0f0f9f3c79f2edb7df663aafcd66333726d2f33371e2c4fafa
+7a82209a9a9a1a1b1be9e1050505111111ebd7af1f1e1e1e1818686e6e7629c4
+d3886c05050514455556560e0d0d399d4eba10002ef49600001b62a5dca9264d
+f2bca7410e962d5bf6873ffc61fdfaf5168b253939b914aa3900000937494441
+54f90f7ff8436d6d2db7d1b1a0a0a0b8b8382727a7b8b8b8b7b7d76030301f4d
+9b366de2c4893939398f3cf2c8bc79f37c4ed16432353636fee4273f898e8efe
+e94f7f7af7dd77fffef7bfa73f5ab972e5638f3d4692e4fefdfb5dc6facb5ffe
+525151919797575555555050400fd4ebf57bf7eeadafaf8f8b8b4b4f4fdfbb77
+2fb710b723b2e9f5fa7dfbf6d5d7d727242498cde665cb96f15d77a00d9e2ebf
+09e12c01801c08ff965b1084ca7aba79a646eabbb7e405b6a4c18c2b209224db
+dada525353433b1bf224c83692c986d626ee29aeb0252bfad8573d6c23f009d7
+56ca8b5a2f5162f2a2f7ef483333001000f1022500a80662a52ca8354db2d14b
+24abce6e00f009691200f84327782869214d7279efdf47278bbaa1135c41240e
+9438f6e50fdb087c52646ba54ea7ec34accd344953d935a300eaa3dc0a0a9d21
+0021a78058e9b6a65062c5a7c47916106a7c0099437f37000449d6b1d2531071
+7bff873c1bd8d138477c7f2570afb0d4dada00905b7f8b6ace78153adb006a22
+d358e933767007d2a3c8245c224dd27c367e68709d80d6c8b9bf45e9cd93e803
+01901bd9c5ca80dbb1d8cd60a10a9748936c6892048d93737f8b7203a597b52a
+f19c000097bc6225535f045c41b8844b692a1aa449173c03a5965711a89b6cfb
+5b149a26d12a09a014328a95c1674a06d318206ab2449ae4e2df42a9f115056a
+25dbfe1675074aa52c0e80eac925560a98299972444a9648936e29f4470b4040
+32ec6f91c9459c01c36b1400944516b152f04cc99486da591afeb6d060d581fa
+c8adbf454d677a2eaf4bf0f42900845ce863a54899922933c8da1969d23bdc97
+0340c8a9bf055516008450e863254dbc8acfed4d973ea16af6098112802693fe
+1635354fba85a64a00f90b71ac94e6991a74edcca76a469ae443f5bf5e00fcc9
+a1bf45f587a4cb492c2eb504902db9b4568616d2247f68a404e00a497f8bead3
+244dd4e00e00c20a65ac94f2f1bfdc064bf4a7f80b8112c045a8fa5b34122809
+5f9952c50b0ea0509a6bad449a0c000225801c68ad5f05ed94008a13b25829fd
+fb15b97d49a8aa7cc21a03f044fafe16f6bf124c34b4bc644a7a6d6861250028
+8ee65a2b096dd4c882d0dacf1880fc69e448443b258042693156824f089400de
+85aabf45f5ad743c03a5ba570280722156c2f720500240c8a1f2015028c44af8
+175c4609007280ca0740b9102b8120d4d54889472503280e2ea6045087d0c44a
+e92f4b024fd41428014089702a08a01aa189951ab9f65ce6e4192883d937e4b3
+1400c013bb9d12bf0b004a874e702dc2659400c1407f8b20d0f10da03e61a19e
+01909a4b23252a74007fd1470dba6e83814c09a04a68add41079f67a0380d620
+5302a81562a526205002804c205302a81862a5cae1324a00900f644a00750bd9
+b595d25f9ca4c1abec157a19252e5c032f347820ab037d9737fdb7a7cd87635f
+ad70d86a075a2bd509bdde00201f68a404d088103f214cb23318ed9c2aa92650
+6a6793017fb2da2b249e19592dbb5ffccd94ca5d52700b1b5453d05aa91eb88c
+1200e406ed94009a12faf71948701ea3855325d53452b26961c3017f32dc1fd0
+dfe25dc09952a1cb0b5cd8945a2397c7a18b778db6eaaffe76b9105e7d47afea
+b720f081dd4071826fa7c446573a6c410d0a7d6b2521662f89bafb5f54d942e9
+42dd5b107892f36e80fe162e41aa26396f74e0035b509b64d15ac9ec73c29ed9
+a8789f66b750126a5c408648fb062888220e64f4b73084ea3cc1b1af688a386c
+410cb268ada409bb17aa789fd648a06453f1d604ef14b1e9d1dfc2107c8615b7
+0680c056d33619c54a42b87d51adfbb406032543addb14bc50d04617635615b4
+f83491665871eb41e3b0bd344e5eb192083a39a93578a975b9fc8295a01d4adc
+d61aef6f11758695b83f6810361310328c95b400f64eb5eed0781aa50bb56e68
+a0297afb6ab6bf459a1956f4bea16ed834c09069aca40570a5b69c1727003856
+3dc155fceaa6dcbd5d6bfd2dd2cf308e7dd952c41e0b629375aca4f1ac44e4bf
+207e51dcaf4b48e007467dd4b1b76ba4bf2584adaa38f66545297b2c484001b1
+526b94f8eb02005ceaee6f515c4f3d004800b1524670192580faa8b2bf059912
+00dc42acf446a7936efda091120014019912003c41acfcb750352a2050028052
+2053028017889504e139505214e5e52361a78b0d010072864009003e693d5686
+ea864d5c4609000a824c09007c68375686f0f17268a404000541a604009e341a
+2b43f5320c044a005016644a00e04f8bb13224afee45a00400c541a60400bf68
+2e568a514b7a2f13975102801221530280bfb4152bc5ab253d958c464a00501c
+044a00088c8662a5d815a54bf9089400203141dee0804c090001d35cac147579
+b90fb9d4ceea05008989f10607644a0008865662a50499923d219a46d62d0048
+4ca437382053024090f4a19e017542a50c0062f079e2ca1d488fe2f3d41a9912
+0082a789d64ac99a2a43323900d002f1dee0803e1600100a5a2b0100e42ef8a6
+44f6ad84ec3b7bd0480900020a0bf50c884efab643ee9de00000011330f9b9a4
+49644a001096fa6325008072099efcd04e0900e241ac0400902991921fbb3464
+4a001010622500801c89da9ac86db30400081e622500807c89d79a88764a0010
+1c62250080ec4873af21ee2f040061a93c56e2119200000000d25079acc4b938
+00288e94e7c3a8240140402a8f9500000000200dc44a000019c11b1c0040b910
+2b0100000040008895000000002000c44a000000001080fa63a5f4970de1a946
+000000a041ea8f950000000020014dc44a291b2cd154090001430502008aa689
+580900a00878d60f00289a5662a53495355a1a00000040b3b4122b19e2254b34
+300000008096692856328d8862e43fa64c3455020000803669285612a2254b64
+4a000000006dc54a428464894c09000000406830561282264b644a001016dee0
+0000caa5c558497c3f5906567db34744750c000000a0d3782462674a9eab2280
+510000fc22590b229a2a014040fa50cf4088b1fb9bfc6ab6442d0c000000c0a6
+f5d64a369eb1126b0c002420413b229a2a0140585a6fad6443dd0a0072a3d389
+75f28f37380080e0347acb0e0080cce10d0e00a03888950000328537380080b2
+20560200c817dee000000a82580900206b788303002805ee0407005080209f98
+8b07ee028004102b010014036f7000003943ac04005098007ac351d503800410
+2b010014096f700000b941ac040000000001fc7f421581737dda397500000000
+49454e44ae426082}}{\s29\f0\fs20\lang1033{\*\listtag0}\abinodiroverride\ltrch Figure 3.1}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\abinodiroverride\ltrch 4 Algorithms}{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\abinodiroverride\ltrch 4.1 Tree Layout}{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\*\shppict{\pict\pngblip\picw375\pich250\picwgoal7499\picscalex73\pichgoal4999\picscaley72
+\bliptag10077{\*\blipuid 0000000000000000000000000000275d}
+89504e470d0a1a0a0000000d4948445200000177000000fa08060000005a9907
+4c00000fdd49444154789ceddd7f6855f51fc7f1d72d8b6e4a820bff48d17f42
+6190c158e2c8d8644151fe08e99a368de61f45d01ffeb8e815937529d8b5e908
+aa3fea8f12a47088e5fc85a8b96b2c1a2165200a5292b640663202c53fb29def
+1f5faecde9f4fe38e77cce799fe7032eb8c47bdec7d35ee7e57bf76e29cff33c
+01004cb9cff5000000ff11ee006010e10e000611ee006010e10e000611ee0060
+10e10e000611ee006010e10e000611ee006010e10e000611ee006010e10e0006
+11ee006010e10e000611ee006010e10e000611ee006010e10e000611ee006010
+e10e000611ee006010e10e000611ee006010e10e000611ee006010e10e000611
+ee006010e10e000611ee006010e10e000611ee006010e10e000611ee006010e1
+0e00064d703d0050aead5bb7ba1e411b376e743d02509694e7799eeb218072a4
+5229d723884f17c4056b19003088b50c6229ccf54814d64140a558cb203646af
+65c2fcdfd6d571815ab096010083087700308870070083087700308870070083
+0877981585373d01ae10ee30a7bdbd5d83838392a4c1c141b5b7b73b9e08081f
+af73476c94fb7af3c1c14165b359f5f4f4e895575ed1f6eddb356ddab4c08f0b
+4409cd1da6b19a415211ee3067cb962ddab66d9b24a9abab4b9b376f763c1110
+3ed632888d4ad723a954ca97350a6b19c411cd1d6611c44832c21d000c22dc01
+c020c21d000c22dc01c020c21d000c22dc01c020c21d000ce207642396f8a1d5
+c0ddf10e55c44614be4f0c9f2e880bd63288850b172eb81e415274e600ee85e6
+8ec8ebebeb535b5b9beaebebd5d8d8e86c8e93274feacc9933faf2cb2fb560c1
+02677300e560e78e48fbf0c30ff5c1071f4426504b379a0d1b3668cd9a35aec7
+01c6457347245dbf7e5d6fbcf186ce9c39a3afbffe5a3367ce743dd24d172e5c
+d0d2a54b555f5fafcf3efb4ce974daf548c06dd8b923722e5cb8a0f9f3e74b92
+fafbfb2315ec923473e64cf5f7f74b92e6cf9fcf1e1e9144b82352fafafad4d4
+d4a455ab5669e7ce9d916dc5e9745a3b77eed4aa55abd4d4d4a4bebe3ed72301
+b7602d83c888da7ebd5cece11145843b9c8bf27ebd5cece11135ac65e054d4f7
+ebe5620f8fa821dce14c5cf6ebe5620f8f28612d0327e2ba5f2f177b78b846b8
+235416f6ebe5620f0f9758cb203456f6ebe5620f0f97087784c2da7ebd5cece1
+e10a6b1904cefa7ebd5cece11126c21d8149d27ebd5cece11116d6320844d2f6
+ebe5620f8fb010eef05d52f7ebe5620f8f30b09681afd8af57863d3c8242b8c3
+17ecd7abc71e1e41602d839ab15faf0d7b78048170474dd8affb833d3cfcc65a
+065563bf1e0cf6f0f003e18e8ab15f0f5e690fef799e7efef967d7e3489272b9
+9c3a3b3b5d8f81324d703d002a333030a013274e383bfef0f0b0bef9e61bcd9d
+3b57fdfdfdac610252dac33ffdf4d3ae47414c11ee31532c16b569d326a733b4
+b6b66ae7ce9d4e674882743aad65cb9645a6b9235ef8822a2af6d4534fb91e21
+9172b99c3ccf0bf5c11a26be68ee31366fde3c35373787722cd7eb20009521dc
+63aca5a525b4665528140877204658cb008041843b001844b8038041843b0018
+44b8038041847b02a45229d723000819e16e587b7bbb06070725498383836a6f
+6f773c11c2c0cd1c12af7337edbdf7de53369b952465b3596ddfbeddf14400c2
+42734f08da1c902c84bb615bb66cd1b66ddb24495d5d5ddabc79b3e389109454
+2a75f371a78f913cac650cfbe28b2f6efe7afaf4e9dab16387bb6110a8d13f96
+21954a891fd3009a7b02f0890e240fe10e000611ee8031fc4b0d12e10e002611
+ee006010e10e000611ee006010e10e0006f126a6181b1818d0d6ad5b4339163f
+3f158817c23dc68ac5a28ac5a2eb31004410e10ec444a15050a150703d066282
+708f9979f3e669e3c68dba78f1a2f6eeddab975e7a493366cc08f498638fd5dc
+dc1ce8f100d48e708f9996961649522693d1a143876e7e1cb462b1a84c26a3dd
+bb7787764c0035f0102b7d7d7ddea38f3eeaf5f5f525ead8185f6f6fafd7d0d0
+e08d8c8c54fc67474646bc868606afb7b73780c9e012e11e235108d728cc80ff
+f811ceb5dc1c105dbcce3d26a2b216696969d1eeddbb95c96478a54e04ecdfbf
+5f92b468d1a2aa9fa3f4674bcf05235cdf5d706f516ccb519c2969fc5ca9d0de
+eda1b9475c541afb583478f7fc68ed25b477835cdf5d30be38b4e338cc685110
+5f08a5bddb42738fa8a836f6b168f06ef8d9da4b68efc6b8bebbe076716cc371
+9c39ae827cf922eddd0e9a7bc4c4a5b18f45830f4f10adbd84f66e88ebbb0bfe
+63a1fd5a3887280be34d47b4771b68ee1111d7c63e160d3e5841b6f612dabb11
+aeef2eb0d9762d9e936b617eab00da7bfcd1dc1db3d2d8c7a2c1fb2f8cd65e42
+7b37c0f5dd25c992d06e93708e6170f10dbe68eff1467377c46a631f8b06ef8f
+305b7b09ed3de65cdf5d9228896d3689e7ec1797df9697f61e5f34f79025a5b1
+8f4583af9e8bd65e427b8f31d7779724a1bdf27750a928fc300dda7b3cd1dc43
+92d4c63e160dbe322e5b7b09ed3d9e529ee779ae8708cbc0c0804e9c3811fa71
+cf9f3faf9e9e1eedddbb37d1c13e1a37bb7bf33c4f8d8d8deae8e8d0e2c58b9d
+ceb26fdf3ee5f3799d3c7952a954cae92c2893e37f3984aab3b3d393e4e4f1ea
+abafba3efdc8b1b0a271f9ff54e991cbe56a3e0fd7e7507ac03fac65423263c6
+0cd723440e2b1a2038135c0fe0cabc79f3d4dcdc1ce8315cad81e26474c0b3a2
+01fc93d8706f696951676767a0c728140a84fb5d140a056ddab4e9e6c70b162c
+08edd8b95ccef7eb1fc4738e67ecdf9d9fbc90bf0cc70e3f18ac6500c020c21d
+000c22dc1109b95c4e9ee705fa086b65024401e10e000611ee006010e17e173f
+fdf49366cd9ae57a0c00a818e17e17070e1cd0c2850b5d8f01030e1d3aa4e6e6
+663df4d043aaababd3f2e5cbf5e79f7fba1eab22870f1f566b6babd2e9b4eaea
+eab472e54a0d0d0db91e0be320dcefe2e0c183843b7cb16ddb36ad59b346972e
+5dd2efbfffae279e7842994cc6f55815e9eeee56369bd5e5cb9775f6ec594d9e
+3c592b56ac703d16c691d83731ddcbd0d090ce9d3ba7679e79c6f52830e0f8f1
+e3b77cbc6edd3abdfffefb8ea6a9ce9123476efe7ad2a449eaeaead29429531c
+4e84bb21dcc771e8d0213dfbecb37ae081075c8f0263ae5dbba68f3efa48adad
+adae47a9c9d1a347d5d4d4e47a0c8c83701f07fbf6e818fdf6f4b0df1aefb7d2
+b94c9d3a55df7fffbde369aa77ead429ad5dbb56870f1f763d0ac6c1cefd0efe
+f9e71f7dfbedb77ae185175c8f02e9963722c59de779fafbefbff5f6db6f6bf5
+ead5aec7a94ab158d492254bb46bd72e5e4d166184fb1d7cf7dd779a3d7bb6a6
+4e9dea7a1418f4c8238f289bcdeac71f7f743d4ac57a7a7ad4d6d6a63d7bf668
+eedcb9aec7c15d10ee7770e0c001bdf8e28baec78021afbdf69ace9e3dab1b37
+6ee8d2a54b7ae79d7762b7afeeeeeed6860d1b74ecd831353636ba1e07f740b8
+df012f8184df162d5aa4e5cb972b9d4eebc9279fd4952b57d4d3d3e37aac8aac
+5fbf5e172f5e547d7dbd52a9d4cdc7d5ab575d8f863be00baa7770eedc39d723
+c0984c2613bbd7b58f65e16b1e49427307008308770030887007008308770030
+882fa822120a85820a8582eb31003368ee006010e10e000625762d333030a0ad
+5bb7067a8c13274e04fafc7197cbe594cbe5c6fd7dcff3d4d8d8a88e8e0e2d5e
+bcb8ace7dcb76f9ff2f9bc4e9e3c79cb371c0b8395d552d87f6f084662c3bd58
+2caa582cba1e0377b17fff7e49ff7f7767b9162d5aa47c3eaffdfbf7977d4300
+2c622d8348f23c4ff97c5e1d1d1d1535c9542aa58e8e0ee5f379de5189444b79
+09fa0c28168be37effe95f7ffd55fdfdfd7afdf5d7ab7aee1d3b7668fefcf97a
+fcf1c7eff8fb2d2d2d7afef9e7ab7aee24aa65bd52cd3a0730c783373232e235
+343478bdbdbd553f476f6fafd7d0d0e08d8c8cf8385932713d80dab1965175bb
+ddb14a7fb6f45ca81ed703f081ebbb8b6b7eb4c412da62edb81e803f12dfdcfd
+688925b4c5da713d009fb8bebbb8e4674b2ca12d568feb01f827d1cdddcf9658
+425bac1ed703f091ebbb8b2b41b4c412da62e5b81e80bf12dbdc83688925b4c5
+ca713d009fb9bebbb810644b2ca12d968feb01f82f91cd3dc89658425b2c1fd7
+030880ebbb4bd8c2688925b4c57be37a00c1485c730fa32596d016ef8deb0104
+c4f5dd254c61b6c412dae2f8b81e407012d5dcc36c8925b4c5f1713d8000b9be
+bb84c5454b2ca12dde8eeb01042b31cddd454b2ca12dde8eeb0104ccf5dd250c
+2e5b62096df13f5c0f20788968ee2e5b62096df13f5c0f2004aeef2e418b424b
+2ca12d723d80b04422dc2545e251abcece4ee7e790cbe5380f63e7015423116b
+1900481ac21d000c8a5cb87bff5f1585f6084a2e970bed1c3a3b3b398f849c07
+50aec8853b00a076843b001844b8038041843b001844b8038041843b0018149b
+703f7cf8b05a5b5b954ea7555757a7952b576a6868c8f5585549a552b73de2ea
+975f7ed173cf3da749932669dab469fafcf3cf5d8f54314bd70328894db87777
+772b9bcdeaf2e5cb3a7bf6ac264f9eac152b56b81eab6a61bdde3e48e7ce9dd3
+e2c58bf5e69b6f6a6868483ffcf083fafbfb5d8f55150bd703186d82eb01ca75
+e4c8919bbf9e346992bababa3465ca148713e1dd77df55474787962e5d2a499a
+3163462c9b3b60516c9afb58478f1e55535393eb31aa565757a7071f7c50b367
+cf566767a7fefdf75fd72355ecf8f1e3ba74e9921e7bec314d9c3851cb962dd3
+f0f0b0ebb1aa62e17a00a3c532dc4f9d3aa5b56bd7ead34f3f753d4a553ccfd3
+952b5774fdfa75eddebd5b478f1e55369b753d56c5fefaeb2f9d3f7f5ea74f9f
+d61f7ffca1871f7e586fbdf596ebb12a66e57a00a3c52edc8bc5a2962c59a25d
+bb7669d6ac59aec7a9c9fdf7dfaf3973e6e8abafbed28e1d3b5c8f53b1891327
+de5c8f4d993245dddddd3a78f0a0ebb1aa16f7eb018c16ab70efe9e9515b5b9b
+f6ecd9a3b973e7ba1ec737f7dd779f4646465c8f51b13973e6dcf6df2cbcd224
+aed703182d36e1deddddad0d1b36e8d8b1636a6c6c743d4e4d56ac58a1d3a74f
+ebc68d1bfaedb7dfd4dedeae975f7ed9f558156b6f6f57369bd5f0f0b0868787
+b56edd3a2d5cb8d0f55815b3723d80d16213eeebd7afd7c58b17555f5f7fcbeb
+91af5ebdea7ab48a2d5dba546d6d6d4aa7d36a6e6ed6ecd9b3f5f1c71fbb1eab
+62ab57afd6f4e9d3356bd62c4d9f3e5dd7ae5dd3279f7ce27aac8a59b91ec068
+b17929a4a5d71e673219653219d763f8229fcf2b9fcfbb1ea32696ae0750129b
+e60e00281fe10e000611ee006010e10e000611ee006010e10e000611ee006050
+e45ee76ee1edeb925428145428145c8f5133ce0388279a3b001844b803804129
+cfd2fbfa01009268ee006012e10e000611ee006010e10e000611ee006010e10e
+000611ee006010e10e000611ee006010e10e000611ee006010e10e000611ee00
+6010e10e000611ee006010e10e000611ee006010e10e000611ee006010e10e00
+0611ee006010e10e000611ee006010e10e000611ee006010e10e000611ee0060
+10e10e000611ee006010e10e000611ee006010e10e000611ee006010e10e0006
+fd0fcb8201cc9b89b93f0000000049454e44ae426082}}{\s29\f0\fs20\lang1033{\*\listtag0}\abinodiroverride\ltrch Figure 4.1}{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f1\fs20\lang1033{\*\listtag0}\abinodiroverride\ltrch Algorithms.Tree}{\s29\f0\fs24\lang1033{\*\listtag0} is a functor that produces a function that takes a graph type and a vertex that is the root of the tree along with some spacing information. When using the Pack.Graph dot file parser, the root node can be specified using the following syntax "}{\s29\f1\fs20\lang1033{\*\listtag0}a [root; label="*"];}{\s29\f0\fs24\lang1033{\*\listtag0}" as can be seen in the dot file used to generate Figure 4.1. This information can then be retrieved via a function and given to the layout function.}{\s29\f1\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch The tree layout algorithm takes graphs whose underlying structure is that of a tree. If a graph with cycles is given to the algorithm, it will still run, but the resulting picture will be inaccurate. }{\s29\f1\fs20\lang1033{\*\listtag0}Algorithms.Tree}{\s29\f0\fs24\lang1033{\*\listtag0} uses a breadth-first search of the graph starting with the root node in order to translate the graph into a tree structure. The algorithm then performs recursive layout functions on the tree to finally end with a tree layout that obeys the following aesthetic rules [1]:}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+{\listtext\pard\fi-429\li1440 1.	}\pard\plain{\ltrpar\ql\fi-429\li1440\s29{\*\abilist\abilistid1000\abilistparentid0\abilistlevel1\abistartat1{\abifieldfont NULL}{\abilistdecimal .}{\abilistdelim %L.}{\abiliststyle Numbered List}}{\*\pn\pnql\pnstart1\pnlvlbody\pndec{\pntxtb }{\pntxta .}}\fn-429\li1440\ls1\ilvl0\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Two vertices at the same level should be placed at least a given distance apart.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+}{\listtext\pard\fi-429\li1440 2.	}\pard\plain{\ltrpar\ql\fi-429\li1440\s29{\*\abilist\abilistid1000\abilistparentid0\abilistlevel1\abistartat1{\abifieldfont NULL}{\abilistdecimal .}{\abilistdelim %L.}{\abiliststyle Numbered List}}{\*\pn\pnql\pnstart1\pnlvlbody\pndec{\pntxtb }{\pntxta .}}\fn-429\li1440\ls1\ilvl0\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch A parent should be centered over its offspring.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+}{\listtext\pard\fi-429\li1440 3.	}\pard\plain{\ltrpar\ql\fi-429\li1440\s29{\*\abilist\abilistid1000\abilistparentid0\abilistlevel1\abistartat1{\abifieldfont NULL}{\abilistdecimal .}{\abilistdelim %L.}{\abiliststyle Numbered List}}{\*\pn\pnql\pnstart1\pnlvlbody\pndec{\pntxtb }{\pntxta .}}\fn-429\li1440\ls1\ilvl0\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Tree drawings should be symmetrical with respect to reflection\uc1\u8212\'97a tree and its mirror image should produce drawings that are reflections of each other. In particular, this means that symmetric trees will be rendered symmetrically.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+}{\listtext\pard\fi-429\li1440 4.	}\pard\plain{\ltrpar\ql\fi-429\li1440\s29{\*\abilist\abilistid1000\abilistparentid0\abilistlevel1\abistartat1{\abifieldfont NULL}{\abilistdecimal .}{\abilistdelim %L.}{\abiliststyle Numbered List}}{\*\pn\pnql\pnstart1\pnlvlbody\pndec{\pntxtb }{\pntxta .}}\fn-429\li1440\ls1\ilvl0\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Identical subtrees should be rendered identically\uc1\u8212\'97their position in the larger tree should not affect their appearance.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+}{\listtext\pard\fi-429\li1440 5.	}\pard\plain{\ltrpar\ql\fi-429\li1440\s29{\*\abilist\abilistid1000\abilistparentid0\abilistlevel1\abistartat1{\abifieldfont NULL}{\abilistdecimal .}{\abilistdelim %L.}{\abiliststyle Numbered List}}{\*\pn\pnql\pnstart1\pnlvlbody\pndec{\pntxtb }{\pntxta .}}\fn-429\li1440\ls1\ilvl0\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Trees should be as narrow as possible without violating these rules.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+}\pard\plain\ltrpar\ql\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch The algorithm lays the tree out so that all subtrees are positioned relative to their parent's position. Then, it recursively draws all of the subtrees of a vertex in such a way that none of the rules are broken, fitting all of the subtrees back together so that they don't overlap without changing their shape, and lastly centering the parent over its subtrees. How the algorithm fits subtrees together is by keeping a record of each subtree's extent, which is just a pair of values indicating the leftmost and rightmost points of the subtree at each height in the tree, and then fitting two extents together by recursively looking at the closest they can be fit together at each height.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\abinodiroverride\ltrch 4.2 Layered Layout}{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\*\shppict{\pict\pngblip\picw200\pich300\picwgoal4000\picscalex74\pichgoal6000\picscaley73
+\bliptag10078{\*\blipuid 0000000000000000000000000000275e}
+89504e470d0a1a0a0000000d49484452000000c80000012c080600000086fafc
+be000009f049444154789ceddd4f884d6f1cc7f1cf45324cc494056237d3286c
+6cac66cac2060b1911d1cc468a1a631657c99f52f788460a4bb111cdca4642d3
+28f2674546538a6cd434e836492c86f3dbccf8f9fb357fceb9cff39ce7fdaa53
+e3366edf7b9fde3d77ce3943294dd35400fe6886eb01009f1108602010c04020
+808140000381000602010c0402180804301008602010c0402080814000038100
+0602010c0402180804301008602010c04020808140000381000602010c040218
+0804301008602010c04020808140000381000602010c040218080430100860f0
+22902449542a959c1e870f1f76fd3678c3f55a8c1f3ef02210c057040218bc0b
+a45c2e2b4dd39a1c954ac5f5cbf55eadd662fcf08d7781003e2110c040208081
+40000381000602010c4105e2db55d698ddba754bebd7af575d5d9d1a1a1ab46b
+d72e0d0f0fbb1e2b734105e2ebb9f218f5f4f4a8bbbb5befdebdd3e0e0a0162c
+58a01d3b76b81e2b73b35c0f8030ddbe7dfbfbd7f5f5f53a7dfab4162d5ae470
+a27c04b583c05f77eedcd1ba75eb5c8f91397690318f1e3dd2a953a75c8f11a4
+a74f9feae0c183ba75eb96eb5132472063be7cf9a26ab5ea7a8ce0f4f7f76bcf
+9e3deaeded556363a3eb71324720635a5b5bb97971cc4477d2ebd7afababab4b
+376edcd0dab56b739eca0d02c194f4f4f4e8dcb973ba7bf7ae9a9b9b5d8f939b
+a002f9f1fac7f8d79cf675e3d0a14392a4952b57fef4f8c78f1f555f5fef62a4
+5c04150831f82396b5e0342f602010c04020808140000381000602010c040218
+bcbb0e9224899224713d06c6c4fecb69ec208081400043292dc03d0349926864
+6484bb7133d2dfdfafb6b636f5f6f6aab5b575d27fbf48ebc10e829f4c378ea2
+21107c471cbf231048228ebf21101087814022471c3602891871fc1b81448a38
+26864022441c13472091218ec921908810c7e411482488636a082402c4317504
+5270c4313d045260c4317d045250c4910d022920e2c80e81140c71648b400a84
+38b2472005411cf9209002208efc1048e088235f041230e2c81f81048a386a83
+4002441cb5432081218eda2290801047ed11482088c30d02090071b843209e23
+0eb708c463c4e11e81788a38fc40201e220e7f10886788c32f04e211e2f00f81
+788238fc44201e200e7f118863c4e13702718838fc47208e10471808c401e208
+0781d418718485406a8838c2432035421c6122901a208e701148ce88236c0492
+23e2081f81e484388a814072401cc5412019238e6221900c1147f110484688a3
+98082403c4515c04324dc4516c04320dc4517c043245c41107029902e2880781
+4c1271c48540268138e2432013441c71229009208e7811c83f1047dc08c4401c
+2090bf200e4804f247c4817104f20be2c08f08e407c4815f11c818e2c09f1088
+88037f177d20c40153ea814aa5924a727a94cb65d76f8337588fff45bf830016
+02010cde05522e9795a6694d8e4aa5e2fae57a2ff6f5f02e10c0270402180804
+301008602010c040208021a8404aa5d26f07dcb979f3a65a5a5a3467ce1c3534
+3468fbf6ed7afbf6adebb132155420927e3b770e77ce9c39a3cece4e0d0d0de9
+cd9b375ab56a95dadada5c8f95a959ae0740b8fafafa7efa735757974e9e3ce9
+689a7c04b78334343468f6ecd96a6a6a52a552d1d7af5f5d8f04499f3e7dd2b9
+73e7b47efd7ad7a3642aa81d64fc23d5d7af5ff5e2c50b7576766a78785867cf
+9e753c59dcc67f165cbc78b11e3c78e0789a6c05b78348d2cc9933b57af56a5d
+bd7a55972f5f763d4ef4d234d5c8c888f6efdfaf8e8e0ed7e3642ac840c6cd98
+3143dfbe7d733d0624cd9f3f5fdddddd7af2e489eb51321554203b76ecd0c0c0
+80464747f5ead52bb5b7b76bebd6adaec78ad6eeddbb353838a8d1d1510d0d0d
+e9c891235ab76e9debb1321554205bb66cd1ce9d3b555757a7969616353535e9
+fcf9f3aec78ad6a64d9bb47dfb76d5d5d569cd9a35faf0e183ae5fbfee7aac4c
+05f5437a5b5b5be1ceb3872c86f5086a07016a8d40000381000602010c040218
+080430100860f0ee3a4892244a92c4f5181813fb7ab083000602010ca534f2df
+5be5bf3fc85e92241a1919f1f29f129dace87790d6d656f5f6f6aaadad4dfdfd
+fdaec78167a20f442212fc1d818c2112fc0981fc8048f02b02f90591e04704f2
+0744827104f217440289404c440202f90722891b814c0091c48b40268848e244
+20934024f12190492292b810c81410493c08648a88240e04320d44527c04324d
+44526c04920122292e02c908911413816488488a8740324624c54220392092e2
+20909c10493110488e88247c04923322091b81d40091848b406a8448c2442035
+4424e121901a2392b010880344120e02718448c240200e1189ff08c43122f11b
+81788048fc45209e20123f11884788c43f04e21922f10b81788848fc41209e22
+123f1088c788c43d02f11c91b845200120127708241044e206810484486a8f40
+024324b54520012292da21904011496d1048c088247f04123822c91781140091
+e487400a8248f24120054224d923908221926c11480111497608a4a088241b04
+526044327d04527044323d04120122993a028904914c0d81448448268f402243
+249343201122928923904811c9c41048c488e4df082472446223101089814020
+8948fe8640f01d91fc8e40f01322f945ea814aa5924a727a94cb65d76f833758
+8fffb183000602010cde05522e9795a6694d8e4aa5e2fae57a2ff6f5f02e10c0
+270402180804301008602010c040208021b8409e3d7ba60d1b36a8bebe5e4b97
+2ed5a54b975c8f04492d2d2d2a954aaec7c85c5081bc7cf9529b376fd6debd7b
+353c3cac870f1feafefdfbaec78ade952b57343a3aea7a8c5c0415c8f1e3c775
+ecd8316dd9b24573e7ced5f2e5cbd9411cab56ab3a7af46861d721a840fafafa
+343434a4254b9668debc79dab66d9baad5aaebb1a276f8f0611d3870404d4d4d
+ae47c9c52cd7034cc6fbf7eff5faf56b0d0c0c4892bababab46fdf3e5dbb766d
+dacffde8d1239d3a756adacf5304f7eedd9bd0f73d7efc58cf9f3fd7c58b1773
+9ec89da00299376f9e4e9f3ead850b174a927a7a7ab462c58a4c9efbcb972fec
+46633e7ffe3ca1ef3b78f0a02e5dbaa4193382fa2032294105b27af5eadf1ecb
+eacc496b6bab9737cbb99024c9847691870f1faab9b9f9a7c74aa592d234cd6b
+b49a0b2afdf6f676757777ab5aadaa5aadaaabab4b1b376e743d56b47ebd1b77
+fcb122092a908e8e0e2d5bb64c8d8d8d5ab66c993e7dfaa40b172eb81e0b0516
+d4472c493a71e2844e9c38e17a0cfc41d1760f29b01d04a83502010c04021808
+04301008602010c0402080c1bbeb204992284912d763604cecebc10e02180804
+3094d222de1f0064841d04301008602010c04020808140000381000602010c04
+02180804301008602010c04020808140000381000602010c0402180804301008
+602010c04020808140000381000602010c0402180804301008602010c0402080
+8140000381000602010c040218080430100860f80fae8e6b5f1b1d90c5000000
+0049454e44ae426082}}{\s29\f0\fs20\lang1033{\*\listtag0}\abinodiroverride\ltrch Figure 4.2}{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f1\fs20\lang1033{\*\listtag0}\abinodiroverride\ltrch Algorithms.Layered}{\s29\f0\fs24\lang1033{\*\listtag0} is a functor that produces a function that takes a graph type and the number of vertices per layer, as well as some spacing information, and produces a virtual image graph where all vertices have been placed into layers. The input graph is assumed to be a directed acyclic graph and the algorithm will run forever if the graph is not directed and not acyclic. Also, the algorithm will fail if the given number of vertices per layer is less than 1. This algorithm is adapted from an heuristic for the precedence-constrained multiprocessor scheduling problem, called Coffman-Graham-Layering [2].}{\s29\f1\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Coffman-Graham-Layering has two phases, the first orders the vertices by labeling them with positive integers according to an heuristic, and the second assigns vertices to layers, ensuring that no layer receives more than the given number of vertices per layer. The first phase starts by assigning label 1 to one source vertex picked at random. Then label k is assigned to vertex v such that,}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+{\listtext\pard\qj\fi-429\li1440 1.	}\pard\plain{\ltrpar\qj\fi-429\li1440\s29{\*\abilist\abilistid1026\abilistparentid0\abilistlevel1\abistartat1{\abifieldfont NULL}{\abilistdecimal .}{\abilistdelim %L.}{\abiliststyle Numbered List}}{\*\pn\pnql\pnstart1\pnlvlbody\pndec{\pntxtb }{\pntxta .}}\fn-429\li1440\ls2\ilvl0\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch No label has been assigned to v yet.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+}{\listtext\pard\qj\fi-429\li1440 2.	}\pard\plain{\ltrpar\qj\fi-429\li1440\s29{\*\abilist\abilistid1026\abilistparentid0\abilistlevel1\abistartat1{\abifieldfont NULL}{\abilistdecimal .}{\abilistdelim %L.}{\abiliststyle Numbered List}}{\*\pn\pnql\pnstart1\pnlvlbody\pndec{\pntxtb }{\pntxta .}}\fn-429\li1440\ls2\ilvl0\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Labels have been assigned to all vertices u such that u is an immediate predecessor of v.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+}{\listtext\pard\qj\fi-429\li1440 3.	}\pard\plain{\ltrpar\qj\fi-429\li1440\s29{\*\abilist\abilistid1026\abilistparentid0\abilistlevel1\abistartat1{\abifieldfont NULL}{\abilistdecimal .}{\abilistdelim %L.}{\abiliststyle Numbered List}}{\*\pn\pnql\pnstart1\pnlvlbody\pndec{\pntxtb }{\pntxta .}}\fn-429\li1440\ls2\ilvl0\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Among the vertices satisfying (1) and (2), the set of labels of immediate predecessors of v is minimized according to a lexicographic ordering of the set where the successive significant elements are determined by finding the maximum integer label.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+}\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch This is continued until all vertices have been labeled. Then the second phase starts by placing one sink vertex picked at random in the bottom layer. Then vertex v is assigned to a layer such that,}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+{\listtext\pard\qj\fi-429\li1440 1.	}\pard\plain{\ltrpar\qj\fi-429\li1440\s29{\*\abilist\abilistid1031\abilistparentid0\abilistlevel1\abistartat1{\abifieldfont NULL}{\abilistdecimal .}{\abilistdelim %L.}{\abiliststyle Numbered List}}{\*\pn\pnql\pnstart1\pnlvlbody\pndec{\pntxtb }{\pntxta .}}\fn-429\li1440\ls3\ilvl0\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch v has not been assigned to a layer yet.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+}{\listtext\pard\qj\fi-429\li1440 2.	}\pard\plain{\ltrpar\qj\fi-429\li1440\s29{\*\abilist\abilistid1031\abilistparentid0\abilistlevel1\abistartat1{\abifieldfont NULL}{\abilistdecimal .}{\abilistdelim %L.}{\abiliststyle Numbered List}}{\*\pn\pnql\pnstart1\pnlvlbody\pndec{\pntxtb }{\pntxta .}}\fn-429\li1440\ls3\ilvl0\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch All vertices u such that u is an immediate successor of v have been assigned to layers.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+}{\listtext\pard\qj\fi-429\li1440 3.	}\pard\plain{\ltrpar\qj\fi-429\li1440\s29{\*\abilist\abilistid1031\abilistparentid0\abilistlevel1\abistartat1{\abifieldfont NULL}{\abilistdecimal .}{\abilistdelim %L.}{\abiliststyle Numbered List}}{\*\pn\pnql\pnstart1\pnlvlbody\pndec{\pntxtb }{\pntxta .}}\fn-429\li1440\ls3\ilvl0\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Among the vertices satisfying (1) and (2), choose the vertex with the largest label.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+}\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch This is likewise continued until all vertices have been assigned a layering. The layering algorithm then goes on to process the resulting layering, inserting dummy nodes where edges between vertices cross a layer. These dummy nodes are represented differently in the resulting virtual image graph and are therefore not drawn.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\abinodiroverride\ltrch 4.3 Force-Directed Layout}{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\*\shppict{\pict\pngblip\picw500\pich500\picwgoal9999\picscalex57\pichgoal9999\picscaley51
+\bliptag10079{\*\blipuid 0000000000000000000000000000275f}
+89504e470d0a1a0a0000000d49484452000001f4000001f40806000000cbd6df
+8a0000200049444154789ceddd6b549565fefff10f628868a1944a9987b4340f
+0978c8bd37ae343b88a253e3a12ccb53e64ca36996aec972f267cb56592ed7d4
+9434569a1dd4d4ccca04c531544054cc0d326a9665190e6081e08952dcff0733
+f2f71c28ec6bef6bbf5f6bf14033ef6fb3a6de7eef9b7d5f411e8fc7230000e0
+d76a981e0000005c3e820e008005083a00001620e800005880a003006001820e
+008005083a00001620e800005880a003006001820e008005083a00001620e800
+005880a003006001820e008005083a00001620e800005880a003006001820e00
+8005083a00001620e800005880a003006001820e008005083a00001620e80000
+5880a003006001820e008005083a00001620e800005880a003006001820e0080
+05083a00001620e800005880a003006001820e008005083a00001620e8000058
+80a003006001820e008005083a00001620e800005880a003006001820e008005
+083a00001620e800005880a003006001820e008005083a00001620e800005880
+a003006001820e008005083a00001620e800005880a003006001820e00800508
+3a00001620e800005880a003006001820e008005083a00001620e800005880a0
+03006001820e008005083a00001620e800005880a003006001820e008005083a
+00001620e800005880a003006001820e008005083a00001620e800005880a003
+006001820e008005083a00001620e800005880a003006001820e008005083a00
+001620e800005880a003006001820e0080056a9a1e00f055c5c5c5aa57af9ee9
+31141e1eae83070f9a1e03808f63430700c002041d00000b1074a002c2c3c3e5
+f178bcf6c52d76009545d00100b000410700c002041d00000b107400002c40d0
+0100b00041072e53525292eeb8e30ed5ae5d5b575f7db51e7ae821151414981e
+0b408021e8c0659a356b96264e9ca803070e68e7ce9d0a0f0fd7030f3c607a2c
+000126c8e3f1784c0f01f8a2d35ffd5a99d7af1e3d7a541111112a2d2df5fab5
+01042e3674a08a252727cbe9749a1e034080e17016a00ab9dd6e4d9830414949
+49a647011060d8d0812a929292a27beeb9478b162d52ab56ad4c8f0320c01074
+a00a7cf4d1471a3264883efef863dd7aebada6c7011080b8e50e5ca659b366e9
+d5575fd59a356bd4a64d1bd3e30008507c973b700115fd4ef3a0a0a0f3fefca1
+438754b76edd6abd36009cc2860e5c26fe4c0cc017f00c1df071478e1cd14b2f
+bda4eddbb79b1e05800f23e8808fab55ab96727373d5bf7f7f3569d2448f3efa
+a83efdf4531d3e7cd8f468007c08cfd0810b30f91cfb42d7fee69b6fb462c50a
+252525292323439d3b77567c7cbcfaf4e9a39b6fbed96bf301f03d041db8005f
+0cfae98e1e3daae4e46425252595bfc8a64f9f3e8a8f8f578f1e3d141616e6b5
+79019847d0810bf0f5a09f2d2727478989894a4a4a526666a69c4ea7faf6edab
+b8b838dd78e38dd53d3200c3083a7001fe16f4b3fffe356bd628292949898989
+0a0b0b2b8ffb6db7dda6d0d0d0ea181b8041041db88083070faa7efdfa92fc2f
+e8a7f3783c72bbdde57177bbddead9b3a7e2e2e2141717a7e6cd9b57d1d4004c
+22e8c079e4e6e66af8f0e15ab3668d24ff0efad90a0b0b959c9cacc4c444ad5c
+b9528d1a3552efdebd151717a76eddba292424a4caae05c07b083a70960f3ef8
+404f3df594468f1eade9d3a79b1ea75aff3071f2e4496dddba55494949fafcf3
+cff5edb7df966fefbd7bf756e3c68dabe5ba00aa1e4107fea7a0a0408f3df698
+76efdeadf7de7b4f2d5ab428df924df2e6dd8103070e68f5ead55ab162859293
+93d5b469d3f2b8bb5c2e0507077b650e0095c78b650049cb962d537474b46eba
+e9266566662a2626c6f448463468d04043860cd1c2850b959f9faf37de784335
+6ad4d0f8f1e3d5a851230d1e3c58efbefbae0e1c38607a540067614347402b2a
+2ad2b871e3b469d326cd9f3f5f4ea7b3daae555858a81b6eb8418585857eb9e9
+e6e5e5293131515f7cf185d6ae5dab1b6fbc51717171eadbb7af3a77eeac1a35
+d80f0093f83710016bf5ead5ead0a183ead7af2fb7db5dad3197a48888083569
+d244d9d9d9d57a9dea121919a911234668e9d2a52a2828d0cc9933555a5aaa51
+a346293232520f3df490162e5ca8c2c242d3a30201890d1d01e7c891239a3469
+92121313f5ce3befa867cf9e5ebbf6a851a3141313a33163c678ed9adef0d34f
+3fe98b2fbe506262a2525252d4b66ddbf2b7d64547475ff088596ff8fcf3cfb5
+63c70e63d797a47efdfaa96ddbb6466780fd083a024a6a6aaa860f1faedb6ebb
+4d7ffffbdf75d5555779f5fa73e7ced5975f7ea9f7df7fdfabd7f5a6df7efb4d
+ebd7afd7ca952b959898a883070f96df9abff3ce3b151e1eeed579860c19a205
+0b1678f59a67fbf0c30ff5e0830f1a9d01f6e3963b02426969a9264d9aa4fbee
+bb4fb366cdd2dcb973bd1e73498a8d8d555a5a9ad7afeb4d212121baf3ce3b35
+6bd62ceddcb953e9e9e9ead4a993e6ce9daba64d9baa7bf7ee7ae59557380e16
+a862354d0f0054b7cccc4c0d1b364ceddab5537676b6aeb9e61a63b3b46ad54a
+c5c5c5cacbcb536464a4b139bce9861b6ed0d8b1633576ec589596966aeddab5
+4a4c4c54fffefd555a5aaaf8f878f5eedd5b77dc7187ead6ad5badb378f3d6b7
+2fdcea476021e8b0d6f1e3c7357dfa74bdf9e69b7af5d5573578f060d3232928
+28482e974b1b376ed41ffff847d3e3785d6868a8faf4e9a33e7dfa489276edda
+a5c4c444cd9e3d5b0f3ffcb0ba76edaa3e7dfaa877efded5721cece0c183bd76
+eb7bdfbe7d041d5ec52d775869c78e1deadab5abb66edd2ab7dbed13313fc5e9
+742a3535d5f4183ee1e69b6fd6840913b46ad52aeddfbf5f63c78ed5eeddbbd5
+ab572fb568d1428f3ffeb856ae5ca9a3478f9a1e15f079041d563979f2a466ce
+9ca9db6fbf5d63c68cd18a152b74edb5d79a1eeb0c0e8743191919a6c7f03975
+ebd6d53df7dca3848404fdf0c30ffaf4d34fd5b46953cd9c39538d1a35527c7c
+bc5e7ffd757dfbedb7a647057c12b7dc618d3d7bf668f8f0e1aa59b3a6366fde
+ac66cd9a991ee9bc1c0e87b2b3b3f5ebafbfaa56ad5aa6c7f159b7dc728b6eb9
+e5164d9a34e98ce3605f78e105858787ab4f9f3e1c070b9c860d1d7ecfe3f128
+2121410e874303060cd0bffef52f9f8db924858585a975ebd6daba75abe951fc
+467878b8060c18a0b7de7a4bfbf7efd7c2850bd5a041034d9b364d919191baf7
+de7bf5e69b6fea871f7e303d2a600c1b3afcdabe7dfbf4c8238fa8a4a4441b36
+6ca8966fa4aa0ea76ebbbb5c2ed3a3f89da0a020c5c4c42826264693274f2e3f
+0ef68b2fbed073cf3da7c8c8c8f2b3de6fbbed36d3e3025ec3860ebf357ffe7c
+75ead4493d7af4506a6aaadfc45c92ba75eba6f4f474d3635821222242f7df7f
+bfde7bef3de5e5e5e99d77de519d3a75f4f4d34fab61c386dab061c3effe1e41
+4141e55f80bf624387df292828d0e8d1a3b577ef5e2527272b2a2acaf44895e6
+70383461c204d36358a7468d1aead2a58bba74e9a2a953a7eac08103baf7de7b
+b56fdfbe8bfe7da75e9849d0e1cfd8d0e157962d5ba6989818b56bd74e9b376f
+f6cb984b52f3e6cd55a3460dedddbbd7f428566bd0a0819a376f6e7a0cc02bd8
+d0e1174e3fe674d9b265eadab5abe9912e9bcbe5525a5a1ac1015025d8d0e1f3
+929292ce38e6d486984bff7dc1ccc68d1b4d8f01c0126ce8f059870e1dd2c489
+13b57af56acd9f3fdfabc79c7a83cbe5327e0a18007bb0a1c327ad5bb74e5151
+512a2b2b53565696753197a48e1d3b6ad7ae5d3a7cf8b0e951005880a0c3a794
+9696eaa9a79ed2902143f48f7ffc436fbffdb691634ebd21242444515151dabc
+79b3e951005880a0c367646666aa53a74edabf7fbfb2b3b3151f1f6f7aa46a17
+1b1bcb7bdd7dc0e99f41e7f3e8f057041dc61d3f7e5c53a74e557c7cbca64e9d
+aa850b172a2222c2f4585ec1c96bbec1e3f19cf305f81bbe290e46e5e4e468e8
+d0a1baeebaebe476bb7dee64b4eae6743a356ad428793c1eb6420097850d1d46
+94959569c68c19ead9b3a7cf1e73ea0d9191918a8888d0ae5dbb4c8f02c0cfb1
+a1c3ebbef9e61b0d1b364cb56bd7d6962d5b7cfa64346f70381c4a4f4f579b36
+6d4c8f02c08fb1a1c36b3c1e8f66cf9e2d97cba5071e78406bd6ac09f8984bbc
+600640d5604387579c3ae6f4f0e1c34a4f4fd74d37dd647a249f111b1babd75f
+7fddf41800fc1c1b3aaadda9634e6fbffd766dd8b081989fa57dfbf6fae9a79f
+545858687a14007e8c0d1dd5263f3f5fa3478fd60f3ffce0b7c79c7a437070b0
+6ebdf5566ddab449bd7bf7363d8e55f2f2f2949292627a0cc02b083aaac59225
+4b346edc388d1c39524b962c51484888e9917c5a6c6cacd2d2d2087a15faf8e3
+8f3576ec585d73cd35dabf7fbf24e9f3cf3fffddb3d1abca8e1d3bbc721de014
+828e2a555858a83163c6c8ed766bf9f2e5d69c8c56dd1c0e8766ce9c697a0c2b
+1417176bdcb871cac8c8d0f2e5cbf5da6baf2927274792b468d1222d5ab4c8f0
+8440f5e0193aaacca9634e232323f5d5575f11f34a70381ccacccc54595999e9
+51fcda975f7ea9e8e868d5ad5b57dbb66de3ff8308286ce87ec6ed761b3fcc23
+3a3a5ab7de7a6bf98f4f1d73ba66cd1a7df8e187eadebdbbc1e9fc53fdfaf5d5
+a44913b9dd6e75ead4c9f4387ea7b4b454cf3efbac162f5eacb7df7e5bbd7af5
+2aff6bfdfaf55393264d0c4e27b56ddbd6e8f5111808ba9f494a4ad2e4c9938d
+cef0f4d34f97077dddba751a3162847af6ec29b7dbad2bafbcd2e86cfecce170
+28232383a057d2b66ddbf4f0c30fab5dbb76cacaca3ae71c80c183076bf0e0c1
+86a603bc875beeb824c78e1dd3840913ce38e694985f9e6eddbaf182994a282b
+2bd38b2fbea8debd7beb99679ed1471f7d143087fa00e7c386eec7cebef55d9d
+4ebfd5bf7fff7e75ecd851d1d1d1cacecee63fa255c4e9746adab469a6c7f00b
+7bf6ecd1d0a143151616a62d5bb618bfa50ef80282eec7e2e2e2f4e28b2f7ae5
+5a2fbdf45279d03ffef863cd9b374f83060df2cab50345ab56ad545252a2bcbc
+3c4546469a1ec767cd99334753a64cd1942953f4f8e38f734a1df03f041d9536
+72e448625e0d828282141b1babf4f474f5efdfdff4383e273f3f5f8f3cf288f2
+f3f3b56edd3a0eb301cec23374545a9d3a754c8f602d87c3a1b4b434d363f89c
+65cb96293a3a5a1d3b76e4643ae002d8d0011fe2743a3565ca14d363f88c9292
+128d1b374ee9e9e9bca808f81d6ce8800fe9dab5abb2b3b3555a5a6a7a14e352
+5252141515a5b0b030b9dd6e620efc0e820ef890b0b030b56edd5a5f7df595e9
+518c292d2dd5c48913f5d0430f29212141b367cf56585898e9b1009f47d02db5
+72e54a75efde5da1a1a1bafaeaab3578f060e5e6e69a1e0b15e072b994919161
+7a0c23dc6eb7ba74e9a21f7ffc51d9d9d98a8b8b333d12e03708baa566ce9ca9
+279e7842797979dabb77af6eb9e516be33dd4fb85c2ea5a6a69a1ec3abcacaca
+f4d24b2fa957af5e7afae9a7b578f162de6f005412df1467a9b56bd79ef1e327
+9f7c52d3a74f37340d2ac3e17068c28409a6c7f09a3d7bf668d8b0610a0d0d55
+6666262f89012e111b7a003872e4885e7df555dd71c71da6474105346fde5cc1
+c1c1dabb77afe951aadd5b6fbd2597cba541830629393999980397810ddd72a7
+dea2d5b061433edfec479c4ea7525353d5bc7973d3a3548bfcfc7c8d1a354aff
+f9cf7ff4e5975f721a195005d8d02de7f178545c5cacb163c76ae4c891a6c741
+05399d4e6bbf31ee934f3e514c4c8ca2a3a3b571e346620e541136f40070d555
+5769e2c4897ae185174c8f820a8a8d8dd5871f7e687a8c2a555252a2f1e3c72b
+2d2d4dcb962d93c3e1303d12601536744b0d1d3a543b77eed4891327949797a7
+2953a6c8e9749a1e0b15141313a3afbffe5a870f1f363d4a9558b76e9da2a2a2
+141a1aaa6ddbb61173a01a10744bf5ebd74f83070f56eddab5151515a55f7ef9
+451f7df491e9b150412121218a8e8e2e3fe1ce5ffdfaebaf9a346992860c19a2
+d9b3672b212181b300806ac22d774b0d1a3488cf9dfbb95327aff5ecd9d3f428
+97242b2b4b0f3df490dab469a3acac2c5d7df5d5a64702acc6860ef82887c3a1
+f4f474d363545a59599966cc98a1bbeeba4b7ffdeb5fb578f162620e78011b3a
+e0a35c2e97468d1a258fc753fef1435ff7dd77df69d8b0610a0909d1d6ad5bf9
+5c39e0456ce8808f6ad4a891222222b473e74ed3a354c8db6fbf2d87c3a10103
+0668cd9a35c41cf0323674c087391c0e9fffac767e7ebe1e7df451e5e6e62a25
+25c5a767056cc6860ef83097cba58d1b379a1ee382962f5fae8e1d3baa43870e
+cac8c820e680416ce8800f73b95c7aedb5d74c8f718e9292123df1c413dab061
+83962e5dca3b0e001fc0860ef8b0f6eddb2b373757858585a64729b77efd7a45
+47472b2424446eb79b98033e820ddd8fb9dd6ecd9933c72bd7f2f7179cf8abe0
+e060391c0e656464a84f9f3e4667f9f5d75ff5b7bffd4d0b162cd09c39738ccf
+03e04c04dd8f252525292929c9f418a8664ea75369696946039a9595a5871f7e
+58ad5bb796dbedd635d75c636c1600e7c72d77c0c79ddad04d3879f2a466cc98
+a1bbefbe5b93264dd292254b8839e0a3d8d0fd4c7474b4468f1e5d25bf576969
+a9162d5aa461c38655eac525b7de7a6b955c1f15e372b9949999a913274ea866
+4deffd2bfbfdf7df6be8d0a10a0909d1962d5bd4b46953af5d1b40e505793c1e
+8fe92160ce4d37dda4e5cb97ab5dbb76a647c145b46fdf5ef3e7cf57a74e9dbc
+72bd77de794793274fd6e4c993357efc78d5a8c1cd3cc0d7b1a107b86eddba29
+3d3d9da0fb38a7d3a98c8c8c6a0f7a4141811e7df451eddbb78f97c4007e86a0
+07b85307803cfae8a3a64709286eb75b65656515fef58d1b37d68a152baaf41c
+f1e8e86805070797fff8d34f3fd5638f3da611234668e9d2a5bae28a2baaec5a
+00aa1fb7dc03dcf6eddb3568d020eddab5cbf42801a55ebd7a2a2e2e363ac3c1
+8307151e1eae9292124d983041ebd6add3fbefbfcfe7ca013fc583b100d7ae5d
+3be5e5e5e9c08103a64781011b366c504c4c8c6ad6aca9acac2c620ef8316eb9
+07b81a356aa86bd7aecac8c850bf7efd4c8f1390cebef55d9d4ebfd53f75ea54
+2d59b24473e6cc517c7cbc57ae0fa0fa10742836365669696904dd9094941485
+87877be55aa7dfeafffefbef959595c5e7ca014b70cb1d723a9d3e7da217aac7
+7befbd47cc018b1074c8e17068dbb66dfaedb7df4c8f0200b844041dbaf2ca2b
+d5a2450bb9dd6ed3a300002e114187a4ffbe5e94dbee00e0bf083a24fd37e8a9
+a9a9a6c700005c22820e49ffffd5a2f01d414141e77c01c085107448925ab66c
+a913274ee8c71f7f343d0a4ee3f178cef802800b21e828e7743a959e9e6e7a0c
+00c02520e828171b1bcb37c6f998abafbe5a2121216addbab55e7cf1c54a1de8
+0220b0107494733a9d4a4b4b333d06fec7e3f1e8975f7ed1b163c7b464c91225
+27276be2c489a6c702e0a3386d0de54a4b4bd5a04103e5e7e72b2c2cccf43856
+3bfd15aca74e3dfb3d7979796ad3a68d8a8a8abc7a5d00fe810d1de5424343d5
+a143076ddab4c9f428388f1a356ae8e4c993a6c700e0a3083acec07bdd7dc703
+0f3ca09c9c1c9d3871427bf6ecd18811233470e040d36301f051041d67888d8d
+e53bdd7d44fffefd3564c810d5ae5d5bddbb7757ebd6adf5faebaf9b1e0b808f
+e2193ace909797a776eddae9e79f7fe64526d5c8d4b36c9ea103f66243c71922
+232355af5e3d7dfdf5d7a6470100540241c7395c2e171f5f03003f43d0710ebe
+310e00fc0f41c739626363d9d001c0cf10749ca37dfbf6cacdcd556161a1e951
+00001544d0718ee0e060391c0e6ebb03801f21e8382f4e5eab3e3b76ecd0e1c3
+874d8f01c032354d0f00dfe472b93463c60cd36358e5e4c9939a356b965e79e5
+15858484e8d8b1639224b7dbadba75eb7a65064e6b03ecc58b65705ec5c5c5ba
+fefaeb555454a49a35f973dfe5dab3678f860f1faee0e060cd9b374f313131e5
+2f78318517cb0076e1963bce2b3c3c5ccd9b3757565696e951fc9ac7e3d19c39
+73e472b93460c000ad5dbb5637dc7083e9b1005888d50b1774eabdee9d3a7532
+3d8a5fcacdcdd5a851a3f4f3cf3f2b2525456ddab429ff6bd1d1d1c69fa30707
+071bbd3e80aac52d775cd0bbefbeab55ab5669e1c285a647f13b8b162dd2f8f1
+e33566cc183df3cc333cb60050ed083a2ee8db6fbfd59d77dea9bd7bf79a1ec5
+6ffcfcf3cffacb5ffea27ffffbdffae0830f141313637a2400018267e8b8a01b
+6fbc51478f1ed54f3ffd647a14bfb062c50a75e8d041cd9a35d3d6ad5b893900
+afe23e202ecae5722923234303070e343d8acf2a2929d1934f3ea99494142d5e
+bc58ddba75333d128000c4868e8b72b95c4a4d4d353d86cf5abb76ada2a2a214
+1c1cac6ddbb6117300c610745c1427af9ddfb163c73461c2040d1f3e5c090909
+fae73fffa92bafbcd2f45800021841c74575e9d2453b76ecd0d1a3474d8fe233
+366ddaa48e1d3b2a2f2f4f5959598a8b8b333d120010745c5c6868a8dab66dab
+cccc4cd3a31877fcf8713df7dc73baf7de7bf5fcf3cf6be1c285aa5fbfbee9b1
+004012414705c4c6c606fc6df79c9c1c75edda555f7df595dc6eb7060d1a647a
+2400380341c7ef72b95c4a4b4b333d8611274f9ed4cb2fbfac9e3d7b6acc9831
+5ab162851a356a647a2c0038072f96c1efcacdcd554c4c8c0a0a0a4c8fe255a7
+0e54b9e28a2b346fde3c356bd6ccf4480070416ce8f85d8d1b37569d3a75f4f5
+d75f9b1ec52b3c1e8fde7cf34d391c0e0d1830406bd6ac21e6007c1e2f964185
+381c0e6ddcb851ad5bb7363d4ab53a75a04a515191366cd8a09b6fbed9f44800
+50216ce8a8906eddba293d3dddf418d5ea830f3e50c78e1de5743a959a9a4acc
+01f81536745488c3e150424282e931aac5a9035576eedca9a4a424dec10ec02f
+b1a1a342a2a2a2b46fdf3e1d3c78d0f42855eab3cf3e53870e1dd4bc79736566
+661273007e8b0d1d1552b3664d75eedc591b376e54efdebd4d8f73d94a4a4af4
+c4134f68fdfaf51ca802c00a6ce8a830a7d3a98c8c0cd3635cb65307aad4aa55
+4b595959c41c8015083a2a2c3636d6af5f3073ecd8318d1b374ec3860d534242
+8212121254a74e1dd36301409520e8a8b0ae5dbb6af3e6cd2a2b2b333d4aa59d
+3a50a5a8a848d9d9d91ca802c03a041d15161111a1a64d9b6afbf6eda647a9b0
+df7efb4dcf3efb6cf9812aefbfff3e07aa00b0124147a5381c0ebfb9ed9e9393
+2387c3a19c9c1c0e5401603d828e4a898d8df5f96f8c2b2b2bd38c1933d4b367
+4f3dfef8e3faf4d34f39500580f5f8d81a2ac5e572e9f9e79f373dc605edd9b3
+4743870e556868a8b66cd9c23bd801040c3674544aab56ad74e8d021e5e5e599
+1ee50c1e8f4709090972381cbafffefb39500540c0614347a5040505959f8f3e
+60c000d3e348faef812a23468c5049490907aa0008586ce8a83487c3e13307b5
+9c3a50a5478f1e1ca80220a0b1a1a3d26263633579f264a3331c3870407ffef3
+9fb57bf76e0e540100b1a1e31274e9d2455959592a2d2d3572fdcf3efb4cd1d1
+d1bae9a69b38500500fe870d1d95161616a6b66ddbeaabafbe92cbe5f2da758b
+8b8b357efc78a5a6a66af1e2c58a8d8df5dab501c0d7b1a1e392c4c6c62a3535
+d56bd73b75a04a585898b2b2b28839009c850d1d97c4e17068f1e2c5d57e9da3
+478feae9a79fd6279f7ca2b973e7eaaebbeeaaf66b02803f22e890242d5dba54
+7bf6eca9f0af2f2e2e567272b266cc985165330c1c38502d5bb62cfff1a64d9b
+f4f0c30fab6bd7aecacecee61dec007011411e8fc7637a0898d7b76f5f7df1c5
+17466758b16285e2e3e3f5db6fbf69dab4699a376f9e5e7ffd75f5efdfdfe85c
+00e00fd8d0e153b2b3b33574e850356bd64cdbb66de31dec005041041de738fb
+d677753afd56ffd2a54bb572e54abdfcf2cb1a366c9857ae0f00b620e838c7f0
+e1c3151f1fef956be5e4e494077ddbb66ddab2658b9a366dea956b03804df8d8
+1a7cc6f4e9d38939005c22820e9f111414647a0400f05b041d00000b10740000
+2c40d00100b00041c725e9debd3bcfbc01c087107454dafcf9f375e2c409d363
+00004e43d051294545457aeeb9e73477ee5cd3a300004e43d0512993274fd6e3
+8f3faed6ad5b9b1e0500701ade14870adbb46993b66fdfaed9b3679b1e050070
+16828e0a9b306182e6ce9dab1a35b8b10300be86a0a3c2366edca8366dda9cf1
+73414141e2045e00308fa0a3c2ce0e37310700dfc1bd5300002c40d071c9d8ce
+01c077107400002c40d00100b000410700c002041d00000b107400002c40d001
+00b000410700c002bc290ee758ba74a9727272bc72ad3d7bf678e53a00603b82
+8e73bcfbeebba64700005412b7dc0100b0001b3a244903070e54fbf6ed2bfceb
+13121274fffdf72b2222a2ca6668d9b26595fd5e001068823cbc901b95b473e7
+4ef5e9d347df7fffbde9510000ffc32d77545a525292e2e2e24c8f0100380d41
+47a5ad5ab54abd7af5323d0600e034dc7247a51c3b764c919191dab76f9faeba
+ea2ad3e30000fe870d1d95b27efd7a454747137300f031041d95c2f37300f04d
+041d95c2f37300f04d041d15f6e38f3fea975f7e514c4c8ce95100006721e8a8
+b055ab56e9eebbef56505090e95100006721e8a8309e9f0380efe2636ba89013
+274ea861c386dab56b971a366c687a1c00c059d8d051211919196ad1a2053107
+001f45d051217c773b00f836828e0ae1f93900f8369ea1e3771d387040ad5bb7
+567e7ebeaeb8e20ad3e30000ce830d1dbf2b3939593d7af420e600e0c3083a7e
+17cfcf01c0f771cb1d17e5f17874edb5d76ad3a64d6ad6ac99e971000017c086
+8e8b72bbddaa5fbf3e3107001f47d07151dc6e0700ff40d07151041d00fc03cf
+d07141870e1d52e3c68d959f9fafdab56b9b1e070070116ce8b8a0b56bd7cae9
+74127300f003041d17c4ed7600f01f041d1744d001c07f10749cd7eeddbb75e2
+c409b56bd7cef42800800a20e838af55ab56e9eebbef363d0600a082083ace8b
+dbed00e05ff8d81acef1ebafbfaa418306faf1c71f55af5e3dd3e300002a800d
+1de7d8b06183a2a2a2883900f811828e73f0fc1c00fc0f41c739787e0e00fe87
+67e838436e6eaea2a2a2545050a01a35f8f31e00f80bfe8b8d339cdace893900
+f817feab8d33f0fc1c00fc13b7dc51aeacac4c8d1a35d2f6eddb75edb5d79a1e
+070050096ce828b779f3665d7ffdf5c41c00fc104147b955ab56a977efdea6c7
+00005c02828e723c3f0700ffc5337448920a0b0bd5a2450b151414282424c4f4
+3800804a6243872429393959b7dd761b3107003f45d02189e7e700e0efb8e50e
+4952e3c68db57efd7a7e077622000005de49444154b56cd9d2f42800804bc086
+0e6ddfbe5d616161c41c00fc184187929292388c0500fc1c4107cfcf01c0023c
+430f70478e1cd175d75da7dcdc5cd5ad5bd7f43800804bc4861ee0525252d4b9
+7367620e007e8ea007389e9f03801d087a80e3f93900d881a007b0efbefb4e47
+8e1c51fbf6ed4d8f0200b84c043d809d3a8c252828c8f4280080cb44d00318cf
+cf01c01e7c6c2d401d3f7e5c0d1a34d077df7da7888808d3e300002e131b7a80
+4a4b4bd3cd37df4ccc01c012043d40ad5ab58adbed006011821ea09292921417
+17677a0c004015e1197a00cacbcb53fbf6ed959f9fafe0e060d3e30000aa001b
+7a005abd7ab57af6ec49cc01c022043d00f1fc1c00ecc32df70073f2e449356a
+d4486eb75b8d1b37363d0e00a08ab0a10798ad5bb7eada6baf25e6006019821e
+6092929274f7dd779b1e030050c5087a8059bd7a35cfcf01c0423c430f20c5c5
+c56ad2a4890e1c38a05ab56a991e07005085d8d07dd882050b14141454655ff5
+ead5d3a14387141a1a5ae1bf67c89021a6ff6700005400410700c002041d0000
+0b10743ff1e0830fcae3f178e5ebc30f3f34fd8f0b00a824820e008005083a00
+001620e800005880a003006001820e008005083a00001620e896c8caca52af5e
+bd54b76e5d356edc5873e7ce353d1200c08b08ba0576efdead3ffce10ffad39f
+fea48282026ddcb851a9a9a9a6c7020078514dd303e0f2fddffffd9fa64e9daa
+fefdfb4b929a366dca860e0001860ddd026bd7ae555e5e9eaebbee3ad5a95347
+f7dd779f8a8a8a4c8f0500f022826e819f7ffe59df7df79d727272b46fdf3e85
+8585e9b1c71e333d1600c08bb8e56e813a75eae895575e51fdfaf52549b366cd
+52b366cd0c4f0500f02636740b74e8d0e19c9f0b0a0a32300900c014826e8111
+234668e2c4892a2a2a525151919e7cf249f5eddbd7f45800002f22e816183972
+a4aebffe7ab56ad54ad75f7fbd8e1c39a237de78c3f45800002fe219ba25a64d
+9ba669d3a6991e030060081b3a00001620e800005880a003006001820e008005
+083a00001620e800005880a0030060013e87ee27162c58a0050b16981e0300e0
+a3d8d00100b000410700c002411e8fc7637a0800007079d8d00100b000410700
+c002041d00000b107400002c40d00100b000410700c002041d00000b10740000
+2c40d00100b000410700c002041d00000b107400002c40d00100b000410700c0
+02041d00000b107400002c40d00100b000410700c002041d00000b107400002c
+40d00100b000410700c002041d00000b107400002c40d00100b000410700c002
+041d00000b107400002c40d00100b000410700c002041d00000b107400002c40
+d00100b000410700c002041d00000b107400002c40d00100b000410700c00204
+1d00000b107400002c40d00100b000410700c002041d00000b107400002c40d0
+0100b000410700c002041d00000b107400002c40d00100b000410700c002041d
+00000b107400002c40d00100b000410700c002041d00000b107400002c40d001
+00b000410700c002041d00000b107400002c40d00100b000410700c002041d00
+000b107400002c40d00100b000410700c002041d00000b107400002c40d00100
+b000410700c002041d00000b107400002c40d00100b000410700c002041d0000
+0b107400002c40d00100b000410700c002041d00000b107400002c40d00100b0
+00410700c002041d00000b107400002c40d00100b000410700c002041d00000b
+107400002c40d00100b000410700c002041d00000b107400002c40d00100b000
+410700c002041d00000b107400002c40d00100b000410700c002041d00000b10
+7400002c40d00100b000410700c002041d00000b107400002c40d00100b00041
+0700c002041d00000b107400002c40d00100b000410700c002041d00000b1074
+00002c40d00100b000410700c002041d00000b107400002c40d00100b0004107
+00c002041d00000b107400002c40d00100b000410700c002041d00000b107400
+002c40d00100b000410700c002041d00000b107400002c40d00100b000410700
+c002041d00000b107400002cf0ff0034cba62222848d4e0000000049454e44ae
+426082}}{\s29\f0\fs20\lang1033{\*\listtag0}\abinodiroverride\ltrch Figure 4.3}{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f1\fs20\lang1033{\*\listtag0}\abinodiroverride\ltrch Algorithms.ForceDirected}{\s29\f0\fs24\lang1033{\*\listtag0} is a functor that produces a function that takes a graph type and a model record that contains the constants used in the physics model, as well as some spacing information, and produces a virtual image graph where all vertices have been given some physics properties and the model is run until a desired state is achieved. The physics model used is that of a system of like-charged particles attached to each other by springs. Vertices are treated as charged particles of the same polarity so that they repel each other. Edges are treated as springs so that vertices are pulled back together.}{\s29\f1\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch The system consists of iteratively solving the first order differential equations that constitute Hooke's law and Coulomb's law. ForceDirected first assigns each vertex to a random location and then computes the force exerted on each vertex by every other vertex, i.e. it sums the individual forces of both the repulsions from every vertex and the attractions to every attached vertex and computes a velocity and a position based on force equaling acceleration (ignoring the mass of the vertices) [2].}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch The constants of the system include constants determining the strength of the repulsion, the strength of the springs, the amount of damping, the seed for the random number generator, the length of the springs at rest, the change in time per time-step, and the number of iterations to  do. All of the constants are optionally exposed to the user of the library. If the user wants to tweak them (and most of the time they do), it is possible to do so.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch The idea behind the use of the force-directed algorithm is that vertices will be allowed to push other vertices a sufficient distance away, but will also pull those they are connected to so the whole graph doesn't fly apart. Force-directed algorithms like the one in use are conceptually easy to understand and programmatic-ally easy to implement. However, they are difficult to control as well as computationally heavy. They are appealing though because computers are good at numerical processing and it's a lot harder to conceive of and prove algorithms that contain more ability to control the output.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\abinodiroverride\ltrch 5 Drawing Back-ends}{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch In order to demonstrate how easy it is to interface with the ocamlgv library, three drawing back-ends were created that use the AbstractDrawer module to provide the ability to draw laid-out graphs. All of the example graphs in section 4 were drawn using the Cairo back-end.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\abinodiroverride\ltrch 5.1 Graphics Back-end}{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch OCaml comes with a Graphics module in its standard library. Its purpose is to provide a machine independent way of drawing basic two-dimensional geometry in a window, most likely for use in teaching beginning programming \'e0 la Logo and Basic. The module can be used to open a window on Windows, Linux, and Mac OSX systems in which to draw simple line drawings and perform keyboard-based events.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch In ocamlgv, the Graphics back-end is located in the WindowDraw module. WindowDraw contains DrawGraph and DrawDigraph submodules used for drawing their respective graph types. Within each submodule is a function called display which takes an optional handler function, an optional list of events, and a virtual image graph and opens up a window that responds to events listed in the list of events using the given handler, while drawing the given graph in the window.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch WindowDraw is a bit different from the other two drawing back-ends in that it builds on the basic drawing capability performed by the AbstractDrawer-created WindowDrawer submodule, in order to display the graph in a window with an event handler attached. Also included is an interactive function which, while not working properly, attempts to use the basic drawing capabilities on top of event-handling code to allow the library user to pop up a window and move vertices around in the window.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch The actual drawing code can be found in the Windowtools module. In that module are the functions for drawing a rectangle for a vertex, drawing labels, drawing straight lines for edges, etc. The basic structure is the same as both the Cairo and PostScript back-end. The WindowDrawer's canvas type is unit because there can be only one window open at a time so all drawing functions work on an open window. It uses the functions provided in Windowtools to interface with the primitive functions in the Graphics library module to do the drawing of individual vertices and edges in the open window.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\abinodiroverride\ltrch 5.2 Cairo Back-end}{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch The Cairo library is a vector graphics-based, device-independent API for programmers in need of a solid drawing library. It is written in the C programming language. Because of OCaml's mature Foreign Function Interface, a library of OCaml modules have been written to contain bindings to the Cairo library's functions. Ocamlgv uses the Cairo bindings to provide the ability to save a virtual image graph to a png image file.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch In ocamlgv the Cairo Back-end is located in the CairoDraw module. CairoDraw contains DrawGraph and DrawDigraph submodules used for drawing their respective graph types. Both DrawGraph and DrawDigraph contain a draw_image function that takes a virtual image graph and returns a Cairo surface. Cairo surfaces are created from the different Cairo back-ends. All of the drawing functions in Cairo work on a context object which mediates between the different surface types. Although the surface created is a png surface, it would not be too hard to change the function to return a context so that other Cairo back-ends were supported.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch In order to actually draw the png surface to a file, a function in Cairotools is needed. Cairotools serves as the repository of actual drawing functions that CairoDraw uses to draw the parts of the virtual image graph. The functions in Cairotools use the primitive drawing functions provided by Cairo draw specific things like rectangles, drawing labels, and making straight or curved lines. Cairotools contains a save_to_pngfile function which takes the surface created by CairoDraw and saves it to the given file name.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\abinodiroverride\ltrch 5.3 PostScript Back-end}{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch PostScript is a dynamically typed, stack-based programming language used as a page description language in the electronic and desktop publishing areas. Saving a series of commands to a text file with the .ps or .eps extension will allow the user to open those files with a sufficient reader and have the commands evaluated and displayed. PostScript contains many commands specifically created for, and well suited to, drawing and manipulating images.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch In ocamlgv, the PostScript back-end resides in the PsDraw module. PsDraw contains DrawGraph and DrawDigraph submodules used for drawing their respective graph types. Both submodules contain a draw_image function that takes a virtual image graph and returns a string buffer. The abstract canvas type required by AbstractDrawer is given as a string buffer in PsDraw. This is because all of the drawing commands are really just strings of characters in the PostScript language so the string buffer is passed along from drawing function to drawing function, accumulating drawing commands.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Pstools contains the functions used by PsDraw to draw the parts of the virtual image graph. All of the drawing functions in Pstools return strings that are the drawing commands, and PsDraw adds those strings to the string buffer being passed around. Like Cairotools, Pstools also contains a save_to_ps_file which takes the string buffer produced by PsDraw and a filename and writes the contents of the string buffer to the file.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Unfortunately, PsDraw isn't as complete as it could be. Since PostScript is a programming language and the drawing commands are just strings, there is no way to find out what the extents of a string of text are going to be. In Cairo and Graphics there are functions to call which return the expected width and height of a given string drawn in the current context. Because this isn't possible when writing straight code, the module does not intelligently handle text at this point in time. It writes the text out, but the boxes representing the vertices are all the same size and do not stretch to contain the vertices' labels.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\abinodiroverride\ltrch 5.4 Remarks}{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch The variability in types and different contexts in the different drawing back-ends is an indication that the AbstractDrawer is general yet specific enough to draw graphs in many different contexts. As mentioned previously, the canvas types were unit, the Cairo image surface, and a string buffer. The methods of drawing on each are different but similar. That three significantly different methods of drawing graphs work and handle all of the graphs output by the Algorithms module is a testament to the strength and versatility of the library's structure. Functors played a big role in bringing this level of generality into play.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\abinodiroverride\ltrch 6 Toolchain}{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Work on tools unrelated to the actual library constituted a significant portion of the overall work on this project. Before the start of the project I had had minimal exposure to OCaml and significantly little experience with building OCaml programs. The only experience I had in building OCaml programs was from a class on programming languages I had taken in which we built an OCaml program using an environment created by someone else.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch The first thing I started working on was understanding OCaml's compilation process. In order to do that though, I had to understand Makefiles so that I could understand what the environment from my programming languages class was attempting to do. So I learned the Make language and began adapting the example Makefile to my purposes.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch At the same time, I was learning more about OCaml. As previously noted, I only had the exposure of one class into OCaml and had to learn everything from basic function use up to working with functors. This included figuring out how to build OCaml programs that used libraries not part of the standard library. Along the way I learned how to use many of the suite of tools that come with the two OCaml compilers ocamlc and ocamlopt. The suite of programs that makes up the OCaml system includes ocamldep, a dependency generator that analyzes module dependencies in OCaml source code and outputs dependency information suitable for a Makefile, and ocamldoc, a documentation generator which gets documentation from source code files and arranges them into an HTML webpage for easy browsing. Along with the OCaml suite of tools I learned ocamlfind which is a program that makes including non-standard libraries in a project easier and generally makes the build process much simpler.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Apart from tools used in the immediate build process I learned a lot more about the standard Unix tools like sed, grep, rm, wc, cd, echo, cat, and an ftp client called lftp which I would later use from a Makefile when building the whole project and uploading to my webpage via ftp. I learned bash scripting so as to make building the ocamlgv library easier in the Makefile.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Concurrently with learning the build process of OCaml and the use of Makefiles, I had started to use Emacs as my text editor. I learned a bit of Elisp, the programming language backing Emacs (in which you can customize Emacs). Emacs was recommended to me because it contained the most developed environment for programming OCaml, so I learned how to use Emacs so I could have syntax-highlighted OCaml code and the ability to build OCaml programs from inside Emacs.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch About halfway through project, I became frustrated with the complexity of the Makefile I was using and began trying out OMake, a Make-like program written in OCaml. OMake contained a number of pre-built functions for easily building OCaml programs. Having learned the basics of OMake I completely switched ocamlgv from GNU Make to OMake and haven't looked back since. Building an OCaml executable from source is a one-line function call in OMake whereas in Make it was a 30 line ordeal. After having switched to using OMake I learned a little Python to write a script to set up a default OMake environment for the new OCaml projects I was starting all the time.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Before I switched to OMake I wanted to make sure my project was under source control, so I learned how to use the distributed version control system known as git. Ocamlgv has been under git source control ever since and has even provided interesting statistics on when I end up working on the project and what gets submitted to source control. I even learned how to use one of the git-log programs to produce an RSS feed of my git commits. This RSS feed is now part of the build system so that every time I upload the project to my webpage, an RSS feed of recent commits is also uploaded.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch I learned how to use a great number of different programs in order to build the ocamlgv library to my satisfaction. I've learned a lot of concepts in the OCaml programming language, and at least three other programming languages in order to complete the project. To reiterate: I had to build the toolchain for ocamlgv from scratch and it took a significant amount of work.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\abinodiroverride\ltrch 7 Future Directions}{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\abinodiroverride\ltrch 7.1 Retrospection}{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Graph drawing is hard. Understanding and implementing algorithms was one of the hardest parts of this project. However, if this project were to continue to be developed much more time could be devoted to implementing algorithms because a large amount of the time spent on the project was in infrastructure creation. A lot of work went into understanding functors, setting up the build system, and conceiving the final modular structure of the library.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch As mentioned previously, a lot of work went into the build system. It was an unanticipated burden. I learned programming with Java and was unconsciously assuming that an Integrated Developer Environment for OCaml would exist. The better part of a semester was spent on learning OCaml and learning how to build OCaml programs. Thankfully the build system has settled into a workable, stable state. Future development would not need to do the kinds of heavy modifications of the build system that I was doing in the beginning.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch At the start of the program I understood the basic structure of the library to be that of a pipeline. Feeding a graph through an algorithm and then through a drawing module. I did not foresee the amount of work it would take to understand Ocamlgraph and its use of functors. Nor did I foresee how functors would affect the whole structure of my library. The original conception of the library was of a straight pipeline, not generalized in the slightest. As the project went on, functors influenced the design of the program more and more until the current double-input pipeline became the decided structure. }{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Functors were hard to wrap my head around, I kept wanting to treat them as run-time objects instead of statically determined structures. Because of the complex nature of functors, error messages can be baroque and incomprehensible. At one point all development was halted by an error with a functor being used for reading from dot files. It kept saying that a specific function was included in the given structure despite the fact that it could be seen in the structure passed as argument. I could not figure it out for the life of me, so I deleted the whole thing and started off from scratch, which luckily fixed the problem. Fewer and fewer problems showed up as time went along though, so I believe that when working with functors one will eventually acclimate.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Something I've learned from this project is the value of examples and motivation. I've always had trouble learning things on my own with no class motivation to push me on. It turns out that having a big project where small pieces of the project need to get done is a significant motivation for me to learn how to solve that piece. Also, I've found that learning how to do something while having an example of it in front of you is much, much easier than trying to slog through a manual.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\abinodiroverride\ltrch 7.2 Future Development}{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch There are many areas for improvement in the library. One area is in the Algorithms module. The layering algorithm is not nearly as good as it could be. There are a lot of aesthetic optimizations such as edge crossing elimination, proper dummy-node handling, and proper horizontal coordinate assignment that could be added onto the algorithm. The force-directed algorithm could greatly benefit from a way of intelligently choosing the starting constants, or intelligently modifying the constants as the simulation ran. In fact, it would probably be a good idea to implement the full Kamada-Kawaii algorithm instead of the current ad-hoc force-directed algorithm. All of the algorithms could benefit from intelligent handling of vertex and edge extents. Currently, edge labels are not drawn because it is not known what a good heuristic is for placing labels so that they are not obscured by other parts of the graph. Vertex shapes are routinely drawn over edges that get too close to the edges of the vertex shape.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Another area of improvement is in the actual drawing of the graphs. I would like to implement the full spectrum of options that other graph visualization libraries support. Things like specifying the color and shape of vertices, the line width and style of edges, the arrow style of directed edges, the font used for labels, and other miscellaneous stylistic details. This would most likely involve a significant amount of refactoring in the virtual image graph implementation to support this kind of detail being associated with each vertex and edge.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch If stylistic additions are made to the library, a lot of work will need to be done on each of the drawing back-ends. Changes will need to be done to support the extra drawing information available with each vertex, as well as more code written to support the drawing of different shapes and addition of color and etc. Currently, further work needs to be done on the PostScript drawer to support proper text extent recognition.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Lastly, implementing more algorithms would be a good idea. I'm considering a layout algorithm that would only work on small graphs that would just draw them in a circle. There are however, several dozen other algorithms in the literature from which to choose from. After the circle algorithm I would most likely choose an algorithm that drew planar graphs, because knowing your graph is planar can produce a lot of much better drawings than the ones attempted by ocamlgv.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\abinodiroverride\ltrch 8 Conclusion}{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Ocamlgv accomplished a lot of what it set out to accomplish. It provides an easy way to read graphs in from a dot file and print them out to a window or to an image. Three algorithms were written to display graphs, which is right around the number expected to achieve. Above and beyond what was expected though, ocamlgv provides a level of generality that makes it particularly suited as a library. The ability to give any graph to the algorithms and the ability to use a different drawing module than the ones that come with the library gives ocamlgv the power and modularity to handle many more problems than just acting as a blackbox binary to turn dot files into pictures.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Ocamlgv has strong potential for further development. The nature of the OCaml language gives it safety and brevity benefits over C, while maintaining roughly the same speed, making ocamlgv a good candidate for development as a graphviz replacement or competitor, at least for OCaml programs. I believe the project to be a success.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\abinodiroverride\ltrch 9 Acknowledgements}{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch I would like to thank the faculty of the CS department here at Willamette. Professor Jim Levenick's class on GUI's and Simulations helped me to understand iterative simulation models and the problems and errors that can occur when using a discrete simulation of continuous systems. Professor Jenny Orr's class on Graphics taught me about OpenGL which uses a vector-based drawing model similar to Cairo's except in three dimensions. Her class also helped prepare me to be familiar and competent in using vectors as ways of representing many different concepts.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Professor John H. E. F. Lasseter's class on Programming Languages provided a world of insight into programming languages and gave me the impetus to program the project in OCaml. Also, his work on submitting a project proposal to the Jane Street Capitol OCaml Summer Research Program was the genesis of my project and when we were rejected, I took up the project and worked on it for my senior project. Lastly I would like to thank Professor Fritz Ruehr, my senior seminar advisor, for teaching me more about the functional programming paradigm than I thought possible, and for helping me through the hard times when OCaml just wouldn't do what it was supposed to.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\abinodiroverride\ltrch Bibliography}{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\fi-720\li720\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch [1] A. Kennedy, "Functional Pearls - Drawing Trees," }{\s29\f0\fs24\i\lang1033{\*\listtag0}J. Functional Programming}{\s29\f0\fs24\lang1033{\*\listtag0}, vol 6, no 3, 527-534, May 1996. [Full-text] Available: HaskellWiki, http://www.haskell.org/haskellwiki/Research_papers/Functional_pearls. [Accessed May 11, 2009].}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\fi-720\li720\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\fi-720\li720\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch [2] G. D. Battista, P. Eades, R. Tamassia, and I. G. Tollis. }{\s29\f0\fs24\i\lang1033{\*\listtag0}Graph Drawing: Algorithms for the Visualization of Graphs.}{\s29\f0\fs24\lang1033{\*\listtag0} New Jersey: Prentice-Hall, 1999.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\fi-720\li720\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\fi-720\li720\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch [3] S. Conchon, J. C. Filli\'e2tre, and J. Signoles, "Designing a Generic Graph Library using ML Functors," }{\s29\f0\fs24\i\lang1033{\*\listtag0}Ocamlgraph}{\s29\f0\fs24\lang1033{\*\listtag0}, February 2004. [Online]. Available: http://www.lri.fr/~filliatr/ftp/publis/ocamlgraph.ps. [Accessed May 11, 2009].}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\fi-720\li720\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\fi-720\li720\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch [4] "ocamlgraph: an ocaml graph library". [Online]. Available: http://ocamlgraph.lri.fr/. [Accessed: May 11, 2009].}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\fi-720\li720\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\fi-720\li720\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch [5] S. Even, }{\s29\f0\fs24\i\lang1033{\*\listtag0}Graph Algorithms}{\s29\f0\fs24\lang1033{\*\listtag0}. Potomac, Maryland: Computer Science Press}{\s29\f0\fs24\lang1033{\*\listtag0}, 1979}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\fi-720\li720\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\fi-720\li720\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch [6] "Force-Based Algorithms," }{\s29\f0\fs24\i\lang1033{\*\listtag0}English Wikipedia}{\s29\f0\fs24\lang1033{\*\listtag0}. [Online]. Available: http://en.wikipedia.org/wiki/Force-based_algorithms. [Accessed: May 11, 2009].}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\fi-720\li720\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\fi-720\li720\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\fi-720\li720\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\fi-720\li720\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\fi-720\li720\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\fi-720\li720\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\fi-720\li720\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\fi-720\li720\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\fi-720\li720\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\fi-720\li720\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\fi-720\li720\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\fi-720\li720\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\fi-720\li720\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\fi-720\li720\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\fi-720\li720\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\fi-720\li720\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\fi-720\li720\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\fi-720\li720\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\fi-720\li720\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\fi-720\li720\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\fi-720\li720\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\fi-720\li720\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs32\lang1033{\*\listtag0}\abinodiroverride\ltrch Appendix A - User Manual}{\s29\f0\fs32\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch The ocamlgv executable can be used to read in a number of files formatted in dot notation and display them in a window and write the image to disk.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch An example usage of ocamlgv follows:}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\li720\s29\sl240\slmult1\itap0{\s29\f1\fs20\lang1033{\*\listtag0}\abinodiroverride\ltrch ./ocamlgv -algo tree -root "foo" -dx 100 -save -- foofamilytree.dot}{\s29\f1\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch This example opens up a window displaying foofamilytree.dot using the tree algorithm, with a root of "foo" and a change in x of 100. It also writes an image of the tree to disk under the filename foofamilytree.png.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Another example usage of ocamlgv follows:}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\li720\s29\sl240\slmult1\itap0{\s29\f1\fs20\lang1033{\*\listtag0}\abinodiroverride\ltrch ./ocamlgv -iter 50 -animate -- daisychain.dot}{\s29\f1\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch This example uses the force-directed algorithm since no algorithm was listed, and sets the number of iterations to run the simulation for to be 50 while keeping the other values of the physics model to defaults. Since animation is on, no window is popped up, but each iteration is saved to a file of the form "timestep#daisychain.png" where # is the number of the current iteration.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch The full list of command-line flags to the ocamlgv executable are listed below:}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s29\sl240\slmult1\itap0{\s29\f1\fs18\lang1033{\*\listtag0}\abinodiroverride\ltrch Display a given graph formatted in dot notation.}{\s29\f0\fs16\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s29\sl240\slmult1\itap0{\s29\f1\fs18\lang1033{\*\listtag0}\abinodiroverride\ltrch   -algorithm  set the algorithm to use, options: [tree, layered, force-directed]}{\s29\f1\fs18\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s29\sl240\slmult1\itap0{\s29\f1\fs18\lang1033{\*\listtag0}\abinodiroverride\ltrch   -algo       alias for -algorithm.}{\s29\f1\fs18\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s29\sl240\slmult1\itap0{\s29\f1\fs18\lang1033{\*\listtag0}\abinodiroverride\ltrch   -seed       set the random seed used. Default: 0 [force-directed]}{\s29\f1\fs18\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s29\sl240\slmult1\itap0{\s29\f1\fs18\lang1033{\*\listtag0}\abinodiroverride\ltrch   -iter       set the max number of iterations. Default: 110 [force-directed]}{\s29\f1\fs18\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s29\sl240\slmult1\itap0{\s29\f1\fs18\lang1033{\*\listtag0}\abinodiroverride\ltrch   -damping    set the amount of force that occurs. Values from 0 to 1 only. Default: 0.15 [force-directed]}{\s29\f1\fs18\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s29\sl240\slmult1\itap0{\s29\f1\fs18\lang1033{\*\listtag0}\abinodiroverride\ltrch   -dt         set the change in time. Default: 0.4 [force-directed]}{\s29\f1\fs18\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s29\sl240\slmult1\itap0{\s29\f1\fs18\lang1033{\*\listtag0}\abinodiroverride\ltrch   -coulomb    set the power of the electrical force. Default: 1000.0 [force-directed]}{\s29\f1\fs18\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s29\sl240\slmult1\itap0{\s29\f1\fs18\lang1033{\*\listtag0}\abinodiroverride\ltrch   -spring     set the power of the spring force. Default: 5.0 [force-directed]}{\s29\f1\fs18\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s29\sl240\slmult1\itap0{\s29\f1\fs18\lang1033{\*\listtag0}\abinodiroverride\ltrch   -slength    set the length of the spring at rest. Default: 50.0 [force-directed]}{\s29\f1\fs18\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s29\sl240\slmult1\itap0{\s29\f1\fs18\lang1033{\*\listtag0}\abinodiroverride\ltrch   -animate    toggle animation. Default: off [force-directed]}{\s29\f1\fs18\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s29\sl240\slmult1\itap0{\s29\f1\fs18\lang1033{\*\listtag0}\abinodiroverride\ltrch   -width      set the width of the layout. Default: 450.0 [force-directed]}{\s29\f1\fs18\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s29\sl240\slmult1\itap0{\s29\f1\fs18\lang1033{\*\listtag0}\abinodiroverride\ltrch   -height     set the height of the layout. Default: 450.0 [force-directed]}{\s29\f1\fs18\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s29\sl240\slmult1\itap0{\s29\f1\fs18\lang1033{\*\listtag0}\abinodiroverride\ltrch   -w          set the width of each layer. [layered]}{\s29\f1\fs18\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s29\sl240\slmult1\itap0{\s29\f1\fs18\lang1033{\*\listtag0}\abinodiroverride\ltrch   -root       set the root of the tree. [tree]}{\s29\f1\fs18\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s29\sl240\slmult1\itap0{\s29\f1\fs18\lang1033{\*\listtag0}\abinodiroverride\ltrch   -dx         set the change in x between vertices at each height. Default: 50.0 [tree, layered]}{\s29\f1\fs18\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s29\sl240\slmult1\itap0{\s29\f1\fs18\lang1033{\*\listtag0}\abinodiroverride\ltrch   -dy         set the change in y between heights of the tree. Default: 50.0 [tree, layered]}{\s29\f1\fs18\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s29\sl240\slmult1\itap0{\s29\f1\fs18\lang1033{\*\listtag0}\abinodiroverride\ltrch   -save       save the given file to a .png file of the same name}{\s29\f1\fs18\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s29\sl240\slmult1\itap0{\s29\f1\fs18\lang1033{\*\listtag0}\abinodiroverride\ltrch   --          apply the current algorithm to each file that follows}{\s29\f1\fs18\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s29\sl240\slmult1\itap0{\s29\f1\fs18\lang1033{\*\listtag0}\abinodiroverride\ltrch   -help       Display this list of options}{\s29\f1\fs18\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s29\sl240\slmult1\itap0{\s29\f1\fs18\lang1033{\*\listtag0}\abinodiroverride\ltrch   --help      Display this list of options}{\s29\f1\fs18\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs32\lang1033{\*\listtag0}\abinodiroverride\ltrch Appendix B - Programmer Manual}{\s29\f0\fs32\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Ocamlgv is easily used from a programmer's perspective. What follows is a list of example programs demonstrating how to do simple tasks.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch How to read in a dot file using the Pack graph and display it in a window using the force-directed algorithm.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\li720\s29\sl240\slmult1\itap0{\s29\f1\fs20\lang1033{\*\listtag0}\abinodiroverride\ltrch open Pack.Graph}{\s29\f1\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\li720\s29\sl240\slmult1\itap0{\s29\f1\fs20\lang1033{\*\listtag0}\abinodiroverride\ltrch let file = "foo-bar.dot"}{\s29\f1\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\li720\s29\sl240\slmult1\itap0{\s29\f1\fs20\lang1033{\*\listtag0}\abinodiroverride\ltrch let _ = }{\s29\f1\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\li720\s29\sl240\slmult1\itap0{\s29\f1\fs20\lang1033{\*\listtag0}\abinodiroverride\ltrch   let graph = parse_dot_file file in}{\s29\f1\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\li720\s29\sl240\slmult1\itap0{\s29\f1\fs20\lang1033{\*\listtag0}\abinodiroverride\ltrch   let vimg = ForceLayout.layout graph 500.0 500.0 in}{\s29\f1\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\li720\s29\sl240\slmult1\itap0{\s29\f1\fs20\lang1033{\*\listtag0}\abinodiroverride\ltrch     WindowDraw.DrawGraph.display vimg}{\s29\f1\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch How to read in a dot file using the Pack graph, lay it out using the tree algorithm, and save it to a file using the Cairo back-end.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\li720\s29\sl240\slmult1\itap0{\s29\f1\fs20\lang1033{\*\listtag0}\abinodiroverride\ltrch open Pack.Graph}{\s29\f1\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\li720\s29\sl240\slmult1\itap0{\s29\f1\fs20\lang1033{\*\listtag0}\abinodiroverride\ltrch let file = "foo-bar.dot"}{\s29\f1\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\li720\s29\sl240\slmult1\itap0{\s29\f1\fs20\lang1033{\*\listtag0}\abinodiroverride\ltrch let _ =}{\s29\f1\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\li720\s29\sl240\slmult1\itap0{\s29\f1\fs20\lang1033{\*\listtag0}\abinodiroverride\ltrch   let graph = parse_dot_file file in}{\s29\f1\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\li720\s29\sl240\slmult1\itap0{\s29\f1\fs20\lang1033{\*\listtag0}\abinodiroverride\ltrch   let root = get_root graph in}{\s29\f1\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\li720\s29\sl240\slmult1\itap0{\s29\f1\fs20\lang1033{\*\listtag0}\abinodiroverride\ltrch   let vimg = TreeLayout.layout graph root 50.0 50.0 50.0 in}{\s29\f1\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\li720\s29\sl240\slmult1\itap0{\s29\f1\fs20\lang1033{\*\listtag0}\abinodiroverride\ltrch   let surface = CairoDraw.DrawGraph.draw_image vimg in}{\s29\f1\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\li720\s29\sl240\slmult1\itap0{\s29\f1\fs20\lang1033{\*\listtag0}\abinodiroverride\ltrch     Cairotools.save_to_pngfile surface "foo-bar.png"}{\s29\f1\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch How to read in a dot file using the Pack digraph, lay it out using the layered algorithm with a width of 3 vertices per layer, and save it to a PostScript file.}{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\li720\s29\sl240\slmult1\itap0{\s29\f1\fs20\lang1033{\*\listtag0}\abinodiroverride\ltrch open Pack.Digraph}{\s29\f1\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\li720\s29\sl240\slmult1\itap0{\s29\f1\fs20\lang1033{\*\listtag0}\abinodiroverride\ltrch let file = "foo-bar.dot"}{\s29\f1\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\li720\s29\sl240\slmult1\itap0{\s29\f1\fs20\lang1033{\*\listtag0}\abinodiroverride\ltrch let _ = let digraph = parse_dot_file file in}{\s29\f1\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\li720\s29\sl240\slmult1\itap0{\s29\f1\fs20\lang1033{\*\listtag0}\abinodiroverride\ltrch   let vimg = LayeredLayout.layout digraph 3 100.0 50.0 50.0 50.0 in}{\s29\f1\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\li720\s29\sl240\slmult1\itap0{\s29\f1\fs20\lang1033{\*\listtag0}\abinodiroverride\ltrch   let psimg = PsDraw.DrawDigraph.draw_image vimg in}{\s29\f1\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\li720\s29\sl240\slmult1\itap0{\s29\f1\fs20\lang1033{\*\listtag0}\abinodiroverride\ltrch     Pstools.save_to_ps_file psimg "foo-bar.ps"}{\s29\f1\fs20\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\li720\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qj\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs32\lang1033{\*\listtag0}\abinodiroverride\ltrch Appendix C - Project Code}{\s29\f0\fs24\b\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s29\sl240\slmult1\itap0{\s29\f0\fs32\lang1033{\*\listtag0}\abinodiroverride\ltrch Appendix D - Miscellaneous Build Files}\par}
